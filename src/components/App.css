@@ -53,11 +53,12 @@
   justify-content: space-between;
   width: 1300px;
   margin-top: 25px;
+  margin-bottom: 75px;
 }
 
 .nav-logo {
   width: 150px;
-  height: 150px;
+  height: 30px;
   margin-left: 150px;
 }
 
@@ -85,44 +86,64 @@
 }
 
 /* Section 2 */
-
 .section2-container {
-  margin-top: 300px;
-  display: flex;
-  margin-left: 150px;
-  justify-content: space-between;
+  margin-top: 107px;
+  padding-top: 200px;
+  margin-left: 200x;
   margin-right: 150px;
+  display: flex;
+  flex-direction: column;
 }
 
-.section2-computerimg {
-  height: 500px;
-  border: 3px solid black;
-  box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+.section2-background {
+  background-color: #fcfcfc;
 }
 
-.section2-greencheck {
-  width: 30px;
-  height: 30px;
-  margin-right: 20px;
+.section2-paintbrushimg {
+  height: 75px;
+  width: 75px;
 }
 
-.section2-listtitle {
-  font-size: 20px;
-  text-align: center;
-  margin-left: 50px;
+.section2-paintbrushimg:hover {
+  top: -10px;
+  opacity: 0.8;
+}
+
+.section2-toprow {
+  margin-left: 200px;
+  display: flex;
+}
+
+.section2-toprow ul {
+  list-style: none;
+}
+
+.section2-card {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  width: 25%;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.section2-card:hover {
+  top: -10px;
+}
+
+.section2-service {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .section2-list {
-  list-style: none;
-  margin-left: 55px;
-}
-
-.section2-listitem {
   display: flex;
-  border-bottom: 1px solid rgb(238, 238, 238);
-  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1480px) {

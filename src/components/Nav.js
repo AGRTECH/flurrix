@@ -1,12 +1,12 @@
 import React from "react";
-// import logo from "../img/mainlinelogotransparent.png";
+import logo from "../img/Webscaperslogo.png";
 
 const Nav = () => {
   return (
     <>
       <div className="nav-container">
         <div>
-          <img src="" className="nav-logo" alt="Logo" />
+          <img src={logo} className="nav-logo" alt="Logo" />
         </div>
         <div>
           <ul className="nav-navlist">
