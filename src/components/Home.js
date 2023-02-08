@@ -1,4 +1,5 @@
 import React from "react";
+import ProcessTabs from "./ProcessTabs";
 import plumberbg from "../img/landscapinglandingbg1.jpg";
 import paintbrush from "../img/greenpaintbrush.png";
 import greengears from "../img/greengears.png";
@@ -222,7 +223,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="section5-background">{/* Process */}</div>
+        <div className="section5-background">
+          <div className="section5-container">
+            <ProcessTabs />
+          </div>
+        </div>
         <div className="section6-background">
           {/* History (I was a power washer and noticed that most had outdated sites) */}
         </div>
