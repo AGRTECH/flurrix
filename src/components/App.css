@@ -41,21 +41,37 @@
   font-size: 20px;
   border: none;
   margin-bottom: 80px;
+  background-color: rgb(17, 232, 236, 0.5);
 }
 
 .home-button:hover {
-  opacity: 0.3;
+  background-color: rgb(17, 72, 236);
   cursor: pointer;
 }
 
 /* Nav */
 
 .nav-container {
+  position: relative;
+  top: 0;
   display: flex;
   justify-content: space-between;
   width: 1300px;
   margin-top: 25px;
   margin-bottom: 75px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  z-index: 10000;
 }
 
 .nav-logo {
@@ -80,6 +96,7 @@
   font-size: 17px;
   border: none;
   margin-top: -5px;
+  background-color: rgb(17, 232, 236, 0.5);
 }
 
 .nav-button:hover {
@@ -203,7 +220,17 @@
 .section3-button {
   align-self: center;
   justify-self: center;
-  width: 80px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(17, 232, 236, 0.5);
+}
+
+.section3-button:hover {
+  background-color: rgb(17, 72, 236);
+  cursor: pointer;
 }
 
 .section3-mowingicon {
@@ -214,28 +241,195 @@
 }
 
 /* Section 5 */
+.section5-background {
+  background-color: #ffffff;
+}
 
-.section5-tabscontainer {
-  margin-left: 150px;
-  margin-top: 150px;
-  padding-right: 420px;
-  align-content: center;
-  justify-content: center;
+.section5-container {
   display: flex;
-  flex-direction: row;
-  width: 800px;
-  z-index: 1000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.section5-strategybtn {
+  padding: 15px 25px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+}
+
+.section5-strategybtn:focus {
+  background-color: rgb(17, 232, 236, 0.5);
+  border: solid 3px black;
+}
+
+.section5-strategybtn:hover {
+  background-color: rgb(17, 232, 236, 0.5);
+}
+.section5-designbtn {
+  padding: 15px 25px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+}
+
+.section5-designbtn:focus {
+  background-color: rgb(17, 232, 236, 0.5);
+  border: solid 3px black;
+}
+
+.section5-designbtn:hover {
+  background-color: rgb(17, 232, 236, 0.5);
+}
+.section5-developmentbtn {
+  padding: 15px 25px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+}
+
+.section5-developmentbtn:focus {
+  background-color: rgb(17, 232, 236, 0.5);
+  border: solid 3px black;
+}
+
+.section5-developmentbtn:hover {
+  background-color: rgb(17, 232, 236, 0.5);
+}
+.section5-maintenancebtn {
+  padding: 15px 25px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+}
+
+.section5-maintenancebtn:focus {
+  background-color: rgb(17, 232, 236, 0.5);
+  border: solid 3px black;
+}
+
+.section5-maintenancebtn:hover {
+  background-color: rgb(17, 232, 236, 0.5);
+}
+
+.section5-strategy-text {
+  display: flex;
+  margin-left: 350px;
+  margin-top: 35px;
+}
+
+.section5-strategy-text-hidden {
+  display: none;
+}
+.section5-design-text {
+  display: flex;
+  margin-left: 350px;
+  margin-top: 35px;
+}
+
+.section5-design-text-hidden {
+  display: none;
+}
+.section5-development-text {
+  display: flex;
+  margin-left: 350px;
+  margin-top: 35px;
+}
+
+.section5-development-text-hidden {
+  display: none;
+}
+.section5-maintenance-text {
+  display: flex;
+  margin-left: 350px;
+  margin-top: 35px;
+}
+
+.section5-maintenance-text-hidden {
+  display: none;
 }
 
 .section5-contentcontainer {
-  margin-left: 150px;
-  margin-top: 150px;
-  align-content: center;
-  justify-content: center;
+  width: 40%;
+  margin-left: 100px;
+}
+
+.section5-img {
+  width: 350px;
+  height: 330px;
+}
+
+.section5-contenttitle {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(17, 232, 236, 0.5);
+}
+
+/* Section 6 */
+
+.section6-background {
+  background-image: url("../img/contactbg1.jpg");
+  background-repeat: no-repeat;
+}
+
+.section6-container {
+  height: 400px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  z-index: 1000;
-  /* width: 500px; */
+}
+
+.section6-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+}
+
+.section6-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  margin-bottom: 80px;
+  background-color: rgb(17, 232, 236, 0.5);
+  width: 20%;
+  height: 50px;
+}
+
+.section6-btn:hover {
+  background-color: rgb(17, 72, 236);
+  cursor: pointer;
+}
+
+.section6-contactcta {
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+
+.section6-boldtext {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.section6-subtext {
+  font-weight: lighter;
+}
+
+.section6-email {
+  width: 20%;
+}
+
+.section6-emailinput {
+  width: 20%;
+  border-radius: 0px;
+  border: 0px solid black;
+  background-color: rgb(32, 96, 38);
+  padding: 15px 10px;
+  margin-right: 15px;
+}
+
+.section6-emailinput::placeholder {
+  color: rgb(255, 255, 255);
 }
 
 @keyframes move-right {

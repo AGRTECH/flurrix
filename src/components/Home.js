@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import ProcessTabs from "./ProcessTabs";
 import plumberbg from "../img/landscapinglandingbg1.jpg";
+import landscapingbg from "../img/landscapehomebg2.jpg";
 import paintbrush from "../img/greenpaintbrush.png";
 import greengears from "../img/greengears.png";
 import greenlock from "../img/greenlock.png";
@@ -9,10 +10,54 @@ import greenbars from "../img/greenbars.png";
 import mowingicon from "../img/lawnmowingicon.png";
 import computerviewing from "../img/computerscreenviewing.png";
 import greencheckmark from "../img/greencheckmark.png";
+import strategy from "../img/strategy.png";
+import design from "../img/design.png";
+import development from "../img/development.png";
+import maintenance from "../img/maintenance.png";
+import contactbg from "../img/contactbg1.jpg";
+import { Form, Button } from "react-bootstrap";
 
 // Model off of tinyfrog.com
 
 const Home = () => {
+  const [strategyFocus, setStrategyFocus] = useState(false);
+  const [designFocus, setDesignFocus] = useState(false);
+  const [developmentFocus, setDevelopmentFocus] = useState(false);
+  const [maintenanceFocus, setMaintenanceFocus] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleStrategyFocus = () => {
+    setStrategyFocus(true);
+  };
+
+  const handleStrategyBlur = () => {
+    setStrategyFocus(false);
+  };
+
+  const handledesignFocus = () => {
+    setDesignFocus(true);
+  };
+
+  const handledesignBlur = () => {
+    setDesignFocus(false);
+  };
+  const handledevelopmentFocus = () => {
+    setDevelopmentFocus(true);
+  };
+
+  const handledevelopmentBlur = () => {
+    setDevelopmentFocus(false);
+  };
+  const handlemaintenanceFocus = () => {
+    setMaintenanceFocus(true);
+  };
+
+  const handlemaintenanceBlur = () => {
+    setMaintenanceFocus(false);
+  };
+
   return (
     <div>
       <div className="home-container">
@@ -21,7 +66,7 @@ const Home = () => {
           Helping Landscapers connect to new clients in an evolving digital age
         </p>
         <button className="home-button">Get a site</button>
-        <img src={plumberbg} className="plumber-bg" alt="" />
+        <img src={landscapingbg} className="plumber-bg" alt="" />
       </div>
       <div className="section2-background">
         <p className="section2-title">Services</p>
@@ -225,17 +270,210 @@ const Home = () => {
         </div>
         <div className="section5-background">
           <div className="section5-container">
-            <ProcessTabs />
+            <div>
+              <button
+                onFocus={handleStrategyFocus}
+                onBlur={handleStrategyBlur}
+                className="section5-strategybtn"
+              >
+                1. Strategy
+              </button>
+              <button
+                onFocus={handledesignFocus}
+                onBlur={handledesignBlur}
+                className="section5-designbtn"
+              >
+                2. Design
+              </button>
+              <button
+                onFocus={handledevelopmentFocus}
+                onBlur={handledevelopmentBlur}
+                className="section5-developmentbtn"
+              >
+                3. Development
+              </button>
+              <button
+                onFocus={handlemaintenanceFocus}
+                onBlur={handlemaintenanceBlur}
+                className="section5-maintenancebtn"
+              >
+                4. Maintenance
+              </button>
+            </div>
+            <div>
+              <div
+                className={
+                  strategyFocus
+                    ? "section5-strategy-text"
+                    : "section5-strategy-text-hidden"
+                }
+              >
+                <img src={strategy} className="section5-img" alt="" />
+                <div className="section5-contentcontainer">
+                  <p className="section5-contenttitle">Strategy</p>
+                  <p>
+                    Strategy is the foundation of our projects. Our research
+                    into the roles of your web visitors allows us to create a
+                    website that delivers results.{" "}
+                  </p>
+                  <p>
+                    We’ll discuss your business goals, sales & marketing
+                    strategy, business challenges, and core competencies in
+                    order to better understand your brand identity and
+                    competition.{" "}
+                  </p>
+                  <p>
+                    All of this information allows us to then effectively draft
+                    wireframes, key messaging, and information architecture.
+                  </p>
+                </div>
+              </div>
+              <div
+                className={
+                  designFocus
+                    ? "section5-design-text"
+                    : "section5-design-text-hidden"
+                }
+              >
+                <img src={design} className="section5-img" alt="" />
+                <div className="section5-contentcontainer">
+                  <p className="section5-contenttitle">Strategy</p>
+                  <p>
+                    Our custom design approach has distinct advantages. Our web
+                    designers are fully versed in graphic design, mobile-wise
+                    design, user interface (UI), and user experience (UX) - the
+                    use of visual elements & graphics to create an engaging site
+                    experience.
+                  </p>
+                  <p>
+                    We’ll discuss your vision for the site and generate fresh
+                    ideas by looking at current design and inspirational sites.
+                  </p>
+                  <p>
+                    Through an iterative design process, we’ll create unique
+                    mockups and designs for each wireframe while integrating
+                    your business’ logo design and branding style guidelines.
+                  </p>
+                </div>
+              </div>
+              <div
+                className={
+                  developmentFocus
+                    ? "section5-development-text"
+                    : "section5-development-text-hidden"
+                }
+              >
+                <img src={development} className="section5-img" alt="" />
+                <div className="section5-contentcontainer">
+                  <p className="section5-contenttitle">Strategy</p>
+                  <p>
+                    With custom, modern web design, your site can grow with your
+                    business. WordPress is the most popular content management
+                    system (CMS) in the world and it offers some significant SEO
+                    benefits.
+                  </p>
+                  <p>
+                    We have 10+ years of WordPress experience & deep knowledge
+                    of performance, security, and data privacy best practices.
+                    We also have expertise in building high-quality, WooCommerce
+                    ecommerce sites.
+                  </p>
+                  <p>
+                    Prior to the launch of the new website, our team will go
+                    through an in-depth Quality Control & Quality Assurance
+                    process and provide site specific WordPress training
+                    sessions.
+                  </p>
+                </div>
+              </div>
+              <div
+                className={
+                  maintenanceFocus
+                    ? "section5-maintenance-text"
+                    : "section5-maintenance-text-hidden"
+                }
+              >
+                <img src={maintenance} className="section5-img" alt="" />
+                <div className="section5-contentcontainer">
+                  <p className="section5-contenttitle">Strategy</p>
+                  <p>
+                    Unfortunately, website security is a significant issue. Our
+                    maintenance & security service is the best way to protect
+                    your online presence.
+                  </p>
+                  <p>
+                    We also have a variety of trusted partners who can assist
+                    with social media marketing, advertising, PPC, search engine
+                    optimization (SEO), video production, & content marketing.
+                  </p>
+                  <p>
+                    Our monthly service also include performance monitoring
+                    where we can provide data reports to help with optimization.
+                    Our goal is to be a long-term web partner to customers and
+                    provide top-notch service to businesses.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        {/* <div className="section6-background"> */}
+        {/* History (I was a power washer and noticed that most had outdated sites) */}
+        {/* </div> */}
+        {/* <div className="section7-background">Optional Blog</div> */}
         <div className="section6-background">
-          {/* History (I was a power washer and noticed that most had outdated sites) */}
+          <div className="section6-container">
+            <div className="section6-contactcta">
+              <p className="section6-boldtext">Contact Us</p>
+              <p className="section6-subtext">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Mollitia quod totam, quam voluptatem quae quasi voluptate
+              </p>
+            </div>
+            <form
+              action="https://formsubmit.co/xarossx@yahoo.com"
+              method="POST"
+              className="section6-form"
+            >
+              <div>
+                <input
+                  onChange={(e) => {
+                    setName(e.target.value);
+                  }}
+                  className="section6-emailinput"
+                  required
+                  type="name"
+                  name="name"
+                  placeholder="Name *"
+                />
+                <input
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                  }}
+                  className="section6-emailinput"
+                  required
+                  type="email"
+                  name="email"
+                  placeholder="Email Address *"
+                />
+              </div>
+
+              <textarea
+                name="message"
+                placeholder="Your Message *"
+                id=""
+                cols="50"
+                rows="7"
+                className="section6-emailinput"
+                required
+              ></textarea>
+              <button className="section6-btn" type="submit">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
-        <div className="section7-background">{/* Optional Blog */}</div>
-        <div className="section8-background">
-          {/* Pricing / contact form */}
-        </div>
-        <div className="section9-background">{/* Footer */}</div>
+        <div className="section7-background">{/* Footer */}</div>
       </div>
     </div>
   );
