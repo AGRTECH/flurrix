@@ -58,7 +58,7 @@
   justify-content: space-between;
   width: 1300px;
   margin-top: 25px;
-  margin-bottom: 75px;
+  /* margin-bottom: 75px; */
 }
 
 .sticky {
@@ -108,14 +108,16 @@
 .section2-container {
   margin-top: 20px;
   padding-top: 50px;
-  margin-left: 200x;
+  /* margin-left: 100x; */
+  margin-left: -50px;
   margin-right: 150px;
   display: flex;
   flex-direction: column;
 }
 
 .section2-background {
-  background-color: #fcfcfc;
+  background-color: #fff;
+  margin-top: 120px;
 }
 
 .section2-title {
@@ -155,6 +157,8 @@
 .section2-toprow {
   margin-left: 200px;
   display: flex;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 
 .section2-toprow ul {
@@ -166,7 +170,7 @@
   padding: 50px 20px;
   margin-right: 50px;
   margin-bottom: 50px;
-  width: 25%;
+  width: 100%;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   position: relative;
   top: 0;
@@ -187,6 +191,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  margin-left: -20px;
 }
 
 /* Section 3 */
@@ -240,6 +246,88 @@
   background-size: 100px;
 }
 
+/* Section 4 */
+.section4-container {
+  margin-top: 20px;
+  padding-top: 50px;
+  /* margin-left: 100x; */
+  margin-left: -50px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section4-card {
+  background-color: #ffffff;
+  /* padding: 50px 20px; */
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border: 4px solid #17722b;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.section4-cardtextcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  width: 33%;
+  text-align: center;
+}
+
+.section4-img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.section4-img:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.section4-btn {
+  display: none;
+}
+
+.section4-card:hover button {
+  display: block;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding: 8px 10px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(17, 232, 236, 1);
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.section4-card:hover {
+  background-color: #ccc;
+}
+
+.section4-bush {
+  position: absolute;
+  right: 0;
+  width: 150px;
+  height: 500px;
+  margin-top: 50px;
+}
+.section4-bush2 {
+  position: absolute;
+  left: 0;
+  width: 350px;
+  height: 300px;
+  margin-top: 350px;
+}
 /* Section 5 */
 .section5-background {
   background-color: #ffffff;
@@ -366,12 +454,13 @@
 /* Section 6 */
 
 .section6-background {
-  background-image: url("../img/contactbg1.jpg");
+  background-image: url("../img/contactbg2.jpg");
   background-repeat: no-repeat;
+  margin-top: 100px;
 }
 
 .section6-container {
-  height: 400px;
+  height: 650px;
   width: 100%;
   display: flex;
 }
@@ -381,6 +470,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 250px;
+  /* height: 1000px; */
 }
 
 .section6-btn {
@@ -403,7 +493,7 @@
 .section6-contactcta {
   width: 50%;
   margin-left: 150px;
-  margin-top: 60px;
+  margin-top: 175px;
 }
 
 .section6-boldtext {
@@ -420,16 +510,89 @@
 }
 
 .section6-emailinput {
-  width: 20%;
+  width: 30%;
   border-radius: 0px;
   border: 0px solid black;
   background-color: rgb(32, 96, 38);
   padding: 15px 10px;
   margin-right: 15px;
+  margin-top: 175px;
 }
 
 .section6-emailinput::placeholder {
   color: rgb(255, 255, 255);
+}
+
+.section6-textinput {
+  width: 62.7%;
+  border-radius: 0px;
+  border: 0px solid black;
+  background-color: rgb(32, 96, 38);
+  padding: 15px 10px;
+  margin-top: 15px;
+}
+
+.section6-textinput::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+/* Section 7 */
+
+.section7-background {
+  background-color: rgb(5, 18, 5);
+}
+
+.section7-container {
+  height: 285px;
+  width: 100%;
+  margin-left: 150px;
+  margin-top: 75px;
+  display: flex;
+}
+
+.section7-sections {
+  width: 20%;
+  margin-right: 75px;
+}
+
+.section7-logo {
+  width: 200px;
+  height: 45px;
+}
+
+.section7-about {
+  color: white;
+  font-weight: lighter;
+  margin-top: 55px;
+}
+
+.section7-nav {
+  color: white;
+  font-size: 18px;
+}
+
+.section7-title {
+  color: white;
+  font-size: 18px;
+}
+.section7-subtext {
+  font-weight: lighter;
+}
+
+/* Section 8 */
+
+.section8-background {
+  background-color: rgb(4, 9, 3);
+}
+
+.section8-container {
+  height: 120px;
+  width: 100%;
+}
+
+.section8-copyright {
+  text-align: center;
+  margin: 40px;
 }
 
 @keyframes move-right {

@@ -31,7 +31,7 @@ const Nav = () => {
             <li>About</li>
             <li>Contact</li>
             <li>
-              <button className="nav-button"> Get a site</button>
+              <button className="nav-button">Request A Quote</button>
             </li>
             <li>
               <button className="nav-button"> (586) 651-6917</button>

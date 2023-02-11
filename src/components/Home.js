@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import ProcessTabs from "./ProcessTabs";
 import plumberbg from "../img/landscapinglandingbg1.jpg";
-import landscapingbg from "../img/landscapehomebg2.jpg";
-import paintbrush from "../img/greenpaintbrush.png";
+import logo from "../img/Webscaperslogo.png";
+// import landscapingbg from "../img/landscapehomebg2.jpg";
+import landscapingbg from "../img/cutbg7.jpg";
+import paintbrush from "../img/greenbrush.png";
 import greengears from "../img/greengears.png";
 import greenlock from "../img/greenlock.png";
 import greenbook from "../img/greenbook.png";
@@ -11,10 +13,13 @@ import mowingicon from "../img/lawnmowingicon.png";
 import computerviewing from "../img/computerscreenviewing.png";
 import greencheckmark from "../img/greencheckmark.png";
 import strategy from "../img/strategy.png";
+import siteone from "../img/herculespowerwashing1.jpg";
 import design from "../img/design.png";
 import development from "../img/development.png";
 import maintenance from "../img/maintenance.png";
-import contactbg from "../img/contactbg1.jpg";
+import contactbg from "../img/contactbg2.jpg";
+import bushes from "../img/catoonbush3.png";
+import palm from "../img/cartoonpalmm.png";
 import { Form, Button } from "react-bootstrap";
 
 // Model off of tinyfrog.com
@@ -212,60 +217,77 @@ const Home = () => {
           </p>
           <div className="section4-container">
             <div className="section2-toprow">
-              <div className="section2-card">
-                <ul className="section2-list">
-                  <li>
-                    <img
-                      src={paintbrush}
-                      className="section2-paintbrushimg"
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <p className="section2-service">
-                      Website Design & Development
-                    </p>
-                  </li>
-                  <li>
-                    <p>Create a Professional Design and Feel</p>
-                  </li>
-                </ul>
+              <div className="section4-cardtextcontainer">
+                <div className="section4-card">
+                  <img src={siteone} className="section4-img" alt="" />
+                  <button className="section4-btn">View Project</button>
+                  {/* <ul className="section2-list">
+                    <li>
+                      <img
+                        src={paintbrush}
+                        className="section2-paintbrushimg"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <p className="section2-service">
+                        Website Design & Development
+                      </p>
+                    </li>
+                    <li>
+                      <p>Create a Professional Design and Feel</p>
+                    </li>
+                  </ul> */}
+                </div>
+                <p>Hello</p>
               </div>
-              <div className="section2-card">
-                <ul className="section2-list">
-                  <li>
-                    <img
-                      src={greengears}
-                      className="section2-paintbrushimg"
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <p className="section2-service">
-                      Coversion Rate Optimization
-                    </p>
-                  </li>
-                  <li>
-                    <p>Get More Paying Clients</p>
-                  </li>
-                </ul>
+              <div className="section4-cardtextcontainer">
+                <div className="section4-card">
+                  <ul className="section2-list">
+                    <li>
+                      <img
+                        src={greengears}
+                        className="section2-paintbrushimg"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <p className="section2-service">
+                        Coversion Rate Optimization
+                      </p>
+                    </li>
+                    <li>
+                      <p>Get More Paying Clients</p>
+                    </li>
+                  </ul>
+                </div>
+                <p>Hello</p>
               </div>
-              <div className="section2-card">
-                <ul className="section2-list">
-                  <li>
-                    <img src={greenlock} className="section2-lockimg" alt="" />
-                  </li>
-                  <li>
-                    <p className="section2-service">
-                      Secured Hosting & Maintenance
-                    </p>
-                  </li>
-                  <li>
-                    <p>Web Security and Updates </p>
-                  </li>
-                </ul>
+              <div className="section4-cardtextcontainer">
+                <div className="section4-card">
+                  <ul className="section2-list">
+                    <li>
+                      <img
+                        src={greenlock}
+                        className="section2-lockimg"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <p className="section2-service">
+                        Secured Hosting & Maintenance
+                      </p>
+                    </li>
+                    <li>
+                      <p>Web Security and Updates </p>
+                    </li>
+                  </ul>
+                </div>
+                <p>Hello</p>
               </div>
             </div>
+            <img src={bushes} className="section4-bush" alt="" />
+            <img src={palm} className="section4-bush2" alt="" />
           </div>
         </div>
         <div className="section5-background">
@@ -462,9 +484,9 @@ const Home = () => {
                 name="message"
                 placeholder="Your Message *"
                 id=""
-                cols="50"
+                cols="10"
                 rows="7"
-                className="section6-emailinput"
+                className="section6-textinput"
                 required
               ></textarea>
               <button className="section6-btn" type="submit">
@@ -473,7 +495,43 @@ const Home = () => {
             </form>
           </div>
         </div>
-        <div className="section7-background">{/* Footer */}</div>
+        <div className="section7-background">
+          <div className="section7-container">
+            <div className="section7-sections">
+              <img src={logo} className="section7-logo" alt="" />
+              <p className="section7-about">
+                Webscapers are a web design company focused on making conversion
+                optimized sites for local lanscaping businesses
+              </p>
+            </div>
+            <div className="section7-sections">
+              <p className="section7-nav">Our Work</p>
+              <p className="section7-nav">About</p>
+              <p className="section7-nav">Contact</p>
+            </div>
+            <div className="section7-sections">
+              <p className="section7-title">Services</p>
+              <p className="section7-subtext">Website Design & Development</p>
+              <p className="section7-subtext">Coversion Rate Optimization</p>
+              <p className="section7-subtext">Secured Hosting & Maintenance</p>
+              <p className="section7-subtext">Search Engine Optimization</p>
+              <p className="section7-subtext">Copywriting & Story Telling</p>
+              <p className="section7-subtext">Website Design & Development</p>
+            </div>
+            <div>
+              <p className="section7-title">Contact Us</p>
+              <p className="section7-subtext">(586) 651-6917</p>
+              <p className="section7-subtext">email</p>
+            </div>
+          </div>
+        </div>
+        <div className="section8-background">
+          <div className="section8-container">
+            <p className="section8-copyright">
+              © 2023 Webscaper. All Rights Reserved
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
