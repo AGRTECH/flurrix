@@ -41,6 +41,7 @@
   font-size: 20px;
   border: none;
   margin-bottom: 80px;
+  transition: background-color 0.3s ease-in-out;
   background-color: rgb(17, 232, 236, 0.5);
 }
 
@@ -78,10 +79,87 @@
   width: 150px;
   height: 30px;
   margin-left: 150px;
+  z-index: 100000000000;
 }
 
 .nav-navlist {
   display: flex;
+  margin-bottom: -7px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+}
+.nav-home {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-home:hover {
+  color: black;
+}
+
+.nav-home::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25;
+  height: 3px;
+  width: 0;
+  background-color: rgb(2, 108, 78);
+  transition: width 0.5s ease;
+}
+
+.nav-home:hover::before {
+  width: 7%;
+}
+
+.nav-about {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-about:hover {
+  color: black;
+}
+
+.nav-about::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25;
+  height: 3px;
+  width: 0;
+  background-color: rgb(2, 108, 78);
+  transition: width 0.5s ease;
+}
+
+.nav-about:hover::before {
+  width: 7.2%;
+}
+.nav-contact {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-contact:hover {
+  color: black;
+}
+
+.nav-contact::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25;
+  height: 3px;
+  width: 0;
+  background-color: rgb(2, 108, 78);
+  transition: width 0.5s ease;
+}
+
+.nav-contact:hover::before {
+  width: 9%;
 }
 
 .nav-navlist li {
@@ -606,58 +684,42 @@
 
 @media (max-width: 1480px) {
   .nav-logo {
-    width: 150px;
-    height: 150px;
     margin-left: 130px;
   }
 }
 @media (max-width: 1460px) {
   .nav-logo {
-    width: 150px;
-    height: 150px;
     margin-left: 110px;
   }
 }
 @media (max-width: 1440px) {
   .nav-logo {
-    width: 150px;
-    height: 150px;
     margin-left: 90px;
   }
 }
 @media (max-width: 1420px) {
   .nav-logo {
-    width: 150px;
-    height: 150px;
     margin-left: 70px;
   }
 }
 @media (max-width: 1400px) {
   .nav-logo {
-    width: 150px;
-    height: 150px;
     margin-left: 50px;
   }
 }
 @media (max-width: 1380px) {
   .nav-logo {
-    width: 150px;
-    height: 150px;
     margin-left: 30px;
   }
 }
 @media (max-width: 1360px) {
   .nav-logo {
-    width: 150px;
-    height: 150px;
     margin-left: 10px;
   }
 }
 
 @media (max-width: 1350px) {
   .nav-logo {
-    width: 150px;
-    height: 150px;
     margin-left: 150px;
   }
 
@@ -693,5 +755,31 @@
 @media (max-width: 1000px) {
   .plumber-bg {
     margin-left: -500px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .styledBurger {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0px;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 1000000;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .burger {
+    width: 2.5rem;
+    height: 0.25rem;
+    /* background-color: #333; */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+    z-index: 100000;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 }

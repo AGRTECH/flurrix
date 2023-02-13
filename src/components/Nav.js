@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import Hamburger from "./Hamburger";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import logo from "../img/Webscaperslogo.png";
 
 const Nav = () => {
@@ -23,9 +25,12 @@ const Nav = () => {
     <>
       <div className={sticky ? "sticky" : "nav-container"}>
         <div>
-          <img src={logo} className="nav-logo" alt="Logo" />
+          <Link to={"/home"}>
+            <img src={logo} className="nav-logo" alt="Logo" />
+          </Link>
         </div>
-        <div>
+        <Hamburger />
+        {/* <div>
           <ul className="nav-navlist">
             <li>Our Work</li>
             <li>About</li>
@@ -37,7 +42,7 @@ const Nav = () => {
               <button className="nav-button"> (586) 651-6917</button>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );
