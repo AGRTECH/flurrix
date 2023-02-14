@@ -42,8 +42,15 @@ const Section5 = () => {
   return (
     <div className="section5-background">
       <div className="section5-container">
+        <h1 className="section5-title">Our Process</h1>
+        <h3 className="section5-subtitle">
+          The goal of every website is to turn web visitors into paying
+          customers. Our primary focus is to create a powerful user experience.
+          In order to achieve this, we break our projects into 4 phases.
+        </h3>
         <div>
           <button
+            autoFocus
             onFocus={handleStrategyFocus}
             onBlur={handleStrategyBlur}
             className="section5-strategybtn"
@@ -108,7 +115,7 @@ const Section5 = () => {
           >
             <img src={design} className="section5-img" alt="" />
             <div className="section5-contentcontainer">
-              <p className="section5-contenttitle">Strategy</p>
+              <p className="section5-contenttitle">Design</p>
               <p>
                 Our custom design approach has distinct advantages. Our web
                 designers are fully versed in graphic design, mobile-wise
@@ -136,7 +143,7 @@ const Section5 = () => {
           >
             <img src={development} className="section5-img" alt="" />
             <div className="section5-contentcontainer">
-              <p className="section5-contenttitle">Strategy</p>
+              <p className="section5-contenttitle">Development</p>
               <p>
                 With custom, modern web design, your site can grow with your
                 business. WordPress is the most popular content management
@@ -165,7 +172,7 @@ const Section5 = () => {
           >
             <img src={maintenance} className="section5-img" alt="" />
             <div className="section5-contentcontainer">
-              <p className="section5-contenttitle">Strategy</p>
+              <p className="section5-contenttitle">Maintenance</p>
               <p>
                 Unfortunately, website security is a significant issue. Our
                 maintenance & security service is the best way to protect your

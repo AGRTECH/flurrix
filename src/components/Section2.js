@@ -4,6 +4,7 @@ import greengears from "../img/greengears.png";
 import greenlock from "../img/greenlock.png";
 import greenbook from "../img/greenbook.png";
 import greenbars from "../img/greenbars.png";
+import greenmaintenance from "../img/maintenanceicon.png";
 
 const Section2 = () => {
   return (
@@ -25,7 +26,7 @@ const Section2 = () => {
                 />
               </li>
               <li>
-                <p className="section2-service">Website Design & Development</p>
+                <p className="section2-service">Professional Design</p>
               </li>
               <li>
                 <p>Create a Professional Design and Feel</p>
@@ -56,11 +57,11 @@ const Section2 = () => {
               </li>
               <li>
                 <p className="section2-service">
-                  Secured Hosting & Maintenance
+                  Secured Hosting & Web Security
                 </p>
               </li>
               <li>
-                <p>Web Security and Updates </p>
+                <p>Protecting Your Site from Hackers and Issues</p>
               </li>
             </ul>
           </div>
@@ -104,16 +105,16 @@ const Section2 = () => {
             <ul className="section2-list">
               <li>
                 <img
-                  src={paintbrush}
+                  src={greenmaintenance}
                   className="section2-paintbrushimg"
                   alt=""
                 />
               </li>
               <li>
-                <p className="section2-service">Website Design & Development</p>
+                <p className="section2-service">Maintenance & Updates</p>
               </li>
               <li>
-                <p>Professional Design & Feel</p>
+                <p>Keep Your Site Fresh</p>
               </li>
             </ul>
           </div>

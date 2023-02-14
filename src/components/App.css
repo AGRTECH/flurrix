@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /* Home */
@@ -12,7 +13,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  height: 550px;
+  height: 670px;
 }
 
 .home-firstline {
@@ -50,6 +51,22 @@
   cursor: pointer;
 }
 
+.home-grass1 {
+  position: absolute;
+  right: 0;
+  width: 150px;
+  height: 500px;
+  margin-top: 550px;
+}
+.home-grass2 {
+  position: absolute;
+  rotate: 180deg;
+  left: 0;
+  width: 100px;
+  height: 500px;
+  margin-top: 350px;
+}
+
 /* Nav */
 
 .nav-container {
@@ -68,9 +85,9 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-top: 25px;
-  padding-bottom: 5px;
-  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(255, 255, 255);
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   z-index: 10000;
 }
@@ -353,7 +370,7 @@
 .section4-cardtextcontainer {
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
+  margin-right: 20px;
   width: 33%;
   text-align: center;
 }
@@ -417,6 +434,22 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+}
+
+.section5-title {
+  font-weight: bold;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.section5-subtitle {
+  font-size: 17px;
+  text-align: center;
+  width: 50%;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  overflow-y: hidden;
+  overflow-wrap: hidden;
 }
 
 .section5-strategybtn {
