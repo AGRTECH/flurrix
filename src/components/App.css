@@ -7,7 +7,7 @@
 
 /* Home */
 
-.plumber-bg {
+.landing-bg {
   width: 1550px;
   z-index: -90;
   position: absolute;
@@ -17,10 +17,11 @@
 }
 
 .home-firstline {
-  font-size: 50px;
+  font-size: 45px;
+  margin-top: 50px;
   font-weight: bold;
-  width: 30%;
-  color: white;
+  width: 100%;
+  color: rgb(155, 255, 199);
 }
 
 .home-container {
@@ -28,43 +29,102 @@
 }
 
 .home-secondline {
-  margin-top: 30px;
-  color: white;
-  font-size: 25px;
-  font-weight: lighter;
-  width: 30%;
+  font-size: 60px;
+  margin-top: -25px;
+  font-weight: bold;
+  width: 100%;
+  color: rgb(0, 88, 40);
 }
 
 .home-button {
   margin-top: 30px;
-  padding: 10px 20px;
+  padding: 12px 70px;
   font-weight: bold;
   font-size: 20px;
   border: none;
   margin-bottom: 80px;
+  margin-right: 15px;
   transition: background-color 0.3s ease-in-out;
   background-color: rgb(17, 232, 236, 0.5);
+  border-radius: 5px;
 }
 
 .home-button:hover {
   background-color: rgb(17, 72, 236);
   cursor: pointer;
 }
+.home-button2 {
+  margin-top: 30px;
+  padding: 12px 70px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 80px;
+  margin-right: 15px;
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgba(31, 255, 79, 0.5);
+  border-radius: 5px;
+}
 
-.home-grass1 {
+.home-button2:hover {
+  background-color: rgb(0, 105, 23);
+  cursor: pointer;
+}
+
+/* .home-grass1 {
   position: absolute;
   right: 0;
-  width: 150px;
+  width: 100px;
   height: 500px;
-  margin-top: 550px;
+  margin-top: 220px;
+} */
+
+.grass {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 500px;
+  margin-top: 220px;
+  background-image: url("../img/cartoongrass.png");
+  background-size: cover;
+  animation: blowing 5s ease-in-out infinite;
 }
+
+@keyframes blowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -5px -5px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
 .home-grass2 {
   position: absolute;
   rotate: 180deg;
   left: 0;
   width: 100px;
   height: 500px;
-  margin-top: 350px;
+  margin-top: 220px;
+}
+
+.home-checkmark {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.home-listdiv {
+  display: flex;
+}
+
+.home-listul {
+  padding-left: 0px;
+  font-size: 18px;
+  margin-top: 65px;
 }
 
 /* Nav */
@@ -75,7 +135,7 @@
   display: flex;
   justify-content: space-between;
   width: 1300px;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   /* margin-bottom: 75px; */
 }
 
@@ -85,10 +145,11 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-top: 15px;
+  margin-top: -5px;
   padding-bottom: 15px;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  transition: ease-in-out 0.3s;
   z-index: 10000;
 }
 
@@ -96,6 +157,7 @@
   width: 150px;
   height: 30px;
   margin-left: 150px;
+  margin-top: 25px;
   z-index: 100000000000;
 }
 
@@ -107,17 +169,21 @@
 .nav-item {
   text-decoration: none;
   color: black;
+  font-size: 19px;
+  margin-right: 10px;
 }
-.nav-home {
+.nav-process {
   text-decoration: none;
   color: black;
+  font-size: 19px;
+  margin-right: 10px;
 }
 
-.nav-home:hover {
+.nav-process:hover {
   color: black;
 }
 
-.nav-home::before {
+.nav-process::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -128,20 +194,22 @@
   transition: width 0.5s ease;
 }
 
-.nav-home:hover::before {
-  width: 7%;
+.nav-process:hover::before {
+  width: 13.6%;
 }
 
-.nav-about {
+.nav-work {
   text-decoration: none;
   color: black;
+  font-size: 19px;
+  margin-right: 10px;
 }
 
-.nav-about:hover {
+.nav-work:hover {
   color: black;
 }
 
-.nav-about::before {
+.nav-work::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -152,12 +220,14 @@
   transition: width 0.5s ease;
 }
 
-.nav-about:hover::before {
-  width: 7.2%;
+.nav-work:hover::before {
+  width: 11.8%;
 }
 .nav-contact {
   text-decoration: none;
   color: black;
+  font-size: 19px;
+  margin-right: 10px;
 }
 
 .nav-contact:hover {
@@ -178,6 +248,31 @@
 .nav-contact:hover::before {
   width: 9%;
 }
+.nav-pricing {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  margin-right: 10px;
+}
+
+.nav-pricing:hover {
+  color: black;
+}
+
+.nav-pricing::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25;
+  height: 3px;
+  width: 0;
+  background-color: rgb(2, 108, 78);
+  transition: width 0.5s ease;
+}
+
+.nav-pricing:hover::before {
+  width: 7.4%;
+}
 
 .nav-navlist li {
   margin-right: 20px;
@@ -186,23 +281,33 @@
 }
 
 .nav-button {
-  padding: 7px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 7px;
+  padding-top: 13px;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 19px;
   border: none;
-  margin-top: -5px;
+  margin-top: 13px;
+  border-radius: 5px;
   background-color: rgb(17, 232, 236, 0.5);
+  transition: background-color 0.3s ease-in-out;
 }
 
 .nav-button:hover {
-  opacity: 0.3;
+  background-color: rgb(17, 72, 236);
   cursor: pointer;
+}
+
+.nav-lidiv {
+  display: flex;
+  margin-top: 25px;
 }
 
 /* Section 2 */
 .section2-container {
-  margin-top: 20px;
-  padding-top: 50px;
+  margin-top: -10px;
+  padding-top: 0px;
   /* margin-left: 100x; */
   margin-left: -50px;
   margin-right: 150px;
@@ -269,11 +374,15 @@
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   position: relative;
   top: 0;
-  transition: top ease 0.5s;
+  /* transition: right 2s ease; */
+  transition: background-color ease 4s, top ease 0.5s;
+  /* transition: top ease 0.5s; */
 }
 
 .section2-card:hover {
-  top: -10px;
+  top: -20px;
+  background-color: rgb(0, 84, 35);
+  /* right: -20px; */
 }
 
 .section2-service {
@@ -334,12 +443,12 @@
   cursor: pointer;
 }
 
-.section3-mowingicon {
+/* .section3-mowingicon {
   background-image: url("../img/lawnmowingicon.png");
   animation: move-right 15s linear infinite;
   background-repeat: no-repeat;
-  background-size: 100px;
-}
+  background-size: 50px;
+} */
 
 /* Section 4 */
 .section4-container {

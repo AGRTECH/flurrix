@@ -51,23 +51,29 @@ const HamburgerNav = ({ open }) => {
         className={`nav-navlist`}
         open={open}
       >
-        <li>
-          <Link className="nav-home" to={"/home"}>
-            Home
-          </Link>
-        </li>
+        <div className="nav-lidiv">
+          <li>
+            <Link className="nav-process" to={"/about"}>
+              The Process
+            </Link>
+          </li>
+          <li>
+            <Link className="nav-work" to={"/home"}>
+              Our Work
+            </Link>
+          </li>
 
-        <li>
-          <Link className="nav-about" to={"/about"}>
-            About
-          </Link>
-        </li>
-
-        <li>
-          <Link className="nav-contact" to={"/contact"}>
-            Contact
-          </Link>
-        </li>
+          <li>
+            <Link className="nav-pricing" to={"/contact"}>
+              Pricing
+            </Link>
+          </li>
+          <li>
+            <Link className="nav-contact" to={"/contact"}>
+              Contact
+            </Link>
+          </li>
+        </div>
         <li>
           <button className={"nav-button"}>
             {" "}
@@ -78,7 +84,7 @@ const HamburgerNav = ({ open }) => {
         </li>
         <li>
           <Link className="nav-item" to={"/contact"}>
-            <button className={"nav-button"}>Request Estimate</button>
+            <button className={"nav-button"}>Get Started</button>
           </Link>
         </li>
       </Ul>

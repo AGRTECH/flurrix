@@ -10,8 +10,8 @@ const Section3 = () => {
         <div className="section3-container">
           <p className="section3-title">Mow Down the Competition</p>
           <p className="section3-subtitle">
-            Around 85% of landscaping company sites we've anaylized either don't
-            have a website at all or have a severly outdated one. We can help
+            Around 85% of landscaping company sites we've analyzed either don't
+            have a website at all or have a severely outdated one. We can help
             you advance to the next level and start converting more site
             visitors into clients
           </p>

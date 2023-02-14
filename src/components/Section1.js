@@ -1,30 +1,35 @@
 import React from "react";
 import landscapingbg from "../img/newbg1.png";
 import grass from "../img/cartoongrass.png";
+import checkmark from "../img/checkicon.svg";
 
 const Section1 = () => {
   return (
     <>
       {" "}
       <div className="home-container">
-        <p className="home-firstline">Websites Crafted Just For Landscapers</p>
-        <ul>
-          <li>
-            <img src="" alt="" />{" "}
-            <p>Professional Online Brand - Get more leads</p>{" "}
+        <p className="home-firstline">Websites Crafted </p>
+        <p className="home-secondline">Just For Landscapers</p>
+        <ul className="home-listul">
+          <li className="home-listdiv">
+            <img src={checkmark} className="home-checkmark" alt="" />{" "}
+            <p>Upgrade to a Professional Wesbsite</p>
           </li>
-          <li>
-            <img src="" alt="" /> Quick Turnaround - Get your site in as little
-            as 14 days <p></p>{" "}
+          <li className="home-listdiv">
+            <img src={checkmark} className="home-checkmark" alt="" />{" "}
+            <p>Impress Web Visitors</p>{" "}
           </li>
-          <li>
-            <img src="" alt="" /> <p>Spend Less - Starting at just $99/month</p>{" "}
+          <li className="home-listdiv">
+            <img src={checkmark} className="home-checkmark" alt="" />{" "}
+            <p>Go Pro For Just $99/month</p>{" "}
           </li>
         </ul>
-        <button className="home-button">Get a site</button>
-        <img src={landscapingbg} className="plumber-bg" alt="" />
+        <button className="home-button">Let's Chat</button>
+        <button className="home-button2">Get a site</button>
+        <img src={landscapingbg} className="landing-bg" alt="" />
       </div>
-      <img src={grass} className="home-grass1" alt="" />
+      {/* <img src={grass} className="home-grass1" alt="" /> */}
+      <div className="grass"></div>
       <img src={grass} className="home-grass2" alt="" />
       {/* <img src={grass} className="section4-bush2" alt="" /> */}
     </>

@@ -9,7 +9,7 @@ import greenmaintenance from "../img/maintenanceicon.png";
 const Section2 = () => {
   return (
     <div className="section2-background">
-      <p className="section2-title">Services</p>
+      <p className="section2-title">What You Can Expect</p>
       <p className="section2-subtitle">
         We <span className="section2-italic">scape</span> the web, so you can{" "}
         <span className="section2-italic">scape</span> more land
@@ -29,7 +29,10 @@ const Section2 = () => {
                 <p className="section2-service">Professional Design</p>
               </li>
               <li>
-                <p>Create a Professional Design and Feel</p>
+                <p>
+                  Impress new and current customers with a site designed by web
+                  pros
+                </p>
               </li>
             </ul>
           </div>
@@ -43,10 +46,13 @@ const Section2 = () => {
                 />
               </li>
               <li>
-                <p className="section2-service">Coversion Rate Optimization</p>
+                <p className="section2-service">Turn Vistors Into Customers</p>
               </li>
               <li>
-                <p>Get More Paying Clients</p>
+                <p>
+                  Websites optimized for trustability, professionalism, and
+                  conversions
+                </p>
               </li>
             </ul>
           </div>
@@ -56,17 +62,18 @@ const Section2 = () => {
                 <img src={greenlock} className="section2-lockimg" alt="" />
               </li>
               <li>
-                <p className="section2-service">
-                  Secured Hosting & Web Security
-                </p>
+                <p className="section2-service">Maintenance & Updates</p>
               </li>
               <li>
-                <p>Protecting Your Site from Hackers and Issues</p>
+                <p>
+                  Fixing any bugs and glitches that arise within your websites
+                  and bi-weekly maintenance
+                </p>
               </li>
             </ul>
           </div>
         </div>
-        <div className="section2-toprow">
+        {/* <div className="section2-toprow">
           <div className="section2-card">
             <ul className="section2-list">
               <li>
@@ -118,7 +125,7 @@ const Section2 = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
