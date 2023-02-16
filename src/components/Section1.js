@@ -13,7 +13,7 @@ const Section1 = () => {
         <ul className="home-listul">
           <li className="home-listdiv">
             <img src={checkmark} className="home-checkmark" alt="" />{" "}
-            <p>Upgrade to a Professional Wesbsite</p>
+            <p>Stand Out From The Competition</p>
           </li>
           <li className="home-listdiv">
             <img src={checkmark} className="home-checkmark" alt="" />{" "}
@@ -25,12 +25,12 @@ const Section1 = () => {
           </li>
         </ul>
         <button className="home-button">Let's Chat</button>
-        <button className="home-button2">Get a site</button>
+        <button className="home-button2">Get a Site</button>
         <img src={landscapingbg} className="landing-bg" alt="" />
       </div>
       {/* <img src={grass} className="home-grass1" alt="" /> */}
       <div className="grass"></div>
-      <img src={grass} className="home-grass2" alt="" />
+      <div className="grass2"></div>
       {/* <img src={grass} className="section4-bush2" alt="" /> */}
     </>
   );

@@ -9,7 +9,9 @@ import greenmaintenance from "../img/maintenanceicon.png";
 const Section2 = () => {
   return (
     <div className="section2-background">
-      <p className="section2-title">What You Can Expect</p>
+      <h1 className="section2-title">
+        Connect With More Customers In Our Evolving Digital Age
+      </h1>
       <p className="section2-subtitle">
         We <span className="section2-italic">scape</span> the web, so you can{" "}
         <span className="section2-italic">scape</span> more land
@@ -66,8 +68,8 @@ const Section2 = () => {
               </li>
               <li>
                 <p>
-                  Fixing any bugs and glitches that arise within your websites
-                  and bi-weekly maintenance
+                  Fixing any bugs and glitches that arise within your websites +
+                  bi-weekly updates
                 </p>
               </li>
             </ul>

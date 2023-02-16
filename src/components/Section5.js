@@ -1,14 +1,18 @@
 import React, { useState } from "react";
-import strategy from "../img/strategy.png";
-import design from "../img/design.png";
-import development from "../img/development.png";
-import maintenance from "../img/maintenance.png";
+import strategy from "../img/plan.jpg";
+import design from "../img/onboard.jpg";
+import development from "../img/develop.jpg";
+import maintenance from "../img/revise.jpg";
+import launch from "../img/launch.jpg";
+import maintain from "../img/maintain.jpg";
 
 const Section5 = () => {
   const [strategyFocus, setStrategyFocus] = useState(false);
   const [designFocus, setDesignFocus] = useState(false);
   const [developmentFocus, setDevelopmentFocus] = useState(false);
   const [maintenanceFocus, setMaintenanceFocus] = useState(false);
+  const [launchFocus, setLaunchFocus] = useState(false);
+  const [maintainFocus, setMaintainFocus] = useState(false);
 
   const handleStrategyFocus = () => {
     setStrategyFocus(true);
@@ -39,6 +43,20 @@ const Section5 = () => {
   const handlemaintenanceBlur = () => {
     setMaintenanceFocus(false);
   };
+  const handlelaunchFocus = () => {
+    setLaunchFocus(true);
+  };
+
+  const handlelaunchBlur = () => {
+    setLaunchFocus(false);
+  };
+  const handlemaintainFocus = () => {
+    setMaintainFocus(true);
+  };
+
+  const handlemaintainBlur = () => {
+    setMaintainFocus(false);
+  };
   return (
     <div className="section5-background">
       <div className="section5-container">
@@ -55,14 +73,14 @@ const Section5 = () => {
             onBlur={handleStrategyBlur}
             className="section5-strategybtn"
           >
-            1. Strategy
+            1. Plan
           </button>
           <button
             onFocus={handledesignFocus}
             onBlur={handledesignBlur}
             className="section5-designbtn"
           >
-            2. Design
+            2. Onboard
           </button>
           <button
             onFocus={handledevelopmentFocus}
@@ -76,7 +94,21 @@ const Section5 = () => {
             onBlur={handlemaintenanceBlur}
             className="section5-maintenancebtn"
           >
-            4. Maintenance
+            4. Revise
+          </button>
+          <button
+            onFocus={handlelaunchFocus}
+            onBlur={handlelaunchBlur}
+            className="section5-launchbtn"
+          >
+            5. Launch
+          </button>
+          <button
+            onFocus={handlemaintainFocus}
+            onBlur={handlemaintainBlur}
+            className="section5-maintainbtn"
+          >
+            6. Maintenance
           </button>
         </div>
         <div>
@@ -89,11 +121,10 @@ const Section5 = () => {
           >
             <img src={strategy} className="section5-img" alt="" />
             <div className="section5-contentcontainer">
-              <p className="section5-contenttitle">Strategy</p>
+              <p className="section5-contenttitle">Plan</p>
               <p>
-                Strategy is the foundation of our projects. Our research into
-                the roles of your web visitors allows us to create a website
-                that delivers results.{" "}
+                Choose one our different plans starting at $99/month that best
+                suites your needs.
               </p>
               <p>
                 We’ll discuss your business goals, sales & marketing strategy,
@@ -115,22 +146,19 @@ const Section5 = () => {
           >
             <img src={design} className="section5-img" alt="" />
             <div className="section5-contentcontainer">
-              <p className="section5-contenttitle">Design</p>
+              <p className="section5-contenttitle">Onboard</p>
               <p>
-                Our custom design approach has distinct advantages. Our web
-                designers are fully versed in graphic design, mobile-wise
-                design, user interface (UI), and user experience (UX) - the use
-                of visual elements & graphics to create an engaging site
-                experience.
+                After choosing a plan, you will be asked a series of questions
+                to get your site tuned the exact way that you like.
               </p>
               <p>
-                We’ll discuss your vision for the site and generate fresh ideas
-                by looking at current design and inspirational sites.
+                The questions will be along the lines of asking for some
+                pictures you've taken of your work, brand logo, any content
+                ideas you have for us and more.
               </p>
               <p>
-                Through an iterative design process, we’ll create unique mockups
-                and designs for each wireframe while integrating your business’
-                logo design and branding style guidelines.
+                All together, the process will only take up to 10 minutes and is
+                very simple and straightforward.
               </p>
             </div>
           </div>
@@ -145,22 +173,15 @@ const Section5 = () => {
             <div className="section5-contentcontainer">
               <p className="section5-contenttitle">Development</p>
               <p>
-                With custom, modern web design, your site can grow with your
-                business. WordPress is the most popular content management
-                system (CMS) in the world and it offers some significant SEO
-                benefits.
+                With completely custom components, we will whip your website
+                together in 1-3 weeks (depending on how large your site is).
               </p>
               <p>
-                We have 10+ years of WordPress experience & deep knowledge of
-                performance, security, and data privacy best practices. We also
-                have expertise in building high-quality, WooCommerce ecommerce
-                sites.
+                Modern styles, layout, animations and more will put you far
+                ahead of the competition in your area and will attract more
+                customers!
               </p>
-              <p>
-                Prior to the launch of the new website, our team will go through
-                an in-depth Quality Control & Quality Assurance process and
-                provide site specific WordPress training sessions.
-              </p>
+              <p></p>
             </div>
           </div>
           <div
@@ -171,6 +192,61 @@ const Section5 = () => {
             }
           >
             <img src={maintenance} className="section5-img" alt="" />
+            <div className="section5-contentcontainer">
+              <p className="section5-contenttitle">Revise</p>
+              <p>
+                This is where you will get to check out your new website for the
+                first time!
+              </p>
+              <p>
+                We also have a variety of trusted partners who can assist with
+                social media marketing, advertising, PPC, search engine
+                optimization (SEO), video production, & content marketing.
+              </p>
+              <p>
+                Our monthly service also include performance monitoring where we
+                can provide data reports to help with optimization. Our goal is
+                to be a long-term web partner to customers and provide top-notch
+                service to businesses.
+              </p>
+            </div>
+          </div>
+          <div
+            className={
+              launchFocus
+                ? "section5-launch-text"
+                : "section5-launch-text-hidden"
+            }
+          >
+            <img src={launch} className="section5-img" alt="" />
+            <div className="section5-contentcontainer">
+              <p className="section5-contenttitle">Launch</p>
+              <p>
+                Unfortunately, website security is a significant issue. Our
+                maintenance & security service is the best way to protect your
+                online presence.
+              </p>
+              <p>
+                We also have a variety of trusted partners who can assist with
+                social media marketing, advertising, PPC, search engine
+                optimization (SEO), video production, & content marketing.
+              </p>
+              <p>
+                Our monthly service also include performance monitoring where we
+                can provide data reports to help with optimization. Our goal is
+                to be a long-term web partner to customers and provide top-notch
+                service to businesses.
+              </p>
+            </div>
+          </div>
+          <div
+            className={
+              maintainFocus
+                ? "section5-maintain-text"
+                : "section5-maintain-text-hidden"
+            }
+          >
+            <img src={maintain} className="section5-img" alt="" />
             <div className="section5-contentcontainer">
               <p className="section5-contenttitle">Maintenance</p>
               <p>

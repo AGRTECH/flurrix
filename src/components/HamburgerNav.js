@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
-import About from "./About";
 import Contact from "./Contact";
 import styled from "styled-components";
 import { Button, Navbar, Dropdown } from "react-bootstrap";
@@ -53,18 +52,18 @@ const HamburgerNav = ({ open }) => {
       >
         <div className="nav-lidiv">
           <li>
-            <Link className="nav-process" to={"/about"}>
+            <Link className="nav-process" to={"/process"}>
               The Process
             </Link>
           </li>
           <li>
-            <Link className="nav-work" to={"/home"}>
+            <Link className="nav-work" to={"/work"}>
               Our Work
             </Link>
           </li>
 
           <li>
-            <Link className="nav-pricing" to={"/contact"}>
+            <Link className="nav-pricing" to={"/pricing"}>
               Pricing
             </Link>
           </li>
