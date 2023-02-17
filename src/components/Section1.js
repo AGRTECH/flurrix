@@ -21,7 +21,7 @@ const Section1 = () => {
           </li>
           <li className="home-listdiv">
             <img src={checkmark} className="home-checkmark" alt="" />{" "}
-            <p>Go Pro For Just $99/month</p>{" "}
+            <p>Go Pro For Just $29/month</p>{" "}
           </li>
         </ul>
         <button className="home-button">Let's Chat</button>

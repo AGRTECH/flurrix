@@ -10,9 +10,12 @@ const Section1Pricing = () => {
       <div className="home-container">
         <p className="home-firstline">Low Prices</p>
         <p className="home-secondline">High Quality</p>
-        <p className="pricing-subtitle"></p>
+        <p className="section1pricing-subtitle">
+          Get Your first month 70% off for ALL packages! Starting at as little
+          as $29/month, you can take your business to the next level.
+        </p>
         <button className="home-button">Let's Chat</button>
-        <button className="home-button2">Get a Site</button>
+        <button className="section1pricing-button2">Choose A Plan</button>
         <img src={landscapingbg} className="landing-bg" alt="" />
       </div>
       {/* <img src={grass} className="home-grass1" alt="" /> */}
