@@ -948,7 +948,7 @@
 .section2pricing-card {
   background-color: #ffffff;
   padding: 50px 20px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
   position: relative;
@@ -982,6 +982,10 @@
   margin-top: -18px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
+
+.section2pricing-benefit {
+  display: flex;
 }
 
 .section2pricing-crossoutpricelist {
@@ -1039,6 +1043,12 @@
   height: 1px;
   width: 250px;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.section2pricing-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 @keyframes move-right {

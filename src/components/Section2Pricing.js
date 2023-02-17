@@ -1,4 +1,9 @@
 import React from "react";
+import page from "../img/pageicon.png";
+import design from "../img/brushicon.png";
+import seo from "../img/webicon.png";
+import update from "../img/updateicon.png";
+import security from "../img/securityicon.png";
 
 const Section2Pricing = () => {
   return (
@@ -32,6 +37,29 @@ const Section2Pricing = () => {
                 <li>
                   <div className="section2pricing-divider"></div>
                 </li>
+                <li className="section2pricing-benefit">
+                  <img src={page} className="section2pricing-img" alt="" />
+                  <p>Up to 5 Pages</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={design} className="section2pricing-img" alt="" />
+                  <p>Pro Custom Design</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={update} className="section2pricing-img" alt="" />
+                  <p>Bi-Weekly Updates</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={seo} className="section2pricing-img" alt="" />
+                  <p>SEO & CRO</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={security} className="section2pricing-img" alt="" />
+                  <p>Hosting & Security</p>
+                </li>
+                <li>
+                  <button className="home-button2">Try for 70% Off</button>
+                </li>
               </ul>
             </div>
             <div className="section2pricing-card">
@@ -41,7 +69,7 @@ const Section2Pricing = () => {
                 </li>
                 <li>
                   <p className="section2pricing-subtitle">
-                    Everything you need to completely revamp your brand
+                    Become a webscaper with more pages and lead generating tools
                   </p>
                 </li>
                 <li className="section2pricing-crossoutpricelist">
@@ -60,6 +88,33 @@ const Section2Pricing = () => {
                 <li>
                   <div className="section2pricing-divider"></div>
                 </li>
+                <li className="section2pricing-benefit">
+                  <img src={page} className="section2pricing-img" alt="" />
+                  <p>All Basic Features</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={page} className="section2pricing-img" alt="" />
+                  <p>Up to 10 Pages</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={design} className="section2pricing-img" alt="" />
+                  <p>Pro Custom Design</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={update} className="section2pricing-img" alt="" />
+                  <p>Bi-Weekly Updates</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={seo} className="section2pricing-img" alt="" />
+                  <p>SEO & CRO</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={security} className="section2pricing-img" alt="" />
+                  <p>Hosting & Security</p>
+                </li>
+                <li>
+                  <button className="home-button">Try for 70% Off</button>
+                </li>
               </ul>
             </div>
             <div className="section2pricing-card">
@@ -69,7 +124,8 @@ const Section2Pricing = () => {
                 </li>
                 <li>
                   <p className="section2pricing-subtitle">
-                    Everything you need to completely revamp your brand
+                    Get the best of the best with 24/7 support, 20 pages, and
+                    unlimited updates
                   </p>
                 </li>
                 <li className="section2pricing-crossoutpricelist">
@@ -87,6 +143,29 @@ const Section2Pricing = () => {
                 </li>
                 <li>
                   <div className="section2pricing-divider"></div>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={page} className="section2pricing-img" alt="" />
+                  <p>Up to 20 Pages</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={design} className="section2pricing-img" alt="" />
+                  <p>Pro Custom Design</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={update} className="section2pricing-img" alt="" />
+                  <p>Unlimited Updates</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={seo} className="section2pricing-img" alt="" />
+                  <p>SEO & CRO</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={security} className="section2pricing-img" alt="" />
+                  <p>Hosting & Security</p>
+                </li>
+                <li>
+                  <button className="home-button">Try for 70% Off</button>
                 </li>
               </ul>
             </div>
