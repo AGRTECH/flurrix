@@ -11,8 +11,10 @@ const Section1Pricing = () => {
         <p className="home-firstline">Low Prices</p>
         <p className="home-secondline">High Quality</p>
         <p className="section1pricing-subtitle">
-          Get Your first month 70% off for ALL packages! Starting at as little
-          as $29/month, you can take your business to the next level.
+          Buy 3 get 3 FREE ($600 savings) local summertime domination package
+          when you sign up today! Get half of the biggest season of the year,
+          summer, for FREE! | If you love your site for 2 months, get 2 months
+          for free!
         </p>
         <button className="home-button">Let's Chat</button>
         <button className="section1pricing-button2">Choose A Plan</button>

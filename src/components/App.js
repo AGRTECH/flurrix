@@ -5,6 +5,7 @@ import Pricing from "./Pricing";
 import Process from "./Process";
 import Work from "./Work";
 import Contact from "./Contact";
+import GetLeadsInfo from "./GetLeadsInfo";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/process" element={<Process />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/getleads" element={<GetLeadsInfo />} />
         </Routes>
       </Wrapper>
     </BrowserRouter>
