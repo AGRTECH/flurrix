@@ -903,10 +903,22 @@
 /* Section 1 Pricing */
 
 .section1pricing-subtitle {
-  font-size: 18px;
+  font-size: 20px;
   width: 40%;
   margin-bottom: 25px;
   margin-top: 30px;
+}
+
+.section1pricing-subsubtitle {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 900;
+  width: 40%;
+  margin-bottom: 25px;
+}
+
+.section1pricing-bold {
+  font-weight: 900;
 }
 
 .section1pricing-button2 {
@@ -929,6 +941,14 @@
 
 /* Section2 pricing */
 
+.section2pricing-banner {
+  z-index: 100000;
+  background-color: rgb(89, 12, 221);
+  padding-top: 15px;
+  margin-bottom: 25px;
+  width: 1070px;
+}
+
 .section2pricing-titles {
   font-size: 25px;
   font-weight: 900;
@@ -942,22 +962,39 @@
 .section2pricing-toprow {
   margin-left: 200px;
   display: flex;
+  height: 800px;
   margin-top: 50px;
   margin-bottom: 50px;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  overflow-y: hidden;
 }
 
 .section2pricing-card {
   background-color: #ffffff;
-  padding: 50px 20px;
+  padding: 82px 20px;
   /* margin-bottom: 50px; */
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
   position: relative;
   top: 0;
+  overflow-y: hidden;
   /* transition: right 2s ease; */
   transition: background-color ease 1s, top ease 0.5s;
   /* transition: top ease 0.5s; */
+}
+
+.section2pricing-card1 {
+  background-color: #f1f4ff;
+  border: 1px solid rgb(153, 144, 255) !important;
+  padding: 0px 0px;
+  height: 1200px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: background-color ease 1s, top ease 0.5s;
 }
 
 .section2pricing-list {
@@ -1039,6 +1076,10 @@
 
 .section2pricing-subtext {
   color: #919090;
+  font-size: 15px;
+  /* width: 50%; */
+  /* margin-left: 85px; */
+  text-align: center;
 }
 
 .section2pricing-divider {
@@ -1173,20 +1214,29 @@
   margin-top: 120px;
 }
 
-/* Carousel */
+.faq-item {
+  transition: all 1s ease-in-out;
+}
 
-.carousel-container {
-  align-items: center;
-  justify-content: center;
+.faq-header {
   text-align: center;
+  padding: 0;
 }
 
-.carousel-review {
+/* Section 2 Process */
+
+.line {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  width: 5px;
+  height: 100%;
+  background-color: #000000;
+  z-index: -1000000;
 }
 
-.carousel-title {
-  font-size: 25px;
-  width: 500px;
+.section2process-container {
+  height: 1000px;
 }
 
 @media (max-width: 1480px) {

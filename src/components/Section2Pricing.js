@@ -14,7 +14,7 @@ const Section2Pricing = () => {
             <div className="section2pricing-card">
               <ul className="section2pricing-list">
                 <li>
-                  <p className="section2pricing-titles">Basic</p>
+                  <p className="section2pricing-titles">Standard</p>
                 </li>
                 <li>
                   <p className="section2pricing-subtitle">
@@ -23,16 +23,18 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$149</p>
+                  <p className="section2pricing-blurredprice">$199</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">29</p>
+                  <p className="section2pricing-price">139</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
-                  <p className="section2pricing-subtext">First month 70% off</p>
+                  <p className="section2pricing-subtext">
+                    Buy 3 Months Get Your Next 3 Free ($600 Saved)
+                  </p>
                 </li>
                 <li>
                   <div className="section2pricing-divider"></div>
@@ -51,21 +53,26 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={seo} className="section2pricing-img" alt="" />
-                  <p>SEO & CRO</p>
+                  <p>SEO Optimized Page</p>
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={security} className="section2pricing-img" alt="" />
-                  <p>Hosting & Security</p>
+                  <p>24/7 Support</p>
                 </li>
                 <li>
-                  <button className="home-button2">Try for 70% Off</button>
+                  <button className="home-button2">Get 3 Months Free</button>
                 </li>
               </ul>
             </div>
-            <div className="section2pricing-card">
+            <div className="section2pricing-card1">
               <ul className="section2pricing-list">
                 <li>
-                  <p className="section2pricing-titles">Webscaper</p>
+                  <div className="section2pricing-banner">
+                    <p className="section2pricing-bannertext">Most popular</p>
+                  </div>
+                </li>
+                <li>
+                  <p className="section2pricing-titles">Premium</p>
                 </li>
                 <li>
                   <p className="section2pricing-subtitle">
@@ -74,31 +81,30 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$249</p>
+                  <p className="section2pricing-blurredprice">$299</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">69</p>
+                  <p className="section2pricing-price">229</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
-                  <p className="section2pricing-subtext">First month 70% off</p>
+                  <p className="section2pricing-subtext">
+                    Buy 3 Months Get Your Next 3 Free ($687 Saved)
+                  </p>
                 </li>
                 <li>
                   <div className="section2pricing-divider"></div>
                 </li>
-                <li className="section2pricing-benefit">
-                  <img src={page} className="section2pricing-img" alt="" />
-                  <p>All Basic Features</p>
-                </li>
+
                 <li className="section2pricing-benefit">
                   <img src={page} className="section2pricing-img" alt="" />
                   <p>Up to 10 Pages</p>
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={design} className="section2pricing-img" alt="" />
-                  <p>Pro Custom Design</p>
+                  <p>Exit Intent Pop-Ups</p>
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={update} className="section2pricing-img" alt="" />
@@ -106,14 +112,14 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={seo} className="section2pricing-img" alt="" />
-                  <p>SEO & CRO</p>
+                  <p>Email List Incentives</p>
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={security} className="section2pricing-img" alt="" />
-                  <p>Hosting & Security</p>
+                  <p>24/7 Support</p>
                 </li>
                 <li>
-                  <button className="home-button">Try for 70% Off</button>
+                  <button className="home-button">Get 3 Months Free</button>
                 </li>
               </ul>
             </div>
@@ -130,16 +136,19 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$599</p>
+                  <p className="section2pricing-blurredprice">$999</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">179</p>
+                  <p className="section2pricing-price">599</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
-                  <p className="section2pricing-subtext">First month 70% off</p>
+                  <p className="section2pricing-subtext">
+                    {" "}
+                    Buy 3 Months Get Your Next 3 Free ($600 Saved)
+                  </p>
                 </li>
                 <li>
                   <div className="section2pricing-divider"></div>
@@ -150,7 +159,7 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={design} className="section2pricing-img" alt="" />
-                  <p>Pro Custom Design</p>
+                  <p>Ultimate Lead Capture</p>
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={update} className="section2pricing-img" alt="" />
@@ -158,14 +167,14 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={seo} className="section2pricing-img" alt="" />
-                  <p>SEO & CRO</p>
+                  <p>Email List Management</p>
                 </li>
                 <li className="section2pricing-benefit">
                   <img src={security} className="section2pricing-img" alt="" />
-                  <p>Hosting & Security</p>
+                  <p>Ultimate 24/7 Support</p>
                 </li>
                 <li>
-                  <button className="home-button">Try for 70% Off</button>
+                  <button className="home-button">Get 3 Months Free</button>
                 </li>
               </ul>
             </div>

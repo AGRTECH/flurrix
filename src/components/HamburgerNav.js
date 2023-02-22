@@ -58,7 +58,7 @@ const HamburgerNav = ({ open }) => {
           </li>
           <li>
             <Link className="nav-work" to={"/work"}>
-              Our Work
+              Portfolio
             </Link>
           </li>
 

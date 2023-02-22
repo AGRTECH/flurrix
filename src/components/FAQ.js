@@ -1,11 +1,14 @@
-import Accordion from "react-bootstrap/Accordion";
+import { Accordion, Card } from "react-bootstrap";
+import { useState } from "react";
 
 function FAQ() {
   return (
     <Accordion defaultActiveKey={["0"]} alwaysOpen className="faq-container">
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
-        <Accordion.Body>
+      <Accordion.Item eventKey="0" className="faq-item">
+        <Accordion.Header className="faq-header">
+          <p>Accordion Item #1</p>
+        </Accordion.Header>
+        <Accordion.Body className="faq-item">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

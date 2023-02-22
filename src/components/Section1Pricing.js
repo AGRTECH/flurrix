@@ -8,16 +8,19 @@ const Section1Pricing = () => {
     <>
       {" "}
       <div className="home-container">
-        <p className="home-firstline">Low Prices</p>
-        <p className="home-secondline">High Quality</p>
+        <p className="home-firstline">Summer Time</p>
+        <p className="home-secondline">Is Approaching</p>
         <p className="section1pricing-subtitle">
-          Buy 3 get 3 FREE ($600 savings) local summertime domination package
-          when you sign up today! Get half of the biggest season of the year,
-          summer, for FREE! | If you love your site for 2 months, get 2 months
-          for free!
+          Look like a pro for{" "}
+          <span className="section1pricing-bold"> all of Summer for free</span>{" "}
+          with our buy 3 get 3 deal for all available plans (up to $1797 in
+          savings)
+        </p>
+        <p className="section1pricing-subsubtitle">
+          -- Offer Expires 3/31/23 --
         </p>
         <button className="home-button">Let's Chat</button>
-        <button className="section1pricing-button2">Choose A Plan</button>
+        <button className="section1pricing-button2">Get Summer Free</button>
         <img src={landscapingbg} className="landing-bg" alt="" />
       </div>
       {/* <img src={grass} className="home-grass1" alt="" /> */}
