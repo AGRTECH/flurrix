@@ -494,6 +494,14 @@
   flex-direction: column;
 }
 
+.section4-title {
+  color: black;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 130px;
+}
+
 .section4-card {
   background-color: #ffffff;
   margin-right: 50px;
@@ -539,10 +547,12 @@
   position: absolute;
   top: 0;
   text-align: center;
-  padding: 8px 10px;
+  padding: 10px 15px;
   font-weight: bold;
   border: none;
-  background-color: rgb(17, 232, 236, 1);
+  background-color: rgb(100, 0, 230);
+  color: white;
+  border-radius: 5px;
   margin-top: 110px;
   margin-left: 120px;
 }
@@ -576,10 +586,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 170px;
 }
 
 .section5-title {
+  font-size: 50px;
   font-weight: bold;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -599,18 +610,19 @@
   padding: 15px 25px;
   font-size: 22px;
   font-weight: bolder;
-  color: rgb(0, 70, 0);
+  color: black;
   border: 1px solid #ccc;
   background-color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease-in-out;
 }
 
 .section5-strategybtn:focus {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
   border: solid 3px black;
 }
 
 .section5-strategybtn:hover {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
 }
 .section5-designbtn {
   padding: 15px 25px;
@@ -618,16 +630,17 @@
   background-color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: bolder;
-  color: rgb(0, 70, 0);
+  color: black;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .section5-designbtn:focus {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
   border: solid 3px black;
 }
 
 .section5-designbtn:hover {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
 }
 .section5-developmentbtn {
   padding: 15px 25px;
@@ -635,16 +648,17 @@
   background-color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: bolder;
-  color: rgb(0, 70, 0);
+  color: black;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .section5-developmentbtn:focus {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
   border: solid 3px black;
 }
 
 .section5-developmentbtn:hover {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
 }
 .section5-maintenancebtn {
   padding: 15px 25px;
@@ -652,16 +666,17 @@
   background-color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: bolder;
-  color: rgb(0, 70, 0);
+  color: black;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .section5-maintenancebtn:focus {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
   border: solid 3px black;
 }
 
 .section5-maintenancebtn:hover {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
 }
 .section5-launchbtn {
   padding: 15px 25px;
@@ -669,16 +684,17 @@
   background-color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: bolder;
-  color: rgb(0, 70, 0);
+  color: black;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .section5-launchbtn:focus {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
   border: solid 3px black;
 }
 
 .section5-launchbtn:hover {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
 }
 .section5-maintainbtn {
   padding: 15px 25px;
@@ -686,16 +702,17 @@
   background-color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: bolder;
-  color: rgb(0, 70, 0);
+  color: black;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .section5-maintainbtn:focus {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
   border: solid 3px black;
 }
 
 .section5-maintainbtn:hover {
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
 }
 
 .section5-strategy-text {
@@ -764,9 +781,9 @@
 }
 
 .section5-contenttitle {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 900;
-  color: rgba(10, 113, 114);
+  color: black;
 }
 
 /* Section 6 */
@@ -1464,7 +1481,13 @@
 }
 
 .section2process-container {
-  height: 2500px;
+  height: 100%;
+}
+
+.section2process-section {
+  border-bottom: 1px solid rgb(216, 216, 216);
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .section2process-title {
@@ -1482,12 +1505,14 @@
   margin-right: 230px;
 }
 
+.section2process-contentcontainer2 {
+  width: 50%;
+}
+
 .section2process-strategy-text {
   display: flex;
   /* margin-left: 350px; */
   margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .section2process-img {
@@ -1495,6 +1520,107 @@
   height: 430px;
 }
 
+.section2process-img2 {
+  width: 620px;
+  height: 430px;
+  margin-right: 230px;
+}
+
+/* Contact */
+.contact-background {
+  background-color: #f7f6f6;
+}
+.contact-container {
+  height: 800px;
+  width: 100vw;
+  /* margin-left: 250px; */
+  /* margin-right: 250px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.contact-form {
+  width: 45%;
+  background-color: white;
+  border-radius: 15px;
+  /* padding: 15px 15px; */
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.contact-emailinput {
+  width: 100%;
+  border-radius: 0px;
+  border: 0px solid black;
+  background-color: rgb(244, 244, 244);
+  padding: 15px 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(161, 161, 161);
+}
+
+.contact-emailinput::placeholder {
+  color: rgb(121, 121, 121);
+}
+
+.contact-textinput {
+  width: 62.7%;
+  border-radius: 0px;
+  border: 0px solid black;
+  background-color: rgba(111, 0, 255, 1);
+  padding: 15px 10px;
+  margin-top: 15px;
+}
+
+.section6-textinput::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.contact-title {
+  font-size: 60px;
+  font-weight: 900;
+  width: 50%;
+  text-align: center;
+}
+
+.contact-subtitle {
+  font-size: 30px;
+  width: 50%;
+  text-align: center;
+}
+
+.contact-btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  width: 90%;
+  border: none;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgba(111, 0, 255, 255);
+  border-radius: 5px;
+}
+
+.contact-btn:hover {
+  background-color: rgb(58, 0, 133);
+  cursor: pointer;
+}
+
+.contact-flex {
+  display: flex;
+  width: 90%;
+}
 @media (max-width: 1480px) {
   .nav-logo {
     margin-left: 130px;

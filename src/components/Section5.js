@@ -60,11 +60,10 @@ const Section5 = () => {
   return (
     <div className="section5-background">
       <div className="section5-container">
-        <h1 className="section5-title">Our Process</h1>
+        <h1 className="section5-title">Simple 6 Step Process</h1>
         <h3 className="section5-subtitle">
-          The goal of every website is to turn web visitors into paying
-          customers. Our primary focus is to create a powerful user experience.
-          In order to achieve this, we break our projects into 4 phases.
+          The focus of each website is to become a sales driven machine. To get
+          your own site, we break the process into 6 parts.
         </h3>
         <div>
           <button
@@ -123,18 +122,18 @@ const Section5 = () => {
             <div className="section5-contentcontainer">
               <p className="section5-contenttitle">Plan</p>
               <p>
-                Choose one our different plans starting at $99/month that best
-                suites your needs.
+                We offer three comprehensive website design plans - Standard,
+                Premium, and Ultimate - that are tailored to meet the unique
+                needs of your business.
               </p>
               <p>
-                We’ll discuss your business goals, sales & marketing strategy,
-                business challenges, and core competencies in order to better
-                understand your brand identity and competition.{" "}
+                When you sign up for 3 months for any plan, you get 3 additional
+                months free. They all come with a variety of features and
+                benefits to help you achieve your business goals such as email
+                list popups, SEO and several different pages depending on which
+                plan you chose
               </p>
-              <p>
-                All of this information allows us to then effectively draft
-                wireframes, key messaging, and information architecture.
-              </p>
+              <p></p>
             </div>
           </div>
           <div

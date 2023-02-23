@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import Section2Process from "./Section2Process";
 import Section1 from "./Section1";
+import FAQ2 from "./FAQ2";
 import Section1Pricing from "./Section1Pricing";
 import Section3 from "./Section3";
 import Section6 from "./Section6";
@@ -14,6 +15,7 @@ const Process = () => {
       <Section1Pricing />
       <Section2Process />
       <Section3 />
+      <FAQ2 />
       <Section6 />
       <Section7 />
     </>

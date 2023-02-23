@@ -6,10 +6,10 @@ import siteone from "../img/herculespowerwashing1.jpg";
 const Section4 = () => {
   return (
     <div className="section4-background">
-      <p className="section2-title">Our Work</p>
+      <p className="section4-title">Dominate Your Local Area</p>
       <p className="section2-subtitle">
-        Companies we've helped e-
-        <span className="section2-italic">scape</span> from low quality sites
+        Surprisingly high quality websites that will wow new and current
+        customers
       </p>
       <div className="section4-container">
         <div className="section2-toprow">

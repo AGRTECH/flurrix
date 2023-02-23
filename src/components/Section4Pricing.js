@@ -10,7 +10,7 @@ const Section4Pricing = () => {
   return (
     <div className="section4pricing-background">
       <h1 className="section4pricing-title">
-        Enjoy these featues on all of the above plans
+        Enjoy these features on all of the above plans
       </h1>
       {/* <p className="section2-subtitle">
         We <span className="section2-italic">scape</span> the web, so you can{" "}

@@ -90,9 +90,7 @@ const Section2Pricing = () => {
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
-                  <p className="section2pricing-subtext">
-                    Get 3 months free when you sign up for 6 months ($417 Saved)
-                  </p>
+                  <p className="section2pricing-subtext">Semi-Annually</p>
                 </li>
                 <li>
                   <div className="section2pricing-divider"></div>
