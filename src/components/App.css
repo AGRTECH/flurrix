@@ -51,7 +51,7 @@
 }
 
 .home-button:hover {
-  background-color: rgb(58, 0, 133);
+  background-color: rgb(76, 0, 175);
   cursor: pointer;
 }
 .home-button2 {
@@ -60,15 +60,17 @@
   font-weight: bold;
   font-size: 20px;
   border: none;
+  color: white;
+  /* border: 1px solid black; */
   margin-bottom: 80px;
   margin-right: 15px;
   transition: background-color 0.3s ease-in-out;
-  background-color: rgba(31, 255, 79, 0.5);
+  background-color: rgb(11, 0, 24);
   border-radius: 5px;
 }
 
 .home-button2:hover {
-  background-color: rgb(0, 105, 23);
+  background-color: rgb(41, 0, 95);
   cursor: pointer;
 }
 
@@ -160,14 +162,14 @@
   width: 100%;
   margin-top: -5px;
   padding-bottom: 15px;
-  background-color: white;
+  background-color: rgba(111, 0, 255, 255);
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   transition: ease-in-out 0.3s;
   z-index: 10000;
 }
 
 .nav-logo {
-  width: 140px;
+  width: 130px;
   height: 30px;
   margin-left: 150px;
   margin-top: 25px;
@@ -302,9 +304,11 @@
   font-size: 19px;
   border: none;
   margin-top: 13px;
+  color: white;
   border-radius: 5px;
   /* background-color: rgb(17, 232, 236, 0.5); */
-  background-color: rgba(111, 0, 255, 255);
+  /* background-color: rgba(111, 0, 255, 255); */
+  background-color: rgb(39, 0, 90);
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -319,7 +323,7 @@
 }
 
 .nav-item:hover {
-  color: black;
+  color: white;
 }
 
 /* Section 2 */
@@ -768,7 +772,7 @@
 /* Section 6 */
 
 .section6-background {
-  background-image: url("../img/contactbg10.jpg");
+  background-image: url("../img/cbg.jpg");
   background-repeat: no-repeat;
   margin-top: 100px;
 }
@@ -789,18 +793,21 @@
 
 .section6-btn {
   margin-top: 30px;
-  padding: 10px 20px;
+  padding: 12px 30px;
   font-weight: bold;
-  font-size: 18px;
+  color: white;
+  font-size: 20px;
+  width: 30%;
   border: none;
   margin-bottom: 80px;
-  background-color: rgb(17, 232, 236, 0.5);
-  width: 20%;
-  height: 50px;
+  margin-right: 15px;
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgb(38, 0, 87);
+  border-radius: 5px;
 }
 
 .section6-btn:hover {
-  background-color: rgb(17, 72, 236);
+  background-color: rgb(58, 0, 133);
   cursor: pointer;
 }
 
@@ -811,12 +818,14 @@
 }
 
 .section6-boldtext {
-  font-size: 35px;
+  font-size: 55px;
   font-weight: bold;
+  color: white;
 }
 
 .section6-subtext {
   font-weight: lighter;
+  color: white;
 }
 
 .section6-email {
@@ -827,10 +836,14 @@
   width: 30%;
   border-radius: 0px;
   border: 0px solid black;
-  background-color: rgb(32, 96, 38);
+  background-color: rgb(52, 0, 121);
   padding: 15px 10px;
   margin-right: 15px;
   margin-top: 175px;
+}
+
+.section6-emailinput:focus {
+  /* border: 1px solid black; */
 }
 
 .section6-emailinput::placeholder {
@@ -841,7 +854,7 @@
   width: 62.7%;
   border-radius: 0px;
   border: 0px solid black;
-  background-color: rgb(32, 96, 38);
+  background-color: rgb(52, 0, 121);
   padding: 15px 10px;
   margin-top: 15px;
 }
@@ -853,7 +866,7 @@
 /* Section 7 */
 
 .section7-background {
-  background-color: rgb(5, 18, 5);
+  background-color: rgb(29, 0, 66);
 }
 
 .section7-container {
@@ -870,8 +883,8 @@
 }
 
 .section7-logo {
-  width: 200px;
-  height: 45px;
+  width: 130px;
+  height: 30px;
 }
 
 .section7-about {
@@ -896,7 +909,7 @@
 /* Section 8 */
 
 .section8-background {
-  background-color: rgb(4, 9, 3);
+  background-color: rgb(23, 0, 54);
 }
 
 .section8-container {
@@ -911,12 +924,16 @@
 
 /* Section 1 Pricing */
 
-.section1pricing-container {
+.section1pricing-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section1pricing-subtitle {
   font-size: 20px;
-  width: 30%;
+  width: 50%;
   margin-bottom: 25px;
   margin-top: 30px;
   text-align: center;
@@ -1205,9 +1222,17 @@
 
 .section3pricing-coluslist {
   display: flex;
+  color: white;
   background-color: rgba(111, 0, 255, 255);
   font-weight: 900;
   margin-bottom: -1px;
+}
+
+.section3pricing-logo {
+  width: 130px;
+  height: 30px;
+  margin-right: 20px;
+  z-index: 100000000000;
 }
 
 .section3pricing-coluslist li {
@@ -1222,8 +1247,9 @@
 
 .section3pricing-col2 {
   margin-top: 80px;
-  margin-left: 60px;
+  margin-left: 50px;
   font-size: 18px;
+  font-weight: 900;
   /* box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px; */
   overflow-y: hidden;
 }
@@ -1235,7 +1261,7 @@
 }
 
 .section3pricing-col2list li {
-  margin-right: 60px;
+  margin-right: 28px;
   width: 150px;
   height: 60px;
   justify-self: center;
@@ -1409,15 +1435,43 @@
 .line {
   position: fixed;
   top: 10%;
-  left: 50%;
-  width: 5px;
+  /* left: 50%; */
+  width: 8px;
   height: 100%;
-  background-color: #000000;
+  background-color: #6f00ff;
   z-index: -1000000;
 }
 
 .section2process-container {
-  height: 1000px;
+  height: 2500px;
+}
+
+.section2process-title {
+  color: black;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.section2process-contentcontainer {
+  width: 50%;
+  margin-right: 230px;
+}
+
+.section2process-strategy-text {
+  display: flex;
+  /* margin-left: 350px; */
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.section2process-img {
+  width: 620px;
+  height: 430px;
 }
 
 @media (max-width: 1480px) {

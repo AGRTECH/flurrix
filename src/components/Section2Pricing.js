@@ -23,17 +23,17 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$139</p>
+                  <p className="section2pricing-blurredprice">$149</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">69</p>
+                  <p className="section2pricing-price">74</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
                   <p className="section2pricing-subtext">
-                    Get 3 months free when you sign up for 6 months ($417 Saved)
+                    When you sign up for 6 months ($447 Saved!)
                   </p>
                 </li>
                 <li>
@@ -91,7 +91,7 @@ const Section2Pricing = () => {
                 </li>
                 <li>
                   <p className="section2pricing-subtext">
-                    Buy 3 Months Get Your Next 3 Free ($687 Saved)
+                    Get 3 months free when you sign up for 6 months ($417 Saved)
                   </p>
                 </li>
                 <li>
@@ -147,7 +147,7 @@ const Section2Pricing = () => {
                 <li>
                   <p className="section2pricing-subtext">
                     {" "}
-                    Buy 3 Months Get Your Next 3 Free ($600 Saved)
+                    Get 3 months free when you sign up for 6 months ($417 Saved)
                   </p>
                 </li>
                 <li>
@@ -174,7 +174,7 @@ const Section2Pricing = () => {
                   <p>Ultimate 24/7 Support</p>
                 </li>
                 <li>
-                  <button className="home-button">Get 3 Months Free</button>
+                  <button className="home-button2">Get 3 Months Free</button>
                 </li>
               </ul>
             </div>

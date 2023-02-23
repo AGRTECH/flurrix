@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/Webscaperslogo.png";
+import logo from "../img/flurrixwhitetrans.png";
 
 const Section7 = () => {
   return (

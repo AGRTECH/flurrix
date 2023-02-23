@@ -9,12 +9,12 @@ import greenmaintenance from "../img/maintenanceicon.png";
 const Section2 = () => {
   return (
     <div className="section2-background">
-      <h1 className="section2-title">
-        Connect With More Customers In Our Evolving Digital Age
-      </h1>
+      <h1 className="section2-title">Connect With More Customers</h1>
       <p className="section2-subtitle">
-        We <span className="section2-italic">scape</span> the web, so you can{" "}
-        <span className="section2-italic">scape</span> more land
+        Having an optimized digital presence as a service business owner is
+        becoming increasingly more important every year
+        <span className="section2-italic"></span>
+        <span className="section2-italic"></span>
       </p>
       <div className="section2-container">
         <div className="section2-toprow">
@@ -32,8 +32,9 @@ const Section2 = () => {
               </li>
               <li>
                 <p>
-                  Impress new and current customers with a site designed by web
-                  pros
+                  Impress new and current customers with a site that will be in
+                  the top 1%-5% in your area in terms of optimization, design
+                  and professionalism
                 </p>
               </li>
             </ul>
@@ -48,12 +49,13 @@ const Section2 = () => {
                 />
               </li>
               <li>
-                <p className="section2-service">Turn Vistors Into Customers</p>
+                <p className="section2-service">Get More Leads</p>
               </li>
               <li>
                 <p>
-                  Websites optimized for trustability, professionalism, and
-                  conversions
+                  Websites optimized to not only attract new people with SEO,
+                  but also designed to turn a higher percentage into paying
+                  customers
                 </p>
               </li>
             </ul>
@@ -68,8 +70,8 @@ const Section2 = () => {
               </li>
               <li>
                 <p>
-                  Fixing any bugs and glitches that arise within your websites +
-                  bi-weekly updates
+                  Frequent security checkups and updates so you'll never have to
+                  worry about your site not being in top condition
                 </p>
               </li>
             </ul>

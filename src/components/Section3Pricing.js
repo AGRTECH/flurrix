@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../img/flurrixtrans4.png";
 
 const Section3Pricing = () => {
   return (
@@ -12,7 +13,9 @@ const Section3Pricing = () => {
               <li>DIY</li>
               <li>Freelancers</li>
               <li>Other Agencies</li>
-              <li className="section3pricing-ustitle">Us</li>
+              <li className="section3pricing-ustitle">
+                <img src={logo} className="section3pricing-logo" alt="" />{" "}
+              </li>
             </ul>
           </div>
           <div className="section3pricing-colcontainer">
