@@ -498,7 +498,7 @@
   background-color: #ffffff;
   margin-right: 50px;
   margin-bottom: 50px;
-  border: 4px solid #17722b;
+  border: 2px solid rgba(111, 0, 255, 1);
   width: 100%;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   position: relative;
@@ -950,6 +950,15 @@
 .section1pricing-background {
   /* background-color: rgba(111, 0, 255, 255); */
 }
+.section1pricing-navbackground {
+  height: 82px;
+  width: 100%;
+  z-index: -1;
+  background-color: rgba(111, 0, 255, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .section1pricing-secondline {
   font-size: 60px;
@@ -999,6 +1008,12 @@
   padding-top: 15px;
   margin-bottom: 25px;
   width: 1070px;
+}
+
+.section2pricing-bannertext {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .section2pricing-titles {
@@ -1298,12 +1313,18 @@
   height: 50px;
   width: 50px;
   margin-bottom: 15px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .section4pricing-lockimg {
   height: 50px;
   width: 40px;
   margin-bottom: 15px;
+  background-color: black;
+  padding: 13px 10px;
+  border-radius: 5px;
 }
 
 .section4pricing-paintbrushimg:hover {

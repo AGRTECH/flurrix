@@ -7,6 +7,7 @@ const Section1Pricing = () => {
   return (
     <>
       <div className="section1pricing-background">
+        <div className="section1pricing-navbackground"></div>
         <div className="section1pricing-container">
           <div className="section1pricing-flex">
             <p className="section1pricing-firstline">Summer Time</p>

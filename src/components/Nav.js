@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Hamburger from "./Hamburger";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import logo from "../img/flurrixwhite.jpg";
+import logo from "../img/flurrixwhitetrans.png";
 
 const Nav = () => {
   const [sticky, setSticky] = useState(false);

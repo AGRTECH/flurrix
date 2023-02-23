@@ -9,8 +9,8 @@ const Section7 = () => {
           <div className="section7-sections">
             <img src={logo} className="section7-logo" alt="" />
             <p className="section7-about">
-              Webscapers are a web design company focused on making conversion
-              optimized sites for local lanscaping businesses
+              Flurrix are a web design company focused on making conversion
+              optimized sites for service businesses
             </p>
           </div>
           <div className="section7-sections">
@@ -37,7 +37,7 @@ const Section7 = () => {
       <div className="section8-background">
         <div className="section8-container">
           <p className="section8-copyright">
-            © 2023 Webscaper. All Rights Reserved
+            © 2023 Flurrix. All Rights Reserved
           </p>
         </div>
       </div>
