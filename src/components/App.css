@@ -21,7 +21,7 @@
   margin-top: 60px;
   font-weight: bold;
   width: 100%;
-  color: rgb(155, 255, 199);
+  color: white;
 }
 
 .home-container {
@@ -33,24 +33,25 @@
   margin-top: -25px;
   font-weight: bold;
   width: 100%;
-  color: rgb(0, 88, 40);
+  color: white;
 }
 
 .home-button {
   margin-top: 30px;
   padding: 12px 70px;
   font-weight: bold;
+  color: white;
   font-size: 20px;
   border: none;
   margin-bottom: 80px;
   margin-right: 15px;
   transition: background-color 0.3s ease-in-out;
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgb(38, 0, 87);
   border-radius: 5px;
 }
 
 .home-button:hover {
-  background-color: rgb(17, 72, 236);
+  background-color: rgb(58, 0, 133);
   cursor: pointer;
 }
 .home-button2 {
@@ -136,6 +137,7 @@
   padding-left: 0px;
   font-size: 18px;
   margin-top: 65px;
+  color: white;
 }
 
 /* Nav */
@@ -158,14 +160,14 @@
   width: 100%;
   margin-top: -5px;
   padding-bottom: 15px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   transition: ease-in-out 0.3s;
   z-index: 10000;
 }
 
 .nav-logo {
-  width: 150px;
+  width: 140px;
   height: 30px;
   margin-left: 150px;
   margin-top: 25px;
@@ -179,19 +181,19 @@
 
 .nav-item {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 19px;
   margin-right: 10px;
 }
 .nav-process {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 19px;
   margin-right: 10px;
 }
 
 .nav-process:hover {
-  color: black;
+  color: white;
 }
 
 .nav-process::before {
@@ -201,7 +203,7 @@
   left: 25;
   height: 3px;
   width: 0;
-  background-color: rgb(2, 108, 78);
+  background-color: white;
   transition: width 0.5s ease;
 }
 
@@ -211,13 +213,13 @@
 
 .nav-work {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 19px;
   margin-right: 10px;
 }
 
 .nav-work:hover {
-  color: black;
+  color: white;
 }
 
 .nav-work::before {
@@ -227,7 +229,7 @@
   left: 25;
   height: 3px;
   width: 0;
-  background-color: rgb(2, 108, 78);
+  background-color: white;
   transition: width 0.5s ease;
 }
 
@@ -236,13 +238,13 @@
 }
 .nav-contact {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 19px;
   margin-right: 10px;
 }
 
 .nav-contact:hover {
-  color: black;
+  color: white;
 }
 
 .nav-contact::before {
@@ -252,7 +254,7 @@
   left: 25;
   height: 3px;
   width: 0;
-  background-color: rgb(2, 108, 78);
+  background-color: white;
   transition: width 0.5s ease;
 }
 
@@ -261,13 +263,13 @@
 }
 .nav-pricing {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 19px;
   margin-right: 10px;
 }
 
 .nav-pricing:hover {
-  color: black;
+  color: white;
 }
 
 .nav-pricing::before {
@@ -277,7 +279,7 @@
   left: 25;
   height: 3px;
   width: 0;
-  background-color: rgb(2, 108, 78);
+  background-color: white;
   transition: width 0.5s ease;
 }
 
@@ -301,18 +303,23 @@
   border: none;
   margin-top: 13px;
   border-radius: 5px;
-  background-color: rgb(17, 232, 236, 0.5);
+  /* background-color: rgb(17, 232, 236, 0.5); */
+  background-color: rgba(111, 0, 255, 255);
   transition: background-color 0.3s ease-in-out;
 }
 
 .nav-button:hover {
-  background-color: rgb(17, 72, 236);
+  background-color: rgb(63, 0, 146);
   cursor: pointer;
 }
 
 .nav-lidiv {
   display: flex;
   margin-top: 25px;
+}
+
+.nav-item:hover {
+  color: black;
 }
 
 /* Section 2 */
@@ -332,8 +339,8 @@
 }
 
 .section2-title {
-  color: #388f8c;
-  font-size: 45px;
+  color: black;
+  font-size: 50px;
   font-weight: 900;
   text-align: center;
   padding-top: 50px;
@@ -367,7 +374,7 @@
 }
 
 .section2-toprow {
-  margin-left: 200px;
+  margin-left: 150px;
   display: flex;
   padding-top: 50px;
   padding-left: 50px;
@@ -382,7 +389,7 @@
   padding: 50px 20px;
   margin-right: 50px;
   margin-bottom: 50px;
-  width: 100%;
+  width: 1000px;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   position: relative;
   top: 0;
@@ -393,7 +400,7 @@
 
 .section2-card:hover {
   top: -20px;
-  background-color: rgba(0, 86, 36, 0.3);
+  background-color: rgba(111, 0, 255, 0.3);
   /* right: -20px; */
 }
 
@@ -424,18 +431,19 @@
 }
 
 .section3-backgroundimg {
-  background-image: url("../img/grass1.jpg");
+  background-image: url("../img/darkergraphicbg.jpg");
   background-attachment: fixed;
 }
 
 .section3-title {
-  color: #14302f;
+  color: white;
   text-align: center;
   font-size: 45px;
   font-weight: 900;
 }
 
 .section3-subtitle {
+  color: white;
   text-align: center;
   font-size: 22px;
   font-weight: lighter;
@@ -454,12 +462,13 @@
   font-size: 20px;
   border: none;
   transition: background-color 0.3s ease-in-out;
-  background-color: rgb(17, 232, 236, 0.5);
+  background-color: rgba(111, 0, 255, 255);
+
   border-radius: 5px;
 }
 
 .section3-button:hover {
-  background-color: rgb(17, 72, 236);
+  background-color: rgb(161, 94, 248);
   cursor: pointer;
 }
 
@@ -902,11 +911,36 @@
 
 /* Section 1 Pricing */
 
+.section1pricing-container {
+}
+
 .section1pricing-subtitle {
   font-size: 20px;
-  width: 40%;
+  width: 30%;
   margin-bottom: 25px;
   margin-top: 30px;
+  text-align: center;
+}
+
+.section1pricing-firstline {
+  font-size: 45px;
+  margin-top: 60px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.section1pricing-background {
+  /* background-color: rgba(111, 0, 255, 255); */
+}
+
+.section1pricing-secondline {
+  font-size: 60px;
+  margin-top: -25px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  color: black;
 }
 
 .section1pricing-subsubtitle {
@@ -914,6 +948,7 @@
   font-style: italic;
   font-weight: 900;
   width: 40%;
+  text-align: center;
   margin-bottom: 25px;
 }
 
@@ -1096,6 +1131,16 @@
 
 /* Section3 Pricing */
 
+.section3pricing-title {
+  color: black;
+  width: 60%;
+  font-size: 55px;
+  font-weight: 900;
+  margin-left: 300px;
+  text-align: center;
+  padding-top: 50px;
+}
+
 .section3pricing-titleslist {
   margin-top: 98px;
   display: flex;
@@ -1160,7 +1205,7 @@
 
 .section3pricing-coluslist {
   display: flex;
-  background-color: rgba(24, 51, 203, 0.7);
+  background-color: rgba(111, 0, 255, 255);
   font-weight: 900;
   margin-bottom: -1px;
 }
@@ -1198,20 +1243,143 @@
   text-align: center;
 }
 
+.section3pricing-graphic {
+  position: absolute;
+  right: 5%;
+  width: 100px;
+  height: 250px;
+  margin-top: -950px;
+  background-image: url("../img/tinygraphic1.jpg");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  /* animation: blowing 10s ease-in-out infinite; */
+}
+
 /* Section 4 Pricing */
 .section4pricing-background {
   background-color: rgb(248, 248, 248);
-  padding-top: 75px;
+  /* padding-top: 75px; */
   padding-bottom: 75px;
   margin-top: 75px;
 }
 
+.section4pricing-description {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.section4pricing-paintbrushimg {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.section4pricing-lockimg {
+  height: 50px;
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+.section4pricing-paintbrushimg:hover {
+  top: -10px;
+  opacity: 0.8;
+}
+
+.section4pricing-toprow {
+  height: 300px;
+  margin-left: 100px;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 50px;
+  overflow-y: hidden;
+}
+
+.section4pricing-container {
+  margin-top: -10px;
+  padding-top: 0px;
+  /* margin-left: 100x; */
+  margin-left: -50px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section4pricing-background {
+  background-color: #fff;
+}
+
+.section4pricing-title {
+  color: black;
+  width: 60%;
+  font-size: 55px;
+  font-weight: 900;
+  margin-left: 100px;
+  margin-bottom: 60px;
+  /* text-align: center; */
+  padding-top: 50px;
+}
+
+.section4pricing-toprow ul {
+  list-style: none;
+}
+
+.section4pricing-card {
+  /* background-color: #ffffff; */
+  height: 100%;
+  /* padding: 50px 20px; */
+  margin-right: 50px;
+  margin-bottom: 50px;
+  width: 1000px;
+  /* box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px; */
+  position: relative;
+  top: 0;
+  /* transition: right 2s ease; */
+  overflow-y: hidden;
+  transition: background-color ease 1s, top ease 0.5s;
+  /* transition: top ease 0.5s; */
+}
+
+.section4pricing-card:hover {
+  /* top: -20px; */
+  /* background-color: rgba(0, 86, 36, 0.3); */
+  /* right: -20px; */
+}
+
+.section4pricing-service {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.section4pricing-list {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  /* text-align: center; */
+  margin-left: -20px;
+  font-size: 17px;
+}
+
 /* FAQ */
+
+.faq-title {
+  color: black;
+  width: 60%;
+  font-size: 55px;
+  font-weight: 900;
+  margin-left: 300px;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 50px;
+}
 
 .faq-container {
   width: 50%;
   margin-left: 350px;
-  margin-top: 120px;
+  /* margin-top: 120px; */
+}
+
+.faq-background {
 }
 
 .faq-item {
@@ -1221,6 +1389,19 @@
 .faq-header {
   text-align: center;
   padding: 0;
+}
+
+.faq-graphic {
+  position: absolute;
+  left: 0;
+  width: 400px;
+  height: 750px;
+  margin-top: 100px;
+  opacity: 0.2;
+  background-image: url("../img/tinygraphic1.jpg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  /* animation: blowing 10s ease-in-out infinite; */
 }
 
 /* Section 2 Process */

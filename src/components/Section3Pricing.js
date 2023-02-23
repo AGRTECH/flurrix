@@ -4,6 +4,7 @@ const Section3Pricing = () => {
   return (
     <>
       <div className="section3pricing-background">
+        <h1 className="section3pricing-title">Why Chose Flurrix?</h1>
         <div className="section3pricing-container">
           <div className="section3pricing-titles">
             <ul className="section3pricing-titleslist">
@@ -63,6 +64,7 @@ const Section3Pricing = () => {
           </div>
         </div>
       </div>
+      <div className="section3pricing-graphic"></div>
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import landscapingbg from "../img/newbg1.png";
+import landscapingbg from "../img/section1bg.png";
 import grass from "../img/cartoongrass.png";
 import checkmark from "../img/checkicon.svg";
 
@@ -9,7 +9,7 @@ const Section1 = () => {
       {" "}
       <div className="home-container">
         <p className="home-firstline">Websites Crafted </p>
-        <p className="home-secondline">Just For Landscapers</p>
+        <p className="home-secondline">For Service Businesses</p>
         <ul className="home-listul">
           <li className="home-listdiv">
             <img src={checkmark} className="home-checkmark" alt="" />{" "}
@@ -25,12 +25,11 @@ const Section1 = () => {
           </li>
         </ul>
         <button className="home-button">Let's Chat</button>
-        <button className="home-button2">Get a Site</button>
+        <button className="home-button">Get More Leads</button>
         <img src={landscapingbg} className="landing-bg" alt="" />
       </div>
       {/* <img src={grass} className="home-grass1" alt="" /> */}
-      <div className="grass"></div>
-      <div className="grass2"></div>
+      <div className="faq-graphic"></div>
       {/* <img src={grass} className="section4-bush2" alt="" /> */}
     </>
   );

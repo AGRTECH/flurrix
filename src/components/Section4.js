@@ -35,8 +35,8 @@ const Section4 = () => {
             <p>Site 3</p>
           </div>
         </div>
-        <img src={bushes} className="section4-bush" alt="" />
-        <img src={palm} className="section4-bush2" alt="" />
+        {/* <img src={bushes} className="section4-bush" alt="" /> */}
+        {/* <img src={palm} className="section4-bush2" alt="" /> */}
       </div>
     </div>
   );
