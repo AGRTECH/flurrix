@@ -2990,3 +2990,86 @@
     margin-top: 55px;
   }
 }
+
+@media (max-width: 420px) {
+  /* XR section 2  */
+  .section2-toprow {
+    margin-left: 15px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    overflow-y: hidden;
+  }
+
+  .section2-card {
+    width: 93%;
+    margin-right: 0;
+    /* margin: 0px; */
+    /* padding: 0px; */
+  }
+
+  /* XR section 4 */
+  .section4-cardtextcontainer {
+    margin-bottom: -120px;
+  }
+
+  /* XR section 5 */
+  .section5-background {
+    margin-top: -150px;
+  }
+
+  /* XR section 1 pricing */
+  .section1pricing-firstline {
+    font-size: 35px;
+    margin-top: 125px;
+  }
+
+  .section1pricing-secondline {
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+
+  .section1pricing-subtitle {
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  /* XR Section 2 pricing */
+  .section2pricing-toprow {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .section2-container {
+    margin-top: -10px;
+    padding-top: 0px;
+    /* margin-left: 100x; */
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section2pricing-card {
+  }
+}
+
+@media (max-width: 380px) {
+  /* SE section 1  */
+  .home-button {
+    padding: 12px 15px;
+  }
+
+  /* SE section 2 */
+  .section2-toprow {
+    margin-left: 15px;
+    /* width: 100vw; */
+    overflow-y: hidden;
+  }
+
+  .section2-card {
+    /* width: 100%; */
+  }
+}
