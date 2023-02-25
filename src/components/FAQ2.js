@@ -86,6 +86,7 @@ function FAQ2() {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
+        <div className="faq-whiteline"></div>
       </div>
     </>
   );

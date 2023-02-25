@@ -57,7 +57,7 @@ const Section3Pricing = () => {
             </div>
             <div className="section3pricing-colus">
               <ul className="section3pricing-coluslist">
-                <li>$0</li>
+                <li>Lost Cost Monthly Financing OR 50% with pre-pay</li>
                 <li>Everything Done For You</li>
                 <li>Top 1% Site in Your Area</li>
                 <li>One of a Kind</li>

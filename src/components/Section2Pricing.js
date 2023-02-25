@@ -33,7 +33,7 @@ const Section2Pricing = () => {
                 </li>
                 <li>
                   <p className="section2pricing-subtext">
-                    When you sign up for 6 months ($447 Saved!)
+                    When you pre-pay for 6 months ($447 Saved!)
                   </p>
                 </li>
                 <li>
@@ -90,7 +90,9 @@ const Section2Pricing = () => {
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
-                  <p className="section2pricing-subtext">Semi-Annually</p>
+                  <p className="section2pricing-subtext">
+                    Save 50% with Semi-Annual Pre-Pay
+                  </p>
                 </li>
                 <li>
                   <div className="section2pricing-divider"></div>
@@ -113,8 +115,52 @@ const Section2Pricing = () => {
                   <p>Email List Incentives</p>
                 </li>
                 <li className="section2pricing-benefit">
+                  <img src={seo} className="section2pricing-img" alt="" />
+                  <p>High Quality Stock Photos / Videos</p>
+                </li>
+                <li className="section2pricing-benefit">
                   <img src={security} className="section2pricing-img" alt="" />
                   <p>24/7 Support</p>
+                </li>
+                <li>
+                  <p>Included To Get More Out Of Your Website:</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={page} className="section2pricing-img" alt="" />
+                  <p>Doorhanger, Flyer, Sign and Post Card Design</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={design} className="section2pricing-img" alt="" />
+                  <p>Custom Logo Design</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={update} className="section2pricing-img" alt="" />
+                  <p>Detailed Website Analytics </p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={seo} className="section2pricing-img" alt="" />
+                  <p>Full Guide to Lead Generation & Sales</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={security} className="section2pricing-img" alt="" />
+                  <p>Cold Email Templates</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={page} className="section2pricing-img" alt="" />
+                  <p>Referal to Digital Marketing Agencies</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={design} className="section2pricing-img" alt="" />
+                  <p>Full Guide Relevant To Your Service As a Lead Magnet</p>
+                </li>
+
+                <li className="section2pricing-benefit">
+                  <img src={seo} className="section2pricing-img" alt="" />
+                  <p>Lead Messages Sent to Phone + Email</p>
+                </li>
+                <li className="section2pricing-benefit">
+                  <img src={security} className="section2pricing-img" alt="" />
+                  <p>Custom Copywriting</p>
                 </li>
                 <li>
                   <button className="home-button">Get 3 Months Free</button>

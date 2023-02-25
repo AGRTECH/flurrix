@@ -11,8 +11,8 @@ const Section1Pricing = () => {
         <div className="section1pricing-navbackground"></div>
         <div className="section1pricing-container">
           <div className="section1pricing-flex">
-            <p className="section1pricing-firstline">Summer Time</p>
-            <p className="section1pricing-secondline">Is Approaching</p>
+            <p className="section1pricing-firstline">A Quick Process</p>
+            <p className="section1pricing-secondline">But Huge Result</p>
             <p className="section1pricing-subtitle">
               Look like a pro for{" "}
               <span className="section1pricing-bold">
@@ -27,9 +27,9 @@ const Section1Pricing = () => {
             </p>
             <div>
               <Link to={"/contact"}>
-                <button className="home-button">Let's Chat</button>
+                <button className="home-button">Video</button>
               </Link>
-              <button className="home-button">Get Summer Free</button>
+              <button className="home-button">Pricing</button>
             </div>
           </div>
           <img src={pricingbg} className="landing-bg" alt="" />

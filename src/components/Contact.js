@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contact-background">
         <div className="contact-container">
           <h1 className="contact-title">
-            Get A Suprisingly High Quality Webiste Today
+            Get The Best Center Piece For Your Digital Marketing
           </h1>
           <h3 className="contact-subtitle">
             Let's Talk About How You Can Domainate Your Local Area with a
@@ -49,9 +49,9 @@ const Contact = () => {
                 }}
                 className="contact-emailinput"
                 required
-                type="name"
-                name="name"
-                placeholder="Name *"
+                type="phone"
+                name="phone"
+                placeholder="Phone *"
               />
               <input
                 onChange={(e) => {
@@ -59,9 +59,9 @@ const Contact = () => {
                 }}
                 className="contact-emailinput"
                 required
-                type="email"
-                name="email"
-                placeholder="Email Address *"
+                type="name"
+                name="websiteorbiz"
+                placeholder="Website Or Business Name *"
               />
             </div>
 

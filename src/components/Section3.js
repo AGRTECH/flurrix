@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Section3 = () => {
   return (
@@ -20,7 +21,9 @@ const Section3 = () => {
             We can help you advance to the next level and start converting more
             site visitors into clients.
           </p>
-          <button className="section3-button">Get More Leads</button>
+          <Link className="section3-link" to={"/contact"}>
+            <button className="section3-button">Get More Leads</button>
+          </Link>
         </div>
       </div>
       <div className="faq-graphic"></div>
