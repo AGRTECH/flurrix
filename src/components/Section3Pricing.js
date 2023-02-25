@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../img/flurrixtrans4.png";
+import comparison1 from "../img/comparison1.png";
+import comparison2 from "../img/comparison2.png";
 
 const Section3Pricing = () => {
   return (
@@ -7,7 +9,9 @@ const Section3Pricing = () => {
       <div className="section3pricing-background">
         <h1 className="section3pricing-title">Why Chose Flurrix?</h1>
         <div className="section3pricing-container">
-          <div className="section3pricing-titles">
+          <img src={comparison1} className="section3pricing-img1" alt="" />
+          <img src={comparison2} className="section3pricing-img2" alt="" />
+          {/* <div className="section3pricing-titles">
             <ul className="section3pricing-titleslist">
               <li className="section3pricing-blank"></li>
               <li>DIY</li>
@@ -57,14 +61,18 @@ const Section3Pricing = () => {
             </div>
             <div className="section3pricing-colus">
               <ul className="section3pricing-coluslist">
-                <li>Lost Cost Monthly Financing OR 50% with pre-pay</li>
-                <li>Everything Done For You</li>
-                <li>Top 1% Site in Your Area</li>
-                <li>One of a Kind</li>
-                <li>Reocurring Maintenance</li>
+                <li className="section3pricing-us1">
+                  Low Cost Monthly Financing OR 50% off with pre-pay
+                </li>
+                <li className="section3pricing-us2">Everything Done For You</li>
+                <li className="section3pricing-us2">
+                  Top 5% Site in Your Area
+                </li>
+                <li className="section3pricing-us4">One of a Kind</li>
+                <li className="section3pricing-us2">Unlimited Maintenance</li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="section3pricing-graphic"></div>

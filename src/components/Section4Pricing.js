@@ -51,7 +51,7 @@ const Section4Pricing = () => {
                 <p className="section4pricing-service">Sales Focus</p>
               </li>
               <li>
-                <p>
+                <p className="section4pricing-description">
                   We build every site with a strong intent for sales. This
                   includes many CTAs, trustability indicators, social proof, and
                   other tactics that will turn more leads into paying clients.
@@ -72,7 +72,7 @@ const Section4Pricing = () => {
                 <p className="section4pricing-service">Mobile Optimized</p>
               </li>
               <li>
-                <p>
+                <p className="section4pricing-description">
                   With over 65% of internet usage coming for mobile, It's more
                   import now than ever to give a pristine mobile experience
                 </p>
@@ -92,7 +92,7 @@ const Section4Pricing = () => {
                 <p className="section4pricing-service">Hosting & Security</p>
               </li>
               <li>
-                <p>
+                <p className="section4pricing-description">
                   Fixing any bugs and glitches that arise within your websites +
                   bi-weekly updates
                 </p>
