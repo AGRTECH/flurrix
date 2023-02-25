@@ -3052,7 +3052,21 @@
     flex-direction: column;
   }
 
-  .section2pricing-card {
+  /* XR section 4 */
+  .section4-cardtextcontainer {
+    width: 92%;
+    margin-left: 0px;
+  }
+
+  .section4-container {
+    margin-top: -10px;
+    padding-top: 0px;
+    /* margin-left: 100x; */
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
