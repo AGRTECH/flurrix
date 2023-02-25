@@ -14,18 +14,27 @@ const Section7 = () => {
             </p>
           </div>
           <div className="section7-sections">
-            <p className="section7-nav">Our Work</p>
-            <p className="section7-nav">About</p>
+            <p className="section7-nav1">The Process</p>
+            <p className="section7-nav">Portfolio</p>
+            <p className="section7-nav">Pricing</p>
             <p className="section7-nav">Contact</p>
           </div>
           <div className="section7-sections">
-            <p className="section7-title">Services</p>
-            <p className="section7-subtext">Website Design & Development</p>
-            <p className="section7-subtext">Coversion Rate Optimization</p>
-            <p className="section7-subtext">Secured Hosting & Maintenance</p>
-            <p className="section7-subtext">Search Engine Optimization</p>
-            <p className="section7-subtext">Copywriting & Story Telling</p>
-            <p className="section7-subtext">Website Design & Development</p>
+            <p className="section7-title">What We Offer</p>
+            <div className="section7-servicecontainer">
+              <div>
+                <p className="section7-subtext">Pro Web Design</p>
+                <p className="section7-subtext">Sales Optimization</p>
+                <p className="section7-subtext">Lead Generation</p>
+                <p className="section7-subtext">Lead Capture Pop-Ups</p>
+              </div>
+              <div className="section7-secondcol">
+                <p className="section7-subtext">24/7 Support</p>
+                <p className="section7-subtext">Guides</p>
+                <p className="section7-subtext">Cold Email Templates</p>
+                <p className="section7-subtext">SEO</p>
+              </div>
+            </div>
           </div>
           <div>
             <p className="section7-title">Contact Us</p>

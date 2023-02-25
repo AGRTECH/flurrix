@@ -842,7 +842,7 @@
   font-weight: bold;
   color: white;
   font-size: 20px;
-  width: 30%;
+  width: 85%;
   border: none;
   margin-bottom: 80px;
   margin-right: 15px;
@@ -858,7 +858,7 @@
 
 .section6-contactcta {
   width: 50%;
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: 175px;
 }
 
@@ -878,11 +878,12 @@
 }
 
 .section6-emailinput {
-  width: 30%;
+  width: 40%;
   border-radius: 0px;
   border: 0px solid black;
   background-color: rgb(52, 0, 121);
   padding: 15px 10px;
+  border-radius: 5px;
   margin-right: 15px;
   margin-top: 175px;
 }
@@ -892,6 +893,24 @@
 }
 
 .section6-emailinput::placeholder {
+  color: rgb(255, 255, 255);
+}
+.section6-nameinput {
+  width: 40%;
+  border-radius: 0px;
+  border: 0px solid black;
+  background-color: rgb(52, 0, 121);
+  padding: 15px 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.section6-nameinput:focus {
+  /* border: 1px solid black; */
+}
+
+.section6-nameinput::placeholder {
   color: rgb(255, 255, 255);
 }
 
@@ -913,13 +932,19 @@
 .section7-background {
   background-color: rgb(29, 0, 66);
 }
+.section7-servicecontainer {
+  display: flex;
+  font-size: 13px;
+}
 
 .section7-container {
   height: 285px;
   width: 100%;
-  margin-left: 150px;
+  margin-left: 25px;
   margin-top: 75px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   overflow-x: hidden;
 }
 
@@ -940,6 +965,11 @@
 }
 
 .section7-nav {
+  color: white;
+  font-size: 18px;
+}
+
+.section7-nav1 {
   color: white;
   font-size: 18px;
 }
@@ -2247,6 +2277,93 @@
     font-weight: 900;
     color: black;
   }
+  /* Mobile Section 6 1090 */
+  .section6-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section6-contactcta {
+    width: 100%;
+    height: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 175px;
+    text-align: center;
+    overflow-y: hidden;
+  }
+
+  .section6-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-left: 80px;
+    /* height: 1000px; */
+  }
+
+  .section6-emailinput {
+    width: 40%;
+    border-radius: 0px;
+    border: 0px solid black;
+    background-color: rgb(52, 0, 121);
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  .section6-boldtext {
+  }
+
+  /* Mobile Section 7 1090 */
+  .section7-background {
+    background-color: rgb(29, 0, 66);
+  }
+
+  .section7-servicecontainer {
+    display: flex;
+    font-size: 13px;
+  }
+
+  .section7-container {
+    height: 285px;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 75px;
+    display: flex;
+    overflow-x: hidden;
+  }
+
+  .section7-sections {
+    width: 20%;
+    margin-right: 75px;
+  }
+
+  .section7-logo {
+    width: 130px;
+    height: 30px;
+  }
+
+  .section7-about {
+    color: white;
+    font-weight: lighter;
+    margin-top: 55px;
+  }
+
+  .section7-nav {
+    color: white;
+    font-size: 18px;
+  }
+
+  .section7-title {
+    color: white;
+    font-size: 18px;
+  }
+  .section7-subtext {
+    font-weight: lighter;
+    margin-right: 25px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2399,5 +2516,96 @@
   .section3-link {
     align-self: center;
     justify-self: center;
+  }
+
+  /* Mobile Section 5  500 */
+  .section5-container {
+    /* margin-left: 55px; */
+    /* margin-right: 55px; */
+  }
+  .section5-title {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .section5-subtitle {
+    font-size: 15px;
+    width: 70%;
+    text-align: center;
+  }
+  .section5-contentcontainer {
+    width: 40%;
+    margin-left: 35px;
+    font-size: 13px;
+    margin-right: 20px;
+  }
+
+  .section5-contenttitle {
+    font-size: 25px;
+  }
+
+  .section5-strategybtn {
+    padding: 10px 15px;
+    margin-left: 55px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .section5-maintainbtn {
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    margin-right: 55px;
+    font-weight: bolder;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  /* Mobile Section 7 500 */
+  .section7-title {
+    color: white;
+    font-size: 14px;
+  }
+
+  .section7-subtext {
+    font-size: 12px;
+    margin-right: -20px;
+  }
+
+  .section7-about {
+    font-size: 12px;
+    margin-top: 35px;
+  }
+
+  .section7-sections {
+    width: 20%;
+    margin-right: 15px;
+  }
+
+  .section7-logo {
+    width: 70px;
+    height: 20px;
+  }
+
+  .section7-nav {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .section7-nav1 {
+    color: white;
+    font-size: 12px;
+    margin-top: 38px;
+    text-align: center;
+  }
+
+  .section7-secondcol {
+    display: none;
   }
 }

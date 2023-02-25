@@ -38,11 +38,33 @@ const Section6 = () => {
               required
               type="email"
               name="email"
-              placeholder="Email Address *"
+              placeholder="Email *"
+            />
+          </div>
+          <div>
+            <input
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
+              className="section6-nameinput"
+              required
+              type="name"
+              name="name"
+              placeholder="Phone *"
+            />
+            <input
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
+              className="section6-nameinput"
+              required
+              type="email"
+              name="email"
+              placeholder="Website Or Business Name *"
             />
           </div>
 
-          <textarea
+          {/* <textarea
             name="message"
             placeholder="Your Message *"
             id=""
@@ -50,7 +72,7 @@ const Section6 = () => {
             rows="7"
             className="section6-textinput"
             required
-          ></textarea>
+          ></textarea> */}
           <button className="section6-btn" type="submit">
             Submit
           </button>
