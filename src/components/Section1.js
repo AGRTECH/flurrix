@@ -10,20 +10,20 @@ const Section1 = () => {
       {" "}
       <div className="home-container">
         <div className="home-leftcontainer">
-          <p className="home-firstline">Websites Crafted </p>
-          <p className="home-secondline">For Service Businesses</p>
+          <p className="home-firstline">Websites Crafted For</p>
+          <p className="home-secondline">The Service Industry</p>
           <ul className="home-listul">
             <li className="home-listdiv">
               <img src={checkmark} className="home-checkmark" alt="" />{" "}
-              <p className="home-listdivp ">Stand Out From The Competition</p>
+              <p className="home-listdivp ">Get More Leads</p>
             </li>
             <li className="home-listdiv">
               <img src={checkmark} className="home-checkmark" alt="" />{" "}
-              <p>Impress Web Visitors</p>{" "}
+              <p>Top 1%-5% Website In Your Area</p>{" "}
             </li>
             <li className="home-listdiv">
               <img src={checkmark} className="home-checkmark" alt="" />{" "}
-              <p>Go Pro For Just $29/month</p>{" "}
+              <p>Everything Done For You</p>{" "}
             </li>
           </ul>
           <div className="home-buttoncontainer">

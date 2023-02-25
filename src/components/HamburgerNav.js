@@ -8,7 +8,7 @@ import { Button, Navbar, Dropdown } from "react-bootstrap";
 const Ul = styled.ul`
   @media (max-width: 1090px) {
     flex-direction: column;
-    background-color: rgb(0, 53, 10);
+    background-color: rgb(38, 0, 87);
     position: fixed;
     top: 0;
     right: 0;

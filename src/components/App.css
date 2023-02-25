@@ -1573,8 +1573,8 @@
 
 .section2process-section {
   border-bottom: 1px solid rgb(216, 216, 216);
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 .section2process-title {
@@ -1756,7 +1756,7 @@
     display: flex;
     justify-content: space-between;
     width: 1200px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
   }
 }
 
@@ -1784,6 +1784,73 @@
 @media (max-width: 1000px) {
   .plumber-bg {
     margin-left: -500px;
+  }
+}
+
+@media (max-width: 1350px) {
+  /* Mobile Section 5 1250 */
+  .section5-strategy-text {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 35px;
+  }
+
+  .section5-contentcontainer {
+    width: 50%;
+    margin-left: 100px;
+  }
+
+  .section5-strategy-text-hidden {
+    display: none;
+  }
+  .section5-design-text {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 35px;
+  }
+
+  .section5-design-text-hidden {
+    display: none;
+  }
+  .section5-development-text {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 35px;
+  }
+
+  .section5-development-text-hidden {
+    display: none;
+  }
+  .section5-maintenance-text {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 35px;
+  }
+
+  .section5-maintenance-text-hidden {
+    display: none;
+  }
+  .section5-launch-text {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 35px;
+  }
+
+  .section5-launch-text-hidden {
+    display: none;
+  }
+  .section5-maintain-text {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 35px;
+  }
+
+  /* Mobile Section 2 1350 */
+  .section2-toprow {
+    margin-left: 70px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
   }
 }
 
