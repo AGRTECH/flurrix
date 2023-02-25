@@ -23,17 +23,17 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$149</p>
+                  <p className="section2pricing-blurredprice">$439</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">74</p>
+                  <p className="section2pricing-price">219</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
                   <p className="section2pricing-subtext">
-                    When you pre-pay for 6 months ($447 Saved!)
+                    When you pre-pay for 6 months
                   </p>
                 </li>
                 <li>
@@ -81,12 +81,12 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$229</p>
+                  <p className="section2pricing-blurredprice">$529</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">114</p>
+                  <p className="section2pricing-price">264</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
@@ -180,12 +180,12 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$599</p>
+                  <p className="section2pricing-blurredprice">$1399</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">299</p>
+                  <p className="section2pricing-price">699</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>

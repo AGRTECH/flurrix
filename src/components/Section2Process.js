@@ -32,7 +32,7 @@ const Section2Process = () => {
           <div className="section2process-section">
             <div className="section2process-strategy-text">
               <div className="section2process-contentcontainer">
-                <p className="section5-contenttitle">Plan</p>
+                <p className="section5-contenttitle">Choose a Plan</p>
                 <p>
                   We offer three comprehensive website design plans - Standard,
                   Premium, and Ultimate - that are tailored to meet the unique
