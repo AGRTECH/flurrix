@@ -5,6 +5,10 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @viewport {
   width: device-width;
   zoom: 1;
