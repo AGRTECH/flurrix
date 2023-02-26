@@ -6,11 +6,7 @@ function FAQ() {
     <>
       <div className="faq-background">
         <p className="faq-title">FAQ</p>
-        <Accordion
-          defaultActiveKey={["0"]}
-          alwaysOpen
-          className="faq-container"
-        >
+        <Accordion alwaysOpen className="faq-container">
           <Accordion.Item eventKey="0" className="faq-item">
             <Accordion.Header className="faq-header">
               <p>Accordion Item #1</p>
