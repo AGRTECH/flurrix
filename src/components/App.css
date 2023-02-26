@@ -5,6 +5,13 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+@viewport {
+  width: device-width;
+  zoom: 1;
+  user-zoom: fixed;
+  max-zoom: 1;
+}
+
 /* Home */
 
 .landing-bg {
