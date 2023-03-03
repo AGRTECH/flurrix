@@ -5,6 +5,11 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+/* .navbar-light {
+  background-color: #6f00ff;
+  overflow-y: hidden;
+} */
+
 body {
   overflow-x: hidden;
 }
