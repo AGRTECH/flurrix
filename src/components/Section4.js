@@ -18,21 +18,21 @@ const Section4 = () => {
               <img src={siteone} className="section4-img" alt="" />
               <button className="section4-btn">View Project</button>
             </div>
-            <p>Site 1</p>
+            <p>Shimmer Exterior Cleaning</p>
           </div>
           <div className="section4-cardtextcontainer">
             <div className="section4-card">
               <img src={siteone} className="section4-img" alt="" />
               <button className="section4-btn">View Project</button>
             </div>
-            <p>Site 2</p>
+            <p>Hercules Power Washing</p>
           </div>
           <div className="section4-cardtextcontainer">
             <div className="section4-card">
               <img src={siteone} className="section4-img" alt="" />
               <button className="section4-btn">View Project</button>
             </div>
-            <p>Site 3</p>
+            <p>Horizons Landscaping</p>
           </div>
         </div>
         {/* <img src={bushes} className="section4-bush" alt="" /> */}

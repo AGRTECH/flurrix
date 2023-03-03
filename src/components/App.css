@@ -1727,6 +1727,126 @@ body {
   display: flex;
   width: 90%;
 }
+
+/* Section 2 Portfolio */
+
+.section2portfolio-container {
+  /* margin-top: 20px; */
+  padding-top: 20px;
+  /* margin-left: 100x; */
+  margin-left: -50px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section2portfolio-title {
+  color: black;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 240px;
+}
+
+.section2portfolio-card {
+  background-color: #ffffff;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  /* border: 3px solid rgba(111, 0, 255, 1); */
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.section2portfolio-cardtextcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 33%;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 180px;
+}
+
+.section2portfolio-img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.section2portfolio-img:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.section2portfolio-btn {
+  display: none;
+}
+
+.section2portfolio-card:hover button {
+  display: block;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding: 10px 15px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(100, 0, 230);
+  color: white;
+  border-radius: 5px;
+  margin-top: 110px;
+  margin-left: 120px;
+}
+
+.section2portfolio-card:hover {
+  background-color: #ccc;
+}
+
+.section2portfolio-bush {
+  position: absolute;
+  right: 0;
+  width: 150px;
+  height: 500px;
+  margin-top: 50px;
+}
+.section2portfolio-bush2 {
+  position: absolute;
+  rotate: 70deg;
+  left: 0;
+  width: 250px;
+  height: 300px;
+  margin-top: 350px;
+}
+
+/* Section 2 Project 1 */
+.section2project1-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 270px;
+}
+
+.section2project1-textcontainer {
+  width: 80%;
+  margin-right: 150px;
+}
+
+.section2project1-sitephoto {
+  height: 3000px;
+  width: 500px;
+  border-radius: 15px;
+  margin-right: 450px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 @media (max-width: 1480px) {
   .nav-logo {
     margin-left: 130px;
