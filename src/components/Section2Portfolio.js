@@ -2,6 +2,8 @@ import React from "react";
 import bushes from "../img/catoonbush3.png";
 import palm from "../img/cartoonpalmm.png";
 import siteone from "../img/herculespowerwashing1.jpg";
+import sitetwo from "../img/horizonspreview.jpg";
+import sitethree from "../img/shimmerpreview.jpg";
 import { Link } from "react-router-dom";
 
 const Section2Portfolio = () => {
@@ -16,8 +18,10 @@ const Section2Portfolio = () => {
         <div className="section2-toprow">
           <div className="section2portfolio-cardtextcontainer">
             <div className="section2portfolio-card">
-              <img src={siteone} className="section2portfolio-img" alt="" />
-              <button className="section2portfolio-btn">View Project</button>
+              <img src={sitethree} className="section2portfolio-img" alt="" />
+              <Link to={"/shimmerexteriorcleaning"}>
+                <button className="section2portfolio-btn">View Project</button>
+              </Link>
             </div>
             <p>Shimmer Exterior Cleaning</p>
           </div>
@@ -32,7 +36,7 @@ const Section2Portfolio = () => {
           </div>
           <div className="section2portfolio-cardtextcontainer">
             <div className="section2portfolio-card">
-              <img src={siteone} className="section2portfolio-img" alt="" />
+              <img src={sitetwo} className="section2portfolio-img" alt="" />
               <button className="section2portfolio-btn">View Project</button>
             </div>
             <p>Horizons Landscaping</p>

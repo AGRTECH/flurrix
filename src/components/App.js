@@ -7,6 +7,8 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import GetLeadsInfo from "./GetLeadsInfo";
 import Project1 from "./Project1";
+import Project2 from "./Project2";
+import Project3 from "./Project3";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
 
@@ -31,6 +33,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/getleads" element={<GetLeadsInfo />} />
           <Route path="/herculespowerwashing" element={<Project1 />} />
+          <Route path="/shimmerexteriorcleaning" element={<Project2 />} />
+          <Route path="/horizonslandscaping" element={<Project3 />} />
         </Routes>
       </Wrapper>
     </BrowserRouter>

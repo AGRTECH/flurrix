@@ -1,5 +1,5 @@
 import React from "react";
-import herculesfullsite from "../img/herculespowerwashingfullscreen.png";
+import herculesfullsite from "../img/herculesfullscreen2.png";
 
 const Section2Project1 = () => {
   return (

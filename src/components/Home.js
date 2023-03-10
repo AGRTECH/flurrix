@@ -7,7 +7,7 @@ import Section4 from "./Section4";
 import Section5 from "./Section5";
 import Section6 from "./Section6";
 import Section7 from "./Section7";
-import ReviewCarousel from "./ReviewCarousel";
+import Reviews from "./Reviews";
 
 // Model off of tinyfrog.com
 
@@ -17,9 +17,11 @@ const Home = () => {
       <Nav />
       <Section1 />
       <Section2 />
-      <Section3 />
       <Section4 />
+      <Section3 />
+      <Reviews />
       <Section5 />
+
       {/* Short About Section */}
       {/* Blog */}
       {/* <Carousel /> */}
