@@ -23,12 +23,12 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$439</p>
+                  <p className="section2pricing-blurredprice">$339</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">219</p>
+                  <p className="section2pricing-price">170</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
@@ -81,12 +81,12 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$529</p>
+                  <p className="section2pricing-blurredprice">$429</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">264</p>
+                  <p className="section2pricing-price">214</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
@@ -180,12 +180,12 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$1399</p>
+                  <p className="section2pricing-blurredprice">$1199</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">699</p>
+                  <p className="section2pricing-price">599</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>

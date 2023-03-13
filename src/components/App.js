@@ -9,6 +9,7 @@ import GetLeadsInfo from "./GetLeadsInfo";
 import Project1 from "./Project1";
 import Project2 from "./Project2";
 import Project3 from "./Project3";
+import Onboarding from "./Onboarding/Onboarding";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/herculespowerwashing" element={<Project1 />} />
           <Route path="/shimmerexteriorcleaning" element={<Project2 />} />
           <Route path="/horizonslandscaping" element={<Project3 />} />
+          <Route path="/onboard" element={<Onboarding />} />
         </Routes>
       </Wrapper>
     </BrowserRouter>
