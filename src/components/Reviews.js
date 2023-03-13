@@ -22,11 +22,12 @@ const Reviews = () => {
           <div className="reviews-card">
             <h3>"Wish I Found Out About Flurrix Sooner"</h3>
             <p>
-              Stephen and his crew from NW Softwash were awesome! I was super
-              impressed with not only the job they did soft washing my roof,
-              siding and pressure washing my concrete, but the professionalism
-              from start to finish. I’ve already recommended these guys to three
-              neighbors. Don’t call anyone else!
+              For years I've had a website created with either wix or wordpress
+              that I created myself and I didn't think I was doing anything
+              wrong. I was under the mindset that you just had to get a site out
+              there and didn't have to be perfect. I was wrong and didn't value
+              how much more money you can make when you actually care about your
+              site and Flurrix took care of it all for me.
             </p>
             <div className="reviews-reviewcontainer">
               <img src={customer1} alt="" />
@@ -40,11 +41,11 @@ const Reviews = () => {
           <div className="reviews-card2">
             <h3>"Made Me Realize The Power Of A Great Digital Presence"</h3>
             <p>
-              Stephen and his crew from NW Softwash were awesome! I was super
-              impressed with not only the job they did soft washing my roof,
-              siding and pressure washing my concrete, but the professionalism
-              from start to finish. I’ve already recommended these guys to three
-              neighbors. Don’t call anyone else!
+              I was always one to say "I don't need a good website" and "My site
+              is good enough" because I thought this business wasn't really the
+              type of business you market online. Alex explained to me exactly
+              how and why a great site matters and opened my eyes to what can be
+              achieved by going digital.
             </p>
             <div className="reviews-reviewcontainer">
               <img src={customer2} alt="" />
@@ -60,16 +61,18 @@ const Reviews = () => {
           <div className="reviews-card3">
             <h3>"An Absolute Must Have For Home Services Businesses"</h3>
             <p>
-              Stephen and his crew from NW Softwash were awesome! I was super
-              impressed with not only the job they did soft washing my roof,
-              siding and pressure washing my concrete, but the professionalism
-              from start to finish. I’ve already recommended these guys to three
-              neighbors. Don’t call anyone else!
+              After going with other options that don't specifically create
+              sites for services bussinesses, it's easy to see why focus
+              matters. Alex and his team at Flurrix only create sites for
+              services businesses and it really shows through their depth of
+              knowledge of the industry. I'm very glad to have some trust people
+              working to make sure my website is at it's best, thanks to
+              everyone at Flurrix.
             </p>
             <div className="reviews-reviewcontainer">
               <img src={customer3} alt="" />
               <div className="reviews-innerreviewcontainer">
-                <p className="reviews-name">Kim Ashton</p>
+                <p className="reviews-name">Dan Jenkins</p>
                 <p className="reviews-name2">Owner Of Horizons Landscaping</p>
                 <img src={stars} alt="" />
               </div>

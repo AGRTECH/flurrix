@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
-const Q4 = (props) => {
+const Q6 = (props) => {
   const [answer1, setAnswer1] = useState(0);
 
   return (
     <>
-      <p>Which Layout Is best Suited For You?</p>
+      <p>Website URL & Other info if I cant get that from Stripe</p>
       <label>
         <input
           onChange={(event) => {
@@ -43,4 +43,4 @@ const Q4 = (props) => {
   );
 };
 
-export default Q4;
+export default Q6;

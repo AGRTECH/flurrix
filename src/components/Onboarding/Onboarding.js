@@ -1,19 +1,82 @@
-import React from "react";
+import React, { useState } from "react";
 import Q1 from "./Q1";
+import Q2 from "./Q2";
+import Q3 from "./Q3";
+import Q4 from "./Q4";
+import Q7 from "./Q7";
+import AllQs from "./AllQs";
 
 const Onboarding = () => {
+  const [currentStep, setCurrentStep] = useState(0);
+  const [answer1, setAnswer1] = useState(0);
+  const [answer2, setAnswer2] = useState(0);
+  const [parentState1, setParentState1] = useState();
+  const [parentState2, setParentState2] = useState();
+  const [parentState3, setParentState3] = useState();
+  const [parentState4, setParentState4] = useState();
+
+  const steps = [
+    <Q1 onStateChange={handleStateChange1} />,
+    <Q2 onStateChange={handleStateChange2} />,
+    <Q3 onStateChange={handleStateChange3} />,
+    <Q4 onStateChange={handleStateChange4} />,
+    <Q7 />,
+  ];
+
+  const answers = [parentState1, parentState2, parentState3, parentState4];
+  console.log(answers);
+
+  function handleStateChange1(newState) {
+    setParentState1(newState);
+  }
+
+  function handleStateChange2(newState) {
+    setParentState2(newState);
+  }
+
+  function handleStateChange3(newState) {
+    setParentState3(newState);
+  }
+
+  function handleStateChange4(newState) {
+    setParentState3(newState);
+  }
+
+  const handleNextClick = () => {
+    setCurrentStep(currentStep + 1);
+  };
+
+  const handlePreviousClick = () => {
+    setCurrentStep(currentStep - 1);
+  };
+
+  const handleAnswer1 = () => {
+    setAnswer1(currentStep - 1);
+  };
+
+  const handleAnswer2 = () => {
+    setCurrentStep(currentStep - 1);
+  };
+
   return (
     <div>
+      <p>
+        Get the Best Website In Your Area and Be Miles Ahead Of The Competition
+      </p>
       <form
         action="https://formsubmit.co/xarossx@yahoo.com"
         method="POST"
-        className="contact-form"
+        className="onboarding-form"
       >
-        <Q1 />
-        {/* <button className="contact-btn" type="submit">
-          Submit
-        </button> */}
+        {steps[currentStep]}
+        {currentStep === 3 && <button type="submit">Submit</button>}
       </form>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        {currentStep !== 0 && <p onClick={handlePreviousClick}>Previous</p>}
+        <p className="onboarding-next" onClick={handleNextClick}>
+          Next
+        </p>
+      </div>
     </div>
   );
 };

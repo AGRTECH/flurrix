@@ -2917,6 +2917,70 @@ body {
   }
 }
 
+/* Onboarding */
+.onboarding-form {
+  width: 50%;
+  height: 380px;
+  /* background-color: white; */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 80%,
+    rgba(111, 0, 255, 1) 80%,
+    rgba(111, 0, 255, 1) 100%
+  );
+  border-radius: 15px;
+  padding: 15px 15px;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  margin-bottom: 45px;
+  margin-top: 230px;
+}
+
+.onboarding-title {
+  font-size: 25px;
+  font-weight: 900;
+  overflow-y: hidden;
+}
+
+.onboarding-textoption1 {
+  margin-right: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 350px;
+  overflow-y: hidden;
+}
+
+.onboarding-textoption1:hover {
+  cursor: pointer;
+  background-color: rgb(248, 248, 248);
+}
+
+.onboarding-textoption2 {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 350px;
+  overflow-y: hidden;
+}
+
+.onboarding-textoption2:hover {
+  cursor: pointer;
+  background-color: rgb(248, 248, 248);
+}
+
+.onboarding-next {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
 @media (max-width: 520px) {
   /* Mobile home 500 */
   .home-placeholdervideo {
