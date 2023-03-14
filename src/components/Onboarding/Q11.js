@@ -16,8 +16,8 @@ const Q11 = (props) => {
             //   props.onStateChange(event.target.value);
             // }}
             type="text"
-            name="Area 1"
-            placeholder="Area 1"
+            name="Company Email"
+            placeholder="Company Email"
             className="onboarding-textoption1"
           />
         </label>
@@ -28,8 +28,8 @@ const Q11 = (props) => {
               props.onStateChange(event.target.value);
             }}
             type="text"
-            name="Area 2"
-            placeholder="Area 2"
+            name="Company Phone #"
+            placeholder="Company Phone #"
             className="onboarding-textoption1"
           />
         </label>
@@ -39,16 +39,16 @@ const Q11 = (props) => {
           <input
             onChange={(event) => setAnswer1(event.target.value)}
             type="text"
-            name="Area 3"
-            placeholder="Area 3"
+            name="Company Facebook"
+            placeholder="Company Facebook"
             className="onboarding-textoption1"
           />
         </label>
         <label>
           <input
             type="text"
-            name="Area 4"
-            placeholder="Area 4"
+            name="Company Linkedin"
+            placeholder="Company Linkedin"
             className="onboarding-textoption1"
           />
         </label>
@@ -57,8 +57,8 @@ const Q11 = (props) => {
         <label>
           <input
             type="text"
-            name="Area 5"
-            placeholder="Area 5"
+            name="Company Youtube"
+            placeholder="Company Youtube"
             className="onboarding-textoption1"
           />
         </label>

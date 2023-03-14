@@ -6,7 +6,7 @@ const Q10 = (props) => {
   return (
     <div className="onboarding-questioncontainer">
       <p className="onboarding-title">
-        What Info Do You From Your Clients For The Contact Form?
+        What Info Do You Need From Your Clients For Your Contact / Quote Form?
       </p>
       <div style={{ display: "flex" }}>
         <label>
@@ -16,8 +16,8 @@ const Q10 = (props) => {
             //   props.onStateChange(event.target.value);
             // }}
             type="text"
-            name="Area 1"
-            placeholder="Area 1"
+            name="Contact Form Info 1"
+            placeholder="Contact Form Info 1"
             className="onboarding-textoption1"
           />
         </label>
@@ -28,8 +28,8 @@ const Q10 = (props) => {
               props.onStateChange(event.target.value);
             }}
             type="text"
-            name="Area 2"
-            placeholder="Area 2"
+            name="Contact Form Info 2"
+            placeholder="Contact Form Info 2"
             className="onboarding-textoption1"
           />
         </label>
@@ -39,16 +39,16 @@ const Q10 = (props) => {
           <input
             onChange={(event) => setAnswer1(event.target.value)}
             type="text"
-            name="Area 3"
-            placeholder="Area 3"
+            name="Contact Form Info 3"
+            placeholder="Contact Form Info 3"
             className="onboarding-textoption1"
           />
         </label>
         <label>
           <input
             type="text"
-            name="Area 4"
-            placeholder="Area 4"
+            name="Contact Form Info 4"
+            placeholder="Contact Form Info 4"
             className="onboarding-textoption1"
           />
         </label>
@@ -57,8 +57,8 @@ const Q10 = (props) => {
         <label>
           <input
             type="text"
-            name="Area 5"
-            placeholder="Area 5"
+            name="Contact Form Info 5"
+            placeholder="Contact Form Info 5"
             className="onboarding-textoption1"
           />
         </label>

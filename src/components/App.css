@@ -3088,6 +3088,20 @@ body {
   cursor: pointer;
 }
 
+.onboarding-googledoc {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.onboarding-uploadimg {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+}
+
 @media (max-width: 520px) {
   /* Mobile home 500 */
   .home-placeholdervideo {

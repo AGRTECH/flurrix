@@ -5,7 +5,7 @@ const Q12 = (props) => {
 
   return (
     <div className="onboarding-questioncontainer">
-      <p className="onboarding-title">Guarentees / Offers / Deals You Have?</p>
+      <p className="onboarding-title">Guarantees / Offers / Deals You Have?</p>
       <div style={{ display: "flex" }}>
         <label>
           <input
@@ -14,8 +14,8 @@ const Q12 = (props) => {
             //   props.onStateChange(event.target.value);
             // }}
             type="text"
-            name="Area 1"
-            placeholder="Area 1"
+            name="Guarantee / Offer / Deal 1"
+            placeholder="Guarantee / Offer / Deal 1"
             className="onboarding-textoption1"
           />
         </label>
@@ -26,8 +26,8 @@ const Q12 = (props) => {
               props.onStateChange(event.target.value);
             }}
             type="text"
-            name="Area 2"
-            placeholder="Area 2"
+            name="Guarantee / Offer / Deal 2"
+            placeholder="Guarantee / Offer / Deal 2"
             className="onboarding-textoption1"
           />
         </label>
@@ -37,16 +37,16 @@ const Q12 = (props) => {
           <input
             onChange={(event) => setAnswer1(event.target.value)}
             type="text"
-            name="Area 3"
-            placeholder="Area 3"
+            name="Guarantee / Offer / Deal 3"
+            placeholder="Guarantee / Offer / Deal 3"
             className="onboarding-textoption1"
           />
         </label>
         <label>
           <input
             type="text"
-            name="Area 4"
-            placeholder="Area 4"
+            name="Guarantee / Offer / Deal 4"
+            placeholder="Guarantee / Offer / Deal 4"
             className="onboarding-textoption1"
           />
         </label>
@@ -55,8 +55,8 @@ const Q12 = (props) => {
         <label>
           <input
             type="text"
-            name="Area 5"
-            placeholder="Area 5"
+            name="Guarantee / Offer / Deal 5"
+            placeholder="Guarantee / Offer / Deal 5"
             className="onboarding-textoption1"
           />
         </label>

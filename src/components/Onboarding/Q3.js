@@ -10,8 +10,18 @@ const Q3 = (props) => {
             props.onStateChange(event.target.value);
           }}
           type="file"
+          name="Logo"
           accept="image/*"
           multiple
+        />
+      </label>
+      <label>
+        <input
+          onChange={(event) => {
+            props.onStateChange(event.target.value);
+          }}
+          type="radio"
+          name="Want New Logo"
         />
         I Want A New One
       </label>

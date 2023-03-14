@@ -31,7 +31,7 @@ const Onboarding = () => {
     <Q12 />,
     <Q13 />,
     <Q2 onStateChange={handleStateChange2} />,
-    <Q3 onStateChange={handleStateChange3} />,
+    // <Q3 onStateChange={handleStateChange3} />,
     <Q11 />,
     <Q4 onStateChange={handleStateChange4} />,
     <Q7 />,
@@ -83,7 +83,7 @@ const Onboarding = () => {
         className="onboarding-form"
       >
         {steps[currentStep]}
-        {currentStep === 3 && <button type="submit">Submit</button>}
+        {currentStep === 7 && <button type="submit">Submit</button>}
 
         <div className="onboarding-pagediv">
           <div onClick={handlePreviousClick} style={{ display: "flex" }}>

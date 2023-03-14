@@ -6,7 +6,7 @@ const Q13 = (props) => {
   return (
     <div className="onboarding-questioncontainer">
       <p className="onboarding-title">
-        Provide, If Any, Ideas For Copy That You Like Us To Go Off Of
+        Provide, If Any, Copywriting Ideas You Have
       </p>
       <div style={{ display: "flex" }}>
         <label>
@@ -16,8 +16,8 @@ const Q13 = (props) => {
             //   props.onStateChange(event.target.value);
             // }}
             type="text"
-            name="Area 1"
-            placeholder="Area 1"
+            name="Copywriting Idea 1"
+            placeholder="Copywriting Idea 1"
             className="onboarding-textoption1"
           />
         </label>
@@ -28,8 +28,8 @@ const Q13 = (props) => {
               props.onStateChange(event.target.value);
             }}
             type="text"
-            name="Area 2"
-            placeholder="Area 2"
+            name="Copywriting Idea 2"
+            placeholder="Copywriting Idea 2"
             className="onboarding-textoption1"
           />
         </label>
@@ -39,16 +39,16 @@ const Q13 = (props) => {
           <input
             onChange={(event) => setAnswer1(event.target.value)}
             type="text"
-            name="Area 3"
-            placeholder="Area 3"
+            name="Copywriting Idea 3"
+            placeholder="Copywriting Idea 3"
             className="onboarding-textoption1"
           />
         </label>
         <label>
           <input
             type="text"
-            name="Area 4"
-            placeholder="Area 4"
+            name="Copywriting Idea 4"
+            placeholder="Copywriting Idea 4"
             className="onboarding-textoption1"
           />
         </label>
@@ -57,8 +57,8 @@ const Q13 = (props) => {
         <label>
           <input
             type="text"
-            name="Area 5"
-            placeholder="Area 5"
+            name="Copywriting Idea 5"
+            placeholder="Copywriting Idea 5"
             className="onboarding-textoption1"
           />
         </label>
