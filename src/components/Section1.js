@@ -30,7 +30,9 @@ const Section1 = () => {
             <Link to={"/contact"}>
               <button className="home-button">Let's Chat</button>
             </Link>
-            <button className="home-button">Get More Leads</button>
+            <Link to={"/onboard"}>
+              <button className="home-button">Get More Leads</button>
+            </Link>
           </div>
           <img src={landscapingbg} className="landing-bg" alt="" />
         </div>

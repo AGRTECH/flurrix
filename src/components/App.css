@@ -1014,6 +1014,26 @@ body {
   margin: 40px;
 }
 
+.section8-policycontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -27px;
+}
+
+.section8-nostyle {
+  text-decoration: none;
+}
+
+.section8-tos {
+  margin-right: 20px;
+  color: rgb(34, 34, 34);
+}
+
+.section8-pp {
+  color: rgb(35, 35, 35);
+}
+
 /* Section 1 Pricing */
 
 .section1pricing-flex {
@@ -3045,6 +3065,29 @@ body {
   cursor: pointer;
 }
 
+.onboarding-preview {
+  height: 500px;
+  width: 130px;
+}
+
+.onboarding-getstarted {
+  margin-top: 30px;
+  padding: 12px 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 80px;
+  margin-right: 15px;
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgb(38, 0, 87);
+  border-radius: 5px;
+}
+
+.onboarding-getstarted:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 520px) {
   /* Mobile home 500 */
   .home-placeholdervideo {
@@ -3275,6 +3318,11 @@ body {
     color: white;
     font-size: 12px;
     text-align: center;
+    text-decoration: none;
+  }
+
+  .section7-nounderline {
+    text-decoration: none;
   }
 
   .section7-nav1 {
@@ -3282,6 +3330,7 @@ body {
     font-size: 12px;
     margin-top: 38px;
     text-align: center;
+    text-decoration: none;
   }
 
   .section7-secondcol {

@@ -8,10 +8,10 @@ const Section6 = () => {
     <div className="section6-background">
       <div className="section6-container">
         <div className="section6-contactcta">
-          <p className="section6-boldtext">Contact Us</p>
+          <p className="section6-boldtext">Elevate Your Digital Presence</p>
           <p className="section6-subtext">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-            quod totam, quam voluptatem quae quasi voluptate
+            Get A Website That Drives In More Traffic And Converts More Into
+            Paying Customers
           </p>
         </div>
         <form

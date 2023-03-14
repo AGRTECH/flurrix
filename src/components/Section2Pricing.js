@@ -4,6 +4,7 @@ import design from "../img/brushicon.png";
 import seo from "../img/webicon.png";
 import update from "../img/updateicon.png";
 import security from "../img/securityicon.png";
+import { Link } from "react-router-dom";
 
 const Section2Pricing = () => {
   return (
@@ -23,12 +24,12 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$339</p>
+                  <p className="section2pricing-blurredprice">$279</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">170</p>
+                  <p className="section2pricing-price">139</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
@@ -60,7 +61,9 @@ const Section2Pricing = () => {
                   <p>24/7 Support</p>
                 </li>
                 <li>
-                  <button className="home-button2">Get 3 Months Free</button>
+                  <Link to={"/onboard"}>
+                    <button className="home-button2">Get 3 Months Free</button>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -81,12 +84,12 @@ const Section2Pricing = () => {
                 </li>
                 <li className="section2pricing-crossoutpricelist">
                   <div className="section2pricing-crossout"></div>
-                  <p className="section2pricing-blurredprice">$429</p>
+                  <p className="section2pricing-blurredprice">$339</p>
                 </li>
                 <li className="section2pricing-pricelist">
                   <p className="section2pricing-usd">USD</p>
                   <p className="section2pricing-dollarsign">&nbsp;$</p>
-                  <p className="section2pricing-price">214</p>
+                  <p className="section2pricing-price">170</p>
                   <p className="section2pricing-month">/mo</p>
                 </li>
                 <li>
@@ -163,7 +166,9 @@ const Section2Pricing = () => {
                   <p>Custom Copywriting</p>
                 </li>
                 <li>
-                  <button className="home-button">Get 3 Months Free</button>
+                  <Link to={"/onboard"}>
+                    <button className="home-button">Get 3 Months Free</button>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -218,7 +223,9 @@ const Section2Pricing = () => {
                   <p>Ultimate 24/7 Support</p>
                 </li>
                 <li>
-                  <button className="home-button2">Get 3 Months Free</button>
+                  <Link to={"/onboard"}>
+                    <button className="home-button2">Get 3 Months Free</button>
+                  </Link>
                 </li>
               </ul>
             </div>

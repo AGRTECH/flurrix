@@ -21,7 +21,7 @@ const Section3 = () => {
             We can help you advance to the next level and start converting more
             site visitors into clients.
           </p>
-          <Link className="section3-link" to={"/contact"}>
+          <Link className="section3-link" to={"/onboard"}>
             <button className="section3-button">Get More Leads</button>
           </Link>
         </div>

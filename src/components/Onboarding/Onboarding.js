@@ -84,6 +84,7 @@ const Onboarding = () => {
       >
         {steps[currentStep]}
         {currentStep === 3 && <button type="submit">Submit</button>}
+
         <div className="onboarding-pagediv">
           <div onClick={handlePreviousClick} style={{ display: "flex" }}>
             <img className="onboarding-arrow2" src={arrow2} alt="" />

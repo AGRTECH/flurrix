@@ -83,7 +83,7 @@ const HamburgerNav = ({ open }) => {
           </button>{" "}
         </li>
         <li>
-          <Link className="nav-item" to={"/contact"}>
+          <Link className="nav-item" to={"/onboard"}>
             <button className={"nav-button"}>Get Started</button>
           </Link>
         </li>

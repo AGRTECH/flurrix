@@ -9,6 +9,8 @@ import GetLeadsInfo from "./GetLeadsInfo";
 import Project1 from "./Project1";
 import Project2 from "./Project2";
 import Project3 from "./Project3";
+import TOS from "./TOS";
+import PP from "./PP";
 import Onboarding from "./Onboarding/Onboarding";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
@@ -37,6 +39,8 @@ function App() {
           <Route path="/shimmerexteriorcleaning" element={<Project2 />} />
           <Route path="/horizonslandscaping" element={<Project3 />} />
           <Route path="/onboard" element={<Onboarding />} />
+          <Route path="/termsofservice" element={<TOS />} />
+          <Route path="/privatepolicy" element={<PP />} />
         </Routes>
       </Wrapper>
     </BrowserRouter>
