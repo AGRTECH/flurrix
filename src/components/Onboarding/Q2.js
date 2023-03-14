@@ -2,10 +2,11 @@ import React from "react";
 
 const Q2 = (props) => {
   return (
-    <>
-      <p>
+    <div className="onboarding-questioncontainer">
+      <p className="onboarding-title">
         Provide Your Best Photos That Highlight Your Company Best and That You'd
-        Like On Your Website
+        Like On Your Website (Before and After Photos, Photos Of Your Team
+        Working, Photos of Your Team, Photos Of Trucks Outside Houses, etc)
       </p>
       <label>
         <input
@@ -14,10 +15,11 @@ const Q2 = (props) => {
           }}
           type="file"
           accept="image/*"
+          multiple
         />
         I have no / few photos
       </label>
-    </>
+    </div>
   );
 };
 

@@ -2,8 +2,8 @@ import React from "react";
 
 const Q3 = (props) => {
   return (
-    <>
-      <p>Provide Your Company Logo</p>
+    <div className="onboarding-questioncontainer">
+      <p className="onboarding-title">Provide Your Company Logo</p>
       <label>
         <input
           onChange={(event) => {
@@ -11,10 +11,11 @@ const Q3 = (props) => {
           }}
           type="file"
           accept="image/*"
+          multiple
         />
-        My logo is low quality / I want a new logo
+        I Want A New One
       </label>
-    </>
+    </div>
   );
 };
 

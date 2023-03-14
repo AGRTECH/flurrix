@@ -1,9 +1,17 @@
 import React, { useState } from "react";
+import arrow1 from "./onboardingimg/whitearrow.png";
+import arrow2 from "./onboardingimg/whitearrow2.png";
 import Q1 from "./Q1";
 import Q2 from "./Q2";
 import Q3 from "./Q3";
 import Q4 from "./Q4";
 import Q7 from "./Q7";
+import Q8 from "./Q8";
+import Q9 from "./Q9";
+import Q10 from "./Q10";
+import Q11 from "./Q11";
+import Q12 from "./Q12";
+import Q13 from "./Q13";
 import AllQs from "./AllQs";
 
 const Onboarding = () => {
@@ -17,8 +25,14 @@ const Onboarding = () => {
 
   const steps = [
     <Q1 onStateChange={handleStateChange1} />,
+    <Q8 />,
+    <Q9 />,
+    <Q10 />,
+    <Q12 />,
+    <Q13 />,
     <Q2 onStateChange={handleStateChange2} />,
     <Q3 onStateChange={handleStateChange3} />,
+    <Q11 />,
     <Q4 onStateChange={handleStateChange4} />,
     <Q7 />,
   ];
@@ -60,7 +74,7 @@ const Onboarding = () => {
 
   return (
     <div>
-      <p>
+      <p className="onboarding-globaltitle">
         Get the Best Website In Your Area and Be Miles Ahead Of The Competition
       </p>
       <form
@@ -70,13 +84,17 @@ const Onboarding = () => {
       >
         {steps[currentStep]}
         {currentStep === 3 && <button type="submit">Submit</button>}
+        <div className="onboarding-pagediv">
+          <div onClick={handlePreviousClick} style={{ display: "flex" }}>
+            <img className="onboarding-arrow2" src={arrow2} alt="" />
+            {currentStep !== -1 && <p className="onboarding-prev">Previous</p>}
+          </div>
+          <div onClick={handleNextClick} style={{ display: "flex" }}>
+            <p className="onboarding-next">Next</p>
+            <img className="onboarding-arrow1" src={arrow1} alt="" />
+          </div>
+        </div>
       </form>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {currentStep !== 0 && <p onClick={handlePreviousClick}>Previous</p>}
-        <p className="onboarding-next" onClick={handleNextClick}>
-          Next
-        </p>
-      </div>
     </div>
   );
 };

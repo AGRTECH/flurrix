@@ -2,14 +2,9 @@ import React, { useState } from "react";
 
 const Q1 = (props) => {
   const [answer1, setAnswer1] = useState(0);
-  // console.log(answer1);
-
-  // const handleAnswer1 = () => {
-  //   setAnswer1(currentStep - 1);
-  // };
 
   return (
-    <>
+    <div className="onboarding-questioncontainer">
       <p className="onboarding-title">What Industry Is Your Business In?</p>
       <div style={{ display: "flex" }}>
         <label className="onboarding-textoption1">
@@ -52,23 +47,18 @@ const Q1 = (props) => {
           Janitor
         </label>
       </div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", marginBottom: "35px" }}>
         <label className="onboarding-textoption1">
-          <input type="radio" name="Industy" value="Roofing" />
-          Roofing
-        </label>
-        <label className="onboarding-textoption2">
           <input type="radio" name="Industy" value="Maid" />
           Maid
         </label>
-      </div>
-      <div style={{ display: "flex" }}>
-        <label className="onboarding-textoption1">
+        <label className="onboarding-textoption2">
           <input type="radio" name="Industy" value="Other" />
           Other
         </label>
       </div>
-    </>
+      <div style={{ display: "flex" }}></div>
+    </div>
   );
 };
 

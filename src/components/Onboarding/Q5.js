@@ -4,7 +4,7 @@ const Q5 = (props) => {
   const [answer1, setAnswer1] = useState(0);
 
   return (
-    <>
+    <div className="onboarding-questioncontainer">
       <p>
         Would You Like a Popup that captures more leads? (Free with this
         package)
@@ -42,7 +42,7 @@ const Q5 = (props) => {
         />
         3
       </label>
-    </>
+    </div>
   );
 };
 

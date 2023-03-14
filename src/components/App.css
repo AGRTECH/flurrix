@@ -2939,10 +2939,28 @@ body {
   justify-items: center;
   margin: auto;
   margin-bottom: 45px;
-  margin-top: 230px;
+  margin-top: 30px;
+}
+
+.onboarding-questioncontainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100%;
+}
+
+.onboarding-globaltitle {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  width: 70%;
+  margin: auto;
+  margin-top: 25px;
 }
 
 .onboarding-title {
+  text-align: center;
   font-size: 25px;
   font-weight: 900;
   overflow-y: hidden;
@@ -2950,6 +2968,7 @@ body {
 
 .onboarding-textoption1 {
   margin-right: 15px;
+  margin-bottom: 15px;
   border-radius: 5px;
   border: 1px solid black;
   padding: 15px;
@@ -2963,6 +2982,7 @@ body {
 }
 
 .onboarding-textoption2 {
+  margin-bottom: 15px;
   border-radius: 5px;
   border: 1px solid black;
   padding: 15px;
@@ -2975,10 +2995,54 @@ body {
   background-color: rgb(248, 248, 248);
 }
 
+.onboarding-pagediv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .onboarding-next {
   font-size: 23px;
   font-weight: bold;
   color: white;
+  overflow-y: hidden;
+}
+
+.onboarding-prev {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  overflow-y: hidden;
+}
+
+.onboarding-prev:hover {
+  cursor: pointer;
+}
+
+.onboarding-next:hover {
+  cursor: pointer;
+}
+
+.onboarding-arrow1 {
+  width: 50px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 7px;
+}
+
+.onboarding-arrow2 {
+  width: 50px;
+  height: 20px;
+  margin-top: 8px;
+  margin-right: 7px;
+}
+
+.onboarding-arrow2:hover {
+  cursor: pointer;
+}
+
+.onboarding-arrow1:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 520px) {

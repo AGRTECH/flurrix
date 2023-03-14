@@ -4,7 +4,7 @@ const Q4 = (props) => {
   const [answer1, setAnswer1] = useState(0);
 
   return (
-    <>
+    <div className="onboarding-questioncontainer">
       <p>Which Layout Is best Suited For You?</p>
       <label>
         <input
@@ -39,7 +39,7 @@ const Q4 = (props) => {
         />
         3
       </label>
-    </>
+    </div>
   );
 };
 
