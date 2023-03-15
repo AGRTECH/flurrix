@@ -2,6 +2,8 @@ import React from "react";
 import bushes from "../img/catoonbush3.png";
 import palm from "../img/cartoonpalmm.png";
 import siteone from "../img/herculespowerwashing1.jpg";
+import shimmer from "../img/shimmerpreview.jpg";
+import horizons from "../img/horizonspreview.jpg";
 
 const Section4 = () => {
   return (
@@ -15,7 +17,7 @@ const Section4 = () => {
         <div className="section2-toprow">
           <div className="section4-cardtextcontainer">
             <div className="section4-card">
-              <img src={siteone} className="section4-img" alt="" />
+              <img src={shimmer} className="section4-img" alt="" />
               <button className="section4-btn">View Project</button>
             </div>
             <p>Shimmer Exterior Cleaning</p>
@@ -29,7 +31,7 @@ const Section4 = () => {
           </div>
           <div className="section4-cardtextcontainer">
             <div className="section4-card">
-              <img src={siteone} className="section4-img" alt="" />
+              <img src={horizons} className="section4-img" alt="" />
               <button className="section4-btn">View Project</button>
             </div>
             <p>Horizons Landscaping</p>

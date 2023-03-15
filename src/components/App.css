@@ -3102,6 +3102,17 @@ body {
   margin-right: 4px;
 }
 
+/* Tos */
+.tos-section {
+  width: 80%;
+  margin: auto;
+}
+
+.tos-title {
+  font-weight: 900;
+  font-size: 22px;
+}
+
 @media (max-width: 520px) {
   /* Mobile home 500 */
   .home-placeholdervideo {

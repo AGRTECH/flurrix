@@ -5,9 +5,7 @@ const Q10 = (props) => {
 
   return (
     <div className="onboarding-questioncontainer">
-      <p className="onboarding-title">
-        What Info Do You Need From Your Clients For Your Contact / Quote Form?
-      </p>
+      <p className="onboarding-title">Info Needed For Contact Form?</p>
       <div style={{ display: "flex" }}>
         <label>
           <input

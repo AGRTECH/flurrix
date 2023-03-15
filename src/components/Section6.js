@@ -48,8 +48,8 @@ const Section6 = () => {
               }}
               className="section6-nameinput"
               required
-              type="name"
-              name="name"
+              type="number"
+              name="Phone"
               placeholder="Phone *"
             />
             <input
@@ -58,8 +58,8 @@ const Section6 = () => {
               }}
               className="section6-nameinput"
               required
-              type="email"
-              name="email"
+              type="name"
+              name="site"
               placeholder="Website Or Business Name *"
             />
           </div>

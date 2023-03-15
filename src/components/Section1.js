@@ -19,11 +19,11 @@ const Section1 = () => {
             </li>
             <li className="home-listdiv">
               <img src={checkmark} className="home-checkmark" alt="" />{" "}
-              <p>Top 1%-5% Website In Your Area</p>{" "}
+              <p>Top Website In Your Area</p>{" "}
             </li>
             <li className="home-listdiv">
               <img src={checkmark} className="home-checkmark" alt="" />{" "}
-              <p>Everything Done For You</p>{" "}
+              <p>Professional Design Done For You</p>{" "}
             </li>
           </ul>
           <div className="home-buttoncontainer">

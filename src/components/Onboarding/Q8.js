@@ -5,7 +5,7 @@ const Q8 = (props) => {
 
   return (
     <div className="onboarding-questioncontainer">
-      <p className="onboarding-title">What Services Do You Offer?</p>
+      <p className="onboarding-title">Services Offered?</p>
       <div style={{ display: "flex" }}>
         <label>
           <input

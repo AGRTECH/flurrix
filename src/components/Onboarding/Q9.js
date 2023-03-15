@@ -5,9 +5,7 @@ const Q9 = (props) => {
 
   return (
     <div className="onboarding-questioncontainer">
-      <p className="onboarding-title">
-        What Cities / Areas Do You Service Most?
-      </p>
+      <p className="onboarding-title">Cities / Areas Serviced Most?</p>
       <div style={{ display: "flex" }}>
         <label>
           <input

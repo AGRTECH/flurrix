@@ -12,6 +12,7 @@ import Q10 from "./Q10";
 import Q11 from "./Q11";
 import Q12 from "./Q12";
 import Q13 from "./Q13";
+import Q14 from "./Q14";
 import AllQs from "./AllQs";
 
 const Onboarding = () => {
@@ -34,6 +35,7 @@ const Onboarding = () => {
     // <Q3 onStateChange={handleStateChange3} />,
     <Q11 />,
     <Q4 onStateChange={handleStateChange4} />,
+    <Q14 />,
     <Q7 />,
   ];
 
@@ -87,12 +89,16 @@ const Onboarding = () => {
 
         <div className="onboarding-pagediv">
           <div onClick={handlePreviousClick} style={{ display: "flex" }}>
-            <img className="onboarding-arrow2" src={arrow2} alt="" />
-            {currentStep !== -1 && <p className="onboarding-prev">Previous</p>}
+            {currentStep !== 0 && (
+              <img className="onboarding-arrow2" src={arrow2} alt="" />
+            )}
+            {currentStep !== 0 && <p className="onboarding-prev">Previous</p>}
           </div>
           <div onClick={handleNextClick} style={{ display: "flex" }}>
-            <p className="onboarding-next">Next</p>
-            <img className="onboarding-arrow1" src={arrow1} alt="" />
+            {currentStep !== 10 && <p className="onboarding-next">Next</p>}
+            {currentStep !== 10 && (
+              <img className="onboarding-arrow1" src={arrow1} alt="" />
+            )}
           </div>
         </div>
       </form>
