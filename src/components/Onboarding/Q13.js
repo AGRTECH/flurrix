@@ -11,10 +11,10 @@ const Q13 = (props) => {
       <div style={{ display: "flex" }}>
         <label>
           <input
-            // onChange={(event) => {
-            //   setAnswer1(event.target.value);
-            //   props.onStateChange(event.target.value);
-            // }}
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Copywriting Idea 1"
             placeholder="Copywriting Idea 1"
@@ -37,7 +37,10 @@ const Q13 = (props) => {
       <div style={{ display: "flex" }}>
         <label>
           <input
-            onChange={(event) => setAnswer1(event.target.value)}
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Copywriting Idea 3"
             placeholder="Copywriting Idea 3"
@@ -46,6 +49,10 @@ const Q13 = (props) => {
         </label>
         <label>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Copywriting Idea 4"
             placeholder="Copywriting Idea 4"
@@ -56,6 +63,10 @@ const Q13 = (props) => {
       <div style={{ display: "flex", marginBottom: "35px" }}>
         <label>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Copywriting Idea 5"
             placeholder="Copywriting Idea 5"
@@ -64,6 +75,10 @@ const Q13 = (props) => {
         </label>
         <label>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Others"
             placeholder="All Others If Any"

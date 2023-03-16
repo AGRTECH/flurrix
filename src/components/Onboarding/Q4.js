@@ -14,6 +14,7 @@ const Q4 = (props) => {
           display: "flex",
           justifyContent: "space-between",
           width: "100%",
+          height: "220px",
         }}
       >
         <label>
@@ -26,9 +27,9 @@ const Q4 = (props) => {
             name="Layout"
             value="1"
           />
-          1
-          <img className="onboarding-preview" src={shimmer} alt="" />
+          <span className="onboarding-layoutnum">1</span>
         </label>
+        <img className="onboarding-preview" src={shimmer} alt="" />
         <label>
           <input
             onChange={(event) => {
@@ -39,9 +40,9 @@ const Q4 = (props) => {
             name="Layout"
             value="2"
           />
-          2
-          <img className="onboarding-preview" src={herc} alt="" />
+          <span className="onboarding-layoutnum">2</span>
         </label>
+        <img className="onboarding-preview" src={herc} alt="" />
         <label>
           <input
             onChange={(event) => setAnswer1(event.target.value)}
@@ -49,9 +50,9 @@ const Q4 = (props) => {
             name="Layout"
             value="3"
           />
-          3
-          <img className="onboarding-preview" src={horizons} alt="" />
+          <span className="onboarding-layoutnum">3</span>
         </label>
+        <img className="onboarding-preview" src={horizons} alt="" />
       </div>
     </div>
   );

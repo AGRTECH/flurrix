@@ -7,23 +7,23 @@ const Q8 = (props) => {
     <div className="onboarding-questioncontainer">
       <p className="onboarding-title">Services Offered?</p>
       <div style={{ display: "flex" }}>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
-            // onChange={(event) => {
-            //   setAnswer1(event.target.value);
-            //   props.onStateChange(event.target.value);
-            // }}
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Service 1"
             placeholder="Service 1"
             className="onboarding-textoption1"
           />
         </label>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
               setAnswer1(event.target.value);
-              props.onStateChange(event.target.value);
+              props.onStateChange2(event.target.value);
             }}
             type="text"
             name="Service 2"
@@ -33,17 +33,24 @@ const Q8 = (props) => {
         </label>
       </div>
       <div style={{ display: "flex" }}>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
-            onChange={(event) => setAnswer1(event.target.value)}
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange3(event.target.value);
+            }}
             type="text"
             name="Service 3"
             placeholder="Service 3"
             className="onboarding-textoption1"
           />
         </label>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange4(event.target.value);
+            }}
             type="text"
             name="Service 4"
             placeholder="Service 4"
@@ -52,16 +59,24 @@ const Q8 = (props) => {
         </label>
       </div>
       <div style={{ display: "flex", marginBottom: "35px" }}>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange5(event.target.value);
+            }}
             type="text"
             name="Service 5"
             placeholder="Service 5"
             className="onboarding-textoption1"
           />
         </label>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange6(event.target.value);
+            }}
             type="text"
             name="Others"
             placeholder="All Others If Any"

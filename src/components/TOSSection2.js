@@ -30,6 +30,16 @@ const TOSSection2 = () => {
       </p>
       <br />
       <p className="tos-section">
+        <span className="tos-title"> Termination </span> Either party may
+        terminate this agreement by giving written notice to the other party. In
+        the event of termination, the client will be responsible for paying for
+        any services provided up to the date of termination and a termination
+        fee of 1.5 months of your current plan. $418 for Standard, $508 for
+        Premium, $1798 for Ultimate must be paid for each respective plan if the
+        agreement is terminated before the 6 month period is over.
+      </p>
+      <br />
+      <p className="tos-section">
         <span className="tos-title"> Intellectual Property </span> All
         intellectual property rights in the website, including copyright, design
         rights and trademarks, are owned by Flurrix. We grant the client a
@@ -56,16 +66,7 @@ const TOSSection2 = () => {
         damage.
       </p>
       <br />
-      <p className="tos-section">
-        <span className="tos-title"> Termination </span> Either party may
-        terminate this agreement by giving written notice to the other party. In
-        the event of termination, the client will be responsible for paying for
-        any services provided up to the date of termination and a termination
-        fee of 1.5 months of your current plan. $418 for Standard, $508 for
-        Premium, $1798 for Ultimate must be paid for each respective plan if the
-        agreement is terminated before the 6 month period is over.
-      </p>
-      <br />
+
       <p className="tos-section">
         <span className="tos-title"> Governing Law </span> These terms of
         service shall be governed by and construed in accordance with the laws

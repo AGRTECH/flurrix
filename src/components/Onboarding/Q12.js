@@ -9,10 +9,10 @@ const Q12 = (props) => {
       <div style={{ display: "flex" }}>
         <label>
           <input
-            // onChange={(event) => {
-            //   setAnswer1(event.target.value);
-            //   props.onStateChange(event.target.value);
-            // }}
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Guarantee / Offer / Deal 1"
             placeholder="Guarantee / Offer / Deal 1"
@@ -35,7 +35,10 @@ const Q12 = (props) => {
       <div style={{ display: "flex" }}>
         <label>
           <input
-            onChange={(event) => setAnswer1(event.target.value)}
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Guarantee / Offer / Deal 3"
             placeholder="Guarantee / Offer / Deal 3"
@@ -44,6 +47,10 @@ const Q12 = (props) => {
         </label>
         <label>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Guarantee / Offer / Deal 4"
             placeholder="Guarantee / Offer / Deal 4"
@@ -54,6 +61,10 @@ const Q12 = (props) => {
       <div style={{ display: "flex", marginBottom: "35px" }}>
         <label>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Guarantee / Offer / Deal 5"
             placeholder="Guarantee / Offer / Deal 5"
@@ -62,6 +73,10 @@ const Q12 = (props) => {
         </label>
         <label>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Others"
             placeholder="All Others If Any"

@@ -1,8 +1,8 @@
 import React from "react";
 
-const Q7 = () => {
+const Q7 = (props) => {
   const handleStripe = () => {
-    window.location.href = "https://buy.stripe.com/test_14k15C23Hfze1DG4gg";
+    window.location.href = props.selectedPlan;
   };
   return (
     <div className="onboarding-questioncontainer">
@@ -10,9 +10,13 @@ const Q7 = () => {
         Congratulations! You're Ready To Start Your Journey with A Professional
         Grade Website!{" "}
       </p>
-      <p className="onboarding-getstarted" onClick={handleStripe}>
+      <button
+        className="onboarding-getstarted"
+        type="submit"
+        onClick={handleStripe}
+      >
         Get Started
-      </p>
+      </button>
     </div>
   );
 };

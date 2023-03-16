@@ -3068,6 +3068,7 @@ body {
 .onboarding-preview {
   height: 500px;
   width: 130px;
+  margin-right: 25px;
 }
 
 .onboarding-getstarted {
@@ -3100,6 +3101,55 @@ body {
   width: 32px;
   height: 32px;
   margin-right: 4px;
+}
+
+.onboarding-pricing {
+  color: rgb(82, 82, 82);
+  font-weight: 900;
+  /* background-color: #6f00ff; */
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.onboarding-pricing:hover {
+  color: rgb(27, 27, 27);
+}
+
+.onboarding-nostyle {
+  text-decoration: none;
+  overflow-y: hidden;
+}
+
+.onboarding-agreement {
+  color: rgb(82, 82, 82);
+  font-weight: 900;
+  /* background-color: #6f00ff; */
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-top: -15px;
+}
+
+.onboarding-agreement:hover {
+  color: rgb(27, 27, 27);
+}
+
+.onboarding-layoutnum {
+  padding: 0;
+  margin: 0;
+  margin-left: 3px;
+  margin-right: 5px;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.onboarding-hiddenanswers {
+  z-index: -100;
 }
 
 /* Tos */

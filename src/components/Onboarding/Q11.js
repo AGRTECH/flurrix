@@ -9,23 +9,23 @@ const Q11 = (props) => {
         Company Email Company Phone Number & Socials?
       </p>
       <div style={{ display: "flex" }}>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
-            // onChange={(event) => {
-            //   setAnswer1(event.target.value);
-            //   props.onStateChange(event.target.value);
-            // }}
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange(event.target.value);
+            }}
             type="text"
             name="Company Email"
             placeholder="Company Email"
             className="onboarding-textoption1"
           />
         </label>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
               setAnswer1(event.target.value);
-              props.onStateChange(event.target.value);
+              props.onStateChange2(event.target.value);
             }}
             type="text"
             name="Company Phone #"
@@ -35,17 +35,24 @@ const Q11 = (props) => {
         </label>
       </div>
       <div style={{ display: "flex" }}>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
-            onChange={(event) => setAnswer1(event.target.value)}
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange3(event.target.value);
+            }}
             type="text"
             name="Company Facebook"
             placeholder="Company Facebook"
             className="onboarding-textoption1"
           />
         </label>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange4(event.target.value);
+            }}
             type="text"
             name="Company Linkedin"
             placeholder="Company Linkedin"
@@ -54,16 +61,24 @@ const Q11 = (props) => {
         </label>
       </div>
       <div style={{ display: "flex", marginBottom: "35px" }}>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange5(event.target.value);
+            }}
             type="text"
             name="Company Youtube"
             placeholder="Company Youtube"
             className="onboarding-textoption1"
           />
         </label>
-        <label>
+        <label style={{ overflowY: "hidden" }}>
           <input
+            onChange={(event) => {
+              setAnswer1(event.target.value);
+              props.onStateChange6(event.target.value);
+            }}
             type="text"
             name="Others"
             placeholder="All Others If Any"

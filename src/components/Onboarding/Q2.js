@@ -25,6 +25,7 @@ const Q2 = (props) => {
             }}
             type="radio"
             name="No Photos"
+            value="No Photos"
           />
           I have no / few photos
         </label>
