@@ -52,30 +52,23 @@ function FAQ() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
-            <Accordion.Header>Accordion Item #2</Accordion.Header>
+            <Accordion.Header>Will I Get More Leads?</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              While we can't guarantee you will, our previous clients have seen
+              massive results and we do everything you can do to get more
+              traffic coming into your site.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
-            <Accordion.Header>Accordion Item #1</Accordion.Header>
+            <Accordion.Header>What's The 6 Month Agreement?</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              When you sign up, we allow you to pay over time for your website
+              in the form of a financing plan over the course of 6 months. If
+              you cancel before the 6 month agreement is up, a termination fee
+              will be applied for 1.5 months of your current plan.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="5">
+          {/* <Accordion.Item eventKey="5">
             <Accordion.Header>Accordion Item #2</Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -86,7 +79,7 @@ function FAQ() {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Accordion.Body>
-          </Accordion.Item>
+          </Accordion.Item> */}
         </Accordion>
       </div>
     </>
