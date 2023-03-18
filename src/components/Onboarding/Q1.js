@@ -6,7 +6,7 @@ const Q1 = (props) => {
   return (
     <div className="onboarding-questioncontainer">
       <p className="onboarding-title">What Industry Is Your Business In?</p>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label className="onboarding-textoption1">
           <input
             onChange={(event) => {
@@ -32,7 +32,7 @@ const Q1 = (props) => {
           Window Cleaning
         </label>
       </div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label className="onboarding-textoption1">
           <input
             onChange={(event) => setAnswer1(event.target.value)}
@@ -47,7 +47,10 @@ const Q1 = (props) => {
           Janitor
         </label>
       </div>
-      <div style={{ display: "flex", marginBottom: "35px" }}>
+      <div
+        style={{ display: "flex" }}
+        className="onbording-sectioncontainer onboarding-margbottom."
+      >
         <label className="onboarding-textoption1">
           <input type="radio" name="Industy" value="Maid" />
           Maid

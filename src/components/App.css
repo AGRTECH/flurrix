@@ -2005,6 +2005,221 @@ body {
   border: none;
 }
 
+/* Onboarding */
+.onboarding-form {
+  width: 50%;
+  height: 380px;
+  /* background-color: white; */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 80%,
+    rgba(111, 0, 255, 1) 80%,
+    rgba(111, 0, 255, 1) 100%
+  );
+  border-radius: 15px;
+  padding: 15px 15px;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
+
+.onboarding-questioncontainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100%;
+}
+
+.onboarding-globaltitle {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  width: 70%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.onboarding-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  overflow-y: hidden;
+}
+
+.onboarding-textoption1 {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 220px;
+  overflow-y: hidden;
+}
+
+.onboarding-textoption1:hover {
+  cursor: pointer;
+  background-color: rgb(248, 248, 248);
+}
+
+.onboarding-textoption2 {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 220px;
+  overflow-y: hidden;
+}
+
+.onboarding-textoption2:hover {
+  cursor: pointer;
+  background-color: rgb(248, 248, 248);
+}
+
+.onboarding-pagediv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.onboarding-next {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  overflow-y: hidden;
+}
+
+.onboarding-prev {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  overflow-y: hidden;
+}
+
+.onboarding-prev:hover {
+  cursor: pointer;
+}
+
+.onboarding-next:hover {
+  cursor: pointer;
+}
+
+.onboarding-arrow1 {
+  width: 50px;
+  height: 20px;
+  margin-top: 8px;
+  margin-left: 7px;
+}
+
+.onboarding-arrow2 {
+  width: 50px;
+  height: 20px;
+  margin-top: 8px;
+  margin-right: 7px;
+}
+
+.onboarding-arrow2:hover {
+  cursor: pointer;
+}
+
+.onboarding-arrow1:hover {
+  cursor: pointer;
+}
+
+.onboarding-preview {
+  height: 500px;
+  width: 130px;
+  margin-right: 25px;
+}
+
+.onboarding-getstarted {
+  margin-top: 30px;
+  padding: 12px 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 80px;
+  margin-right: 15px;
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgb(38, 0, 87);
+  border-radius: 5px;
+}
+
+.onboarding-getstarted:hover {
+  cursor: pointer;
+}
+
+.onboarding-googledoc {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.onboarding-uploadimg {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+}
+
+.onboarding-pricing {
+  color: rgb(82, 82, 82);
+  font-weight: 900;
+  /* background-color: #6f00ff; */
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.onboarding-pricing:hover {
+  color: rgb(27, 27, 27);
+}
+
+.onboarding-nostyle {
+  text-decoration: none;
+  overflow-y: hidden;
+}
+
+.onboarding-agreement {
+  color: rgb(82, 82, 82);
+  font-weight: 900;
+  /* background-color: #6f00ff; */
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-top: -15px;
+}
+
+.onboarding-agreement:hover {
+  color: rgb(27, 27, 27);
+}
+
+.onboarding-layoutnum {
+  padding: 0;
+  margin: 0;
+  margin-left: 3px;
+  margin-right: 5px;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.onboarding-hiddenanswers {
+  z-index: -100;
+}
+
 @media (max-width: 1480px) {
   .nav-logo {
     margin-left: 130px;
@@ -2935,221 +3150,225 @@ body {
     display: flex;
     width: 90%;
   }
-}
 
-/* Onboarding */
-.onboarding-form {
-  width: 50%;
-  height: 380px;
-  /* background-color: white; */
-  background: linear-gradient(
-    to bottom,
-    #ffffff 0%,
-    #ffffff 80%,
-    rgba(111, 0, 255, 1) 80%,
-    rgba(111, 0, 255, 1) 100%
-  );
-  border-radius: 15px;
-  padding: 15px 15px;
-  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  margin: auto;
-  margin-bottom: 45px;
-  margin-top: 30px;
-}
+  /* Mobile Onboarding 1090 */
+  .onboarding-form {
+    width: 50%;
+    height: 580px;
+    /* background-color: white; */
+    background: linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #ffffff 87%,
+      rgba(111, 0, 255, 1) 87%,
+      rgba(111, 0, 255, 1) 100%
+    );
+    border-radius: 15px;
+    padding: 15px 15px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 45px;
+    margin-top: 30px;
+  }
 
-.onboarding-questioncontainer {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  height: 100%;
-}
+  .onboarding-questioncontainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+  }
 
-.onboarding-globaltitle {
-  text-align: center;
-  font-size: 55px;
-  font-weight: 900;
-  width: 70%;
-  margin: auto;
-  margin-top: 25px;
-}
+  .onboarding-globaltitle {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+  }
 
-.onboarding-title {
-  text-align: center;
-  font-size: 25px;
-  font-weight: 900;
-  overflow-y: hidden;
-}
+  .onboarding-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    overflow-y: hidden;
+  }
 
-.onboarding-textoption1 {
-  margin-right: 15px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  border: 1px solid black;
-  padding: 15px;
-  width: 350px;
-  overflow-y: hidden;
-}
+  .onboarding-textoption1 {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px 15px 35px 15px;
+    width: 200px;
+    overflow-y: hidden;
+  }
 
-.onboarding-textoption1:hover {
-  cursor: pointer;
-  background-color: rgb(248, 248, 248);
-}
+  .onboarding-textoption1:hover {
+    cursor: pointer;
+    background-color: rgb(248, 248, 248);
+  }
 
-.onboarding-textoption2 {
-  margin-bottom: 15px;
-  border-radius: 5px;
-  border: 1px solid black;
-  padding: 15px;
-  width: 350px;
-  overflow-y: hidden;
-}
+  .onboarding-textoption2 {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px 15px 35px 15px;
+    width: 200px;
+    overflow-y: hidden;
+  }
 
-.onboarding-textoption2:hover {
-  cursor: pointer;
-  background-color: rgb(248, 248, 248);
-}
+  .onbording-sectioncontainer {
+    flex-direction: column;
+  }
 
-.onboarding-pagediv {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
+  .onboarding-textoption2:hover {
+    cursor: pointer;
+    background-color: rgb(248, 248, 248);
+  }
 
-.onboarding-next {
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
-  overflow-y: hidden;
-}
+  .onboarding-pagediv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 
-.onboarding-prev {
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
-  overflow-y: hidden;
-}
+  .onboarding-next {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    overflow-y: hidden;
+  }
 
-.onboarding-prev:hover {
-  cursor: pointer;
-}
+  .onboarding-prev {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    overflow-y: hidden;
+  }
 
-.onboarding-next:hover {
-  cursor: pointer;
-}
+  .onboarding-prev:hover {
+    cursor: pointer;
+  }
 
-.onboarding-arrow1 {
-  width: 50px;
-  height: 20px;
-  margin-top: 8px;
-  margin-left: 7px;
-}
+  .onboarding-next:hover {
+    cursor: pointer;
+  }
 
-.onboarding-arrow2 {
-  width: 50px;
-  height: 20px;
-  margin-top: 8px;
-  margin-right: 7px;
-}
+  .onboarding-arrow1 {
+    width: 50px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 7px;
+  }
 
-.onboarding-arrow2:hover {
-  cursor: pointer;
-}
+  .onboarding-arrow2 {
+    width: 50px;
+    height: 20px;
+    margin-top: 8px;
+    margin-right: 7px;
+  }
 
-.onboarding-arrow1:hover {
-  cursor: pointer;
-}
+  .onboarding-arrow2:hover {
+    cursor: pointer;
+  }
 
-.onboarding-preview {
-  height: 500px;
-  width: 130px;
-  margin-right: 25px;
-}
+  .onboarding-arrow1:hover {
+    cursor: pointer;
+  }
 
-.onboarding-getstarted {
-  margin-top: 30px;
-  padding: 12px 70px;
-  font-weight: bold;
-  color: white;
-  font-size: 20px;
-  border: none;
-  margin-bottom: 80px;
-  margin-right: 15px;
-  transition: background-color 0.3s ease-in-out;
-  background-color: rgb(38, 0, 87);
-  border-radius: 5px;
-}
+  .onboarding-preview {
+    height: 500px;
+    width: 130px;
+    margin-right: 25px;
+  }
 
-.onboarding-getstarted:hover {
-  cursor: pointer;
-}
+  .onboarding-getstarted {
+    margin-top: 30px;
+    padding: 12px 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 80px;
+    margin-right: 15px;
+    transition: background-color 0.3s ease-in-out;
+    background-color: rgb(38, 0, 87);
+    border-radius: 5px;
+  }
 
-.onboarding-googledoc {
-  text-decoration: none;
-  color: black;
-  font-size: 25px;
-  font-weight: bold;
-  margin-right: 25px;
-}
+  .onboarding-getstarted:hover {
+    cursor: pointer;
+  }
 
-.onboarding-uploadimg {
-  width: 32px;
-  height: 32px;
-  margin-right: 4px;
-}
+  .onboarding-googledoc {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
 
-.onboarding-pricing {
-  color: rgb(82, 82, 82);
-  font-weight: 900;
-  /* background-color: #6f00ff; */
-  padding: 15px;
-  width: 100%;
-  border-radius: 5px;
-  margin-top: 20px;
-}
+  .onboarding-uploadimg {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+  }
 
-.onboarding-pricing:hover {
-  color: rgb(27, 27, 27);
-}
+  .onboarding-pricing {
+    color: rgb(82, 82, 82);
+    font-weight: 900;
+    /* background-color: #6f00ff; */
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
 
-.onboarding-nostyle {
-  text-decoration: none;
-  overflow-y: hidden;
-}
+  .onboarding-pricing:hover {
+    color: rgb(27, 27, 27);
+  }
 
-.onboarding-agreement {
-  color: rgb(82, 82, 82);
-  font-weight: 900;
-  /* background-color: #6f00ff; */
-  padding: 15px;
-  width: 100%;
-  border-radius: 5px;
-  text-align: center;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  margin-top: -15px;
-}
+  .onboarding-nostyle {
+    text-decoration: none;
+    overflow-y: hidden;
+  }
 
-.onboarding-agreement:hover {
-  color: rgb(27, 27, 27);
-}
+  .onboarding-agreement {
+    color: rgb(82, 82, 82);
+    font-weight: 900;
+    /* background-color: #6f00ff; */
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-top: -15px;
+  }
 
-.onboarding-layoutnum {
-  padding: 0;
-  margin: 0;
-  margin-left: 3px;
-  margin-right: 5px;
-  font-size: 23px;
-  font-weight: 900;
-}
+  .onboarding-agreement:hover {
+    color: rgb(27, 27, 27);
+  }
 
-.onboarding-hiddenanswers {
-  z-index: -100;
+  .onboarding-layoutnum {
+    padding: 0;
+    margin: 0;
+    margin-left: 3px;
+    margin-right: 5px;
+    font-size: 23px;
+    font-weight: 900;
+  }
+
+  .onboarding-hiddenanswers {
+    z-index: -100;
+  }
 }
 
 /* Tos */
@@ -3514,6 +3733,235 @@ body {
     height: 230px;
     margin-right: 50px;
     margin-top: 55px;
+  }
+
+  /* Mobile Onboarding 500*/
+  .onboarding-form {
+    width: 85%;
+    height: 580px;
+    /* background-color: white; */
+    background: linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #ffffff 87%,
+      rgba(111, 0, 255, 1) 87%,
+      rgba(111, 0, 255, 1) 100%
+    );
+    border-radius: 15px;
+    padding: 15px 15px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 45px;
+    margin-top: 30px;
+  }
+
+  .onboarding-questioncontainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+  }
+
+  .onboarding-globaltitle {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .onboarding-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    overflow-y: hidden;
+  }
+
+  .onboarding-textoption1 {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px 15px 35px 15px;
+    width: 300px;
+    overflow-y: hidden;
+  }
+
+  .onboarding-textoption1:hover {
+    cursor: pointer;
+    background-color: rgb(248, 248, 248);
+  }
+
+  .onboarding-textoption2 {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px 15px 35px 15px;
+    width: 300px;
+    overflow-y: hidden;
+  }
+
+  .onboarding-margbottom {
+    margin-bottom: 4px;
+  }
+
+  .onboarding-subtitle {
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .onbording-sectioncontainer {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .onboarding-textoption2:hover {
+    cursor: pointer;
+    background-color: rgb(248, 248, 248);
+  }
+
+  .onboarding-pagediv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .onboarding-next {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    overflow-y: hidden;
+  }
+
+  .onboarding-prev {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    overflow-y: hidden;
+  }
+
+  .onboarding-prev:hover {
+    cursor: pointer;
+  }
+
+  .onboarding-next:hover {
+    cursor: pointer;
+  }
+
+  .onboarding-arrow1 {
+    width: 50px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 7px;
+  }
+
+  .onboarding-arrow2 {
+    width: 50px;
+    height: 20px;
+    margin-top: 8px;
+    margin-right: 7px;
+  }
+
+  .onboarding-arrow2:hover {
+    cursor: pointer;
+  }
+
+  .onboarding-arrow1:hover {
+    cursor: pointer;
+  }
+
+  .onboarding-preview {
+    height: 500px;
+    width: 130px;
+    margin-right: 25px;
+  }
+
+  .onboarding-getstarted {
+    margin-top: 30px;
+    padding: 12px 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 80px;
+    margin-right: 15px;
+    transition: background-color 0.3s ease-in-out;
+    background-color: rgb(38, 0, 87);
+    border-radius: 5px;
+  }
+
+  .onboarding-getstarted:hover {
+    cursor: pointer;
+  }
+
+  .onboarding-googledoc {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+
+  .onboarding-uploadimg {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+  }
+
+  .onboarding-pricing {
+    color: rgb(82, 82, 82);
+    font-weight: 900;
+    /* background-color: #6f00ff; */
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .onboarding-pricing:hover {
+    color: rgb(27, 27, 27);
+  }
+
+  .onboarding-nostyle {
+    text-decoration: none;
+    overflow-y: hidden;
+  }
+
+  .onboarding-agreement {
+    color: rgb(82, 82, 82);
+    font-weight: 900;
+    /* background-color: #6f00ff; */
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-top: -15px;
+  }
+
+  .onboarding-agreement:hover {
+    color: rgb(27, 27, 27);
+  }
+
+  .onboarding-layoutnum {
+    padding: 0;
+    margin: 0;
+    margin-left: 3px;
+    margin-right: 5px;
+    font-size: 23px;
+    font-weight: 900;
+  }
+
+  .onboarding-hiddenanswers {
+    z-index: -100;
   }
 }
 

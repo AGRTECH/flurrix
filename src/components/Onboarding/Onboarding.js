@@ -267,9 +267,21 @@ const Onboarding = () => {
 
   return (
     <div>
-      <p className="onboarding-globaltitle">
-        Get the Best Website In Your Area and Be Miles Ahead Of The Competition
-      </p>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <p className="onboarding-globaltitle">
+          Get the Best Website In Your Area
+        </p>
+        <p className="onboarding-subtitle">
+          We want to help as many service businesses as possible advance to the
+          next level, will yours be next?
+        </p>
+      </div>
       <form
         action="https://formsubmit.co/xarossx@yahoo.com"
         method="POST"
