@@ -16,6 +16,7 @@ const Q4 = (props) => {
           width: "100%",
           height: "220px",
         }}
+        className="onboarding-layoutsection"
       >
         <label>
           <input

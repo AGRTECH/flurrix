@@ -6,7 +6,7 @@ const Q10 = (props) => {
   return (
     <div className="onboarding-questioncontainer">
       <p className="onboarding-title">Info Needed For Contact Form?</p>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
@@ -16,7 +16,7 @@ const Q10 = (props) => {
             type="text"
             name="Contact Form Info 1"
             placeholder="Contact Form Info 1"
-            className="onboarding-textoption1"
+            className="onboarding-textoption3"
           />
         </label>
         <label style={{ overflowY: "hidden" }}>
@@ -28,11 +28,11 @@ const Q10 = (props) => {
             type="text"
             name="Contact Form Info 2"
             placeholder="Contact Form Info 2"
-            className="onboarding-textoption1"
+            className="onboarding-textoption4"
           />
         </label>
       </div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
@@ -42,7 +42,7 @@ const Q10 = (props) => {
             type="text"
             name="Contact Form Info 3"
             placeholder="Contact Form Info 3"
-            className="onboarding-textoption1"
+            className="onboarding-textoption3"
           />
         </label>
         <label style={{ overflowY: "hidden" }}>
@@ -54,11 +54,14 @@ const Q10 = (props) => {
             type="text"
             name="Contact Form Info 4"
             placeholder="Contact Form Info 4"
-            className="onboarding-textoption1"
+            className="onboarding-textoption4"
           />
         </label>
       </div>
-      <div style={{ display: "flex", marginBottom: "35px" }}>
+      <div
+        style={{ display: "flex" }}
+        className="onbording-sectioncontainer onboarding-margbottom"
+      >
         <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
@@ -68,7 +71,7 @@ const Q10 = (props) => {
             type="text"
             name="Contact Form Info 5"
             placeholder="Contact Form Info 5"
-            className="onboarding-textoption1"
+            className="onboarding-textoption3"
           />
         </label>
         <label style={{ overflowY: "hidden" }}>
@@ -80,7 +83,7 @@ const Q10 = (props) => {
             type="text"
             name="Others"
             placeholder="All Others If Any"
-            className="onboarding-textoption1"
+            className="onboarding-textoption4"
           />
         </label>
       </div>

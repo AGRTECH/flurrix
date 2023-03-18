@@ -6,7 +6,7 @@ const Q9 = (props) => {
   return (
     <div className="onboarding-questioncontainer">
       <p className="onboarding-title">Cities / Areas Serviced Most?</p>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
@@ -16,7 +16,7 @@ const Q9 = (props) => {
             type="text"
             name="Area 1"
             placeholder="Area 1"
-            className="onboarding-textoption1"
+            className="onboarding-textoption3"
           />
         </label>
         <label style={{ overflowY: "hidden" }}>
@@ -28,11 +28,11 @@ const Q9 = (props) => {
             type="text"
             name="Area 2"
             placeholder="Area 2"
-            className="onboarding-textoption1"
+            className="onboarding-textoption4"
           />
         </label>
       </div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
@@ -42,7 +42,7 @@ const Q9 = (props) => {
             type="text"
             name="Area 3"
             placeholder="Area 3"
-            className="onboarding-textoption1"
+            className="onboarding-textoption3"
           />
         </label>
         <label style={{ overflowY: "hidden" }}>
@@ -54,11 +54,14 @@ const Q9 = (props) => {
             type="text"
             name="Area 4"
             placeholder="Area 4"
-            className="onboarding-textoption1"
+            className="onboarding-textoption4"
           />
         </label>
       </div>
-      <div style={{ display: "flex", marginBottom: "35px" }}>
+      <div
+        style={{ display: "flex" }}
+        className="onbording-sectioncontainer onboarding-margbottom"
+      >
         <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
@@ -68,7 +71,7 @@ const Q9 = (props) => {
             type="text"
             name="Area 5"
             placeholder="Area 5"
-            className="onboarding-textoption1"
+            className="onboarding-textoption3"
           />
         </label>
         <label style={{ overflowY: "hidden" }}>
@@ -80,7 +83,7 @@ const Q9 = (props) => {
             type="text"
             name="Others"
             placeholder="All Others If Any"
-            className="onboarding-textoption1"
+            className="onboarding-textoption4"
           />
         </label>
       </div>

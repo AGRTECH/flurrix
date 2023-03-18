@@ -2082,6 +2082,34 @@ body {
   cursor: pointer;
   background-color: rgb(248, 248, 248);
 }
+.onboarding-textoption3 {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 220px;
+  overflow-y: hidden;
+}
+
+.onboarding-textoption3:hover {
+  cursor: pointer;
+  background-color: rgb(248, 248, 248);
+}
+
+.onboarding-textoption4 {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 220px;
+  overflow-y: hidden;
+}
+
+.onboarding-textoption4:hover {
+  cursor: pointer;
+  background-color: rgb(248, 248, 248);
+}
 
 .onboarding-pagediv {
   display: flex;
@@ -2179,6 +2207,7 @@ body {
   width: 100%;
   border-radius: 5px;
   margin-top: 20px;
+  text-align: center;
 }
 
 .onboarding-pricing:hover {
@@ -3195,7 +3224,7 @@ body {
 
   .onboarding-title {
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 900;
     overflow-y: hidden;
   }
@@ -3229,6 +3258,35 @@ body {
   }
 
   .onboarding-textoption2:hover {
+    cursor: pointer;
+    background-color: rgb(248, 248, 248);
+  }
+
+  .onboarding-textoption3 {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px;
+    width: 280px;
+    overflow-y: hidden;
+  }
+
+  .onboarding-textoption3:hover {
+    cursor: pointer;
+    background-color: rgb(248, 248, 248);
+  }
+
+  .onboarding-textoption4 {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px;
+    width: 280px;
+    overflow-y: hidden;
+  }
+
+  .onboarding-textoption4:hover {
     cursor: pointer;
     background-color: rgb(248, 248, 248);
   }
@@ -3290,13 +3348,13 @@ body {
   }
 
   .onboarding-getstarted {
-    margin-top: 30px;
+    margin-top: 130px;
     padding: 12px 70px;
     font-weight: bold;
     color: white;
     font-size: 20px;
     border: none;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
     margin-right: 15px;
     transition: background-color 0.3s ease-in-out;
     background-color: rgb(38, 0, 87);
@@ -3329,6 +3387,7 @@ body {
     width: 100%;
     border-radius: 5px;
     margin-top: 20px;
+    text-align: center;
   }
 
   .onboarding-pricing:hover {
@@ -3815,6 +3874,8 @@ body {
   .onboarding-subtitle {
     text-align: center;
     font-weight: lighter;
+    margin-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .onbording-sectioncontainer {
@@ -3884,7 +3945,7 @@ body {
   }
 
   .onboarding-getstarted {
-    margin-top: 30px;
+    margin-top: 130px;
     padding: 12px 70px;
     font-weight: bold;
     color: white;
@@ -3923,6 +3984,7 @@ body {
     width: 100%;
     border-radius: 5px;
     margin-top: 20px;
+    text-align: center;
   }
 
   .onboarding-pricing:hover {
@@ -3962,6 +4024,13 @@ body {
 
   .onboarding-hiddenanswers {
     z-index: -100;
+  }
+
+  .onboarding-layoutsection {
+    display: flex;
+    width: 340px !important;
+    height: 400px !important;
+    margin-left: 10px !important;
   }
 }
 
@@ -4120,5 +4189,41 @@ body {
 
   .contact-subtitle {
     font-size: 16px;
+  }
+
+  /* SE Onboarding */
+  .onboarding-textoption1 {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px 15px 35px 15px;
+    width: 280px;
+    overflow-y: hidden;
+  }
+
+  .onboarding-textoption1:hover {
+    cursor: pointer;
+    background-color: rgb(248, 248, 248);
+  }
+
+  .onboarding-textoption2 {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 15px 15px 35px 15px;
+    width: 280px;
+    overflow-y: hidden;
+  }
+
+  .onbording-sectioncontainer {
+    margin-left: 13px;
+  }
+
+  .onboarding-layoutsection {
+    display: flex;
+    width: 300px !important;
+    height: 400px !important;
+    margin-left: 10px !important;
   }
 }

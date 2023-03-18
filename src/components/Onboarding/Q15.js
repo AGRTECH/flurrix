@@ -7,7 +7,8 @@ const Q15 = (props) => {
   return (
     <div className="onboarding-questioncontainer">
       <p className="onboarding-title">Which Plan Would You Like?</p>
-      <div style={{ display: "flex" }}>
+
+      <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label className="onboarding-textoption1">
           <input
             onChange={(event) => {
@@ -41,6 +42,7 @@ const Q15 = (props) => {
           flexDirection: "column",
           alignItems: "center",
         }}
+        className="onbording-sectioncontainer"
       >
         <label className="onboarding-textoption1">
           <input

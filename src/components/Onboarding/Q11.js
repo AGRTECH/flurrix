@@ -8,7 +8,7 @@ const Q11 = (props) => {
       <p className="onboarding-title">
         Company Email Company Phone Number & Socials?
       </p>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
@@ -18,7 +18,7 @@ const Q11 = (props) => {
             type="text"
             name="Company Email"
             placeholder="Company Email"
-            className="onboarding-textoption1"
+            className="onboarding-textoption3"
           />
         </label>
         <label style={{ overflowY: "hidden" }}>
@@ -30,11 +30,11 @@ const Q11 = (props) => {
             type="text"
             name="Company Phone #"
             placeholder="Company Phone #"
-            className="onboarding-textoption1"
+            className="onboarding-textoption4"
           />
         </label>
       </div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
@@ -44,7 +44,7 @@ const Q11 = (props) => {
             type="text"
             name="Company Facebook"
             placeholder="Company Facebook"
-            className="onboarding-textoption1"
+            className="onboarding-textoption3"
           />
         </label>
         <label style={{ overflowY: "hidden" }}>
@@ -56,11 +56,14 @@ const Q11 = (props) => {
             type="text"
             name="Company Linkedin"
             placeholder="Company Linkedin"
-            className="onboarding-textoption1"
+            className="onboarding-textoption4"
           />
         </label>
       </div>
-      <div style={{ display: "flex", marginBottom: "35px" }}>
+      <div
+        style={{ display: "flex" }}
+        className="onbording-sectioncontainer onboarding-margbottm"
+      >
         <label style={{ overflowY: "hidden" }}>
           <input
             onChange={(event) => {
@@ -70,7 +73,7 @@ const Q11 = (props) => {
             type="text"
             name="Company Youtube"
             placeholder="Company Youtube"
-            className="onboarding-textoption1"
+            className="onboarding-textoption3"
           />
         </label>
         <label style={{ overflowY: "hidden" }}>
@@ -82,7 +85,7 @@ const Q11 = (props) => {
             type="text"
             name="Others"
             placeholder="All Others If Any"
-            className="onboarding-textoption1"
+            className="onboarding-textoption4"
           />
         </label>
       </div>
