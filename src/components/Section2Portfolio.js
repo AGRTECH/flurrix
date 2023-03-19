@@ -11,8 +11,8 @@ const Section2Portfolio = () => {
     <div className="section2portfolio-background">
       <p className="section2portfolio-title">Dominate Your Local Area</p>
       <p className="section2-subtitle">
-        Surprisingly high quality websites that will wow new and current
-        customers
+        Check out our sales optimized templates to see what you're website could
+        look like
       </p>
       <div className="section2portfolio-container">
         <div className="section2-toprow">
@@ -37,7 +37,9 @@ const Section2Portfolio = () => {
           <div className="section2portfolio-cardtextcontainer">
             <div className="section2portfolio-card">
               <img src={sitetwo} className="section2portfolio-img" alt="" />
-              <button className="section2portfolio-btn">View Project</button>
+              <Link to={"/horizonslandscaping"}>
+                <button className="section2portfolio-btn">View Project</button>
+              </Link>
             </div>
             <p>Horizons Landscaping</p>
           </div>

@@ -14,6 +14,7 @@ import Q12 from "./Q12";
 import Q13 from "./Q13";
 import Q14 from "./Q14";
 import Q15 from "./Q15";
+import Q16 from "./Q16";
 import AllQs from "./AllQs";
 
 const Onboarding = () => {
@@ -97,6 +98,11 @@ const Onboarding = () => {
       onStateChange={handleStateChange15}
       onStripeLinkChange={onStripeLinkChange}
     />,
+    <Q16
+      onStateChange={handleStateChange15}
+      onStripeLinkChange={onStripeLinkChange}
+      Q15answer={parentState15}
+    />,
     <Q7 selectedPlan={stripeLink} />,
   ];
 
@@ -134,6 +140,7 @@ const Onboarding = () => {
     parentState15,
   ];
   console.log(answers);
+  console.log(stripeLink);
 
   function handleStateChange1(newState) {
     setParentState1(newState);
@@ -307,8 +314,8 @@ const Onboarding = () => {
             {currentStep !== 0 && <p className="onboarding-prev">Previous</p>}
           </div>
           <div onClick={handleNextClick} style={{ display: "flex" }}>
-            {currentStep !== 9 && <p className="onboarding-next">Next</p>}
-            {currentStep !== 9 && (
+            {currentStep !== 10 && <p className="onboarding-next">Next</p>}
+            {currentStep !== 10 && (
               <img className="onboarding-arrow1" src={arrow1} alt="" />
             )}
           </div>

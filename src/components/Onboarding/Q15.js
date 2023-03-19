@@ -14,7 +14,9 @@ const Q15 = (props) => {
             onChange={(event) => {
               setAnswer1(event.target.value);
               props.onStateChange(event.target.value);
-              props.onStripeLinkChange("https://google.com/");
+              props.onStripeLinkChange(
+                "https://buy.stripe.com/14k4hL8t3a5G0ak8wy"
+              );
             }}
             type="radio"
             name="Plan"
@@ -27,7 +29,9 @@ const Q15 = (props) => {
             onChange={(event) => {
               setAnswer1(event.target.value);
               props.onStateChange(event.target.value);
-              props.onStripeLinkChange("https://kahunawindowcleaningaz.com/");
+              props.onStripeLinkChange(
+                "https://buy.stripe.com/cN201v38J91C0akcMN"
+              );
             }}
             type="radio"
             name="Plan"
@@ -49,7 +53,9 @@ const Q15 = (props) => {
             onChange={(event) => {
               setAnswer1(event.target.value);
               props.onStateChange(event.target.value);
-              props.onStripeLinkChange("https://www.shopify.com/pricing");
+              props.onStripeLinkChange(
+                "https://buy.stripe.com/3csg0t10Bgu4e1a5kn"
+              );
             }}
             type="radio"
             name="Plan"

@@ -4,15 +4,15 @@ import grass from "../img/cartoongrass.png";
 import checkmark from "../img/checkicon.svg";
 import { Link } from "react-router-dom";
 
-const Section1Project2 = () => {
+const Section1Project3 = () => {
   return (
     <>
       <div className="section1pricing-background">
         <div className="section1pricing-navbackground"></div>
         <div className="section1pricing-container">
           <div className="section1pricing-flex">
-            <p className="section1pricing-firstline">Shimmer</p>
-            <p className="section1pricing-secondline">Exterior Cleaning</p>
+            <p className="section1pricing-firstline">Horizons</p>
+            <p className="section1pricing-secondline">Landscaping</p>
             <p className="section1pricing-subtitle">
               Optimized Exterior Cleaning Web Design
               <span className="section1pricing-bold"> </span>{" "}
@@ -36,4 +36,4 @@ const Section1Project2 = () => {
   );
 };
 
-export default Section1Project2;
+export default Section1Project3;
