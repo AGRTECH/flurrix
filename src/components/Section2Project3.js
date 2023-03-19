@@ -13,10 +13,10 @@ const Section2Project3 = () => {
               black and white as the main colors of your website. In some cases,
               you can have 2 accented colors, but normally just 1 and it will be
               whatever color is associated with your brand. The premise behind
-              the feel of the website is watery / cleaning / shiny themed with
-              the wave in the background, the sparkles by some of the pictures
-              which is the logo of the brand, and also the wave cut on each
-              picture section.
+              the feel of the website is green / grass themed for landscaping.
+              The sharp edges of the background photos give a clean cut feel and
+              the green accent throughout give a relevant feel to the
+              landscaping industry.
             </p>
           </div>
           <div className="section2project1-section">
