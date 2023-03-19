@@ -5,9 +5,7 @@ const Q11 = (props) => {
 
   return (
     <div className="onboarding-questioncontainer">
-      <p className="onboarding-title">
-        Company Email Company Phone Number & Socials?
-      </p>
+      <p className="onboarding-title">Company Info</p>
       <div style={{ display: "flex" }} className="onbording-sectioncontainer">
         <label style={{ overflowY: "hidden" }}>
           <input
@@ -16,8 +14,8 @@ const Q11 = (props) => {
               props.onStateChange(event.target.value);
             }}
             type="text"
-            name="Company Email"
-            placeholder="Company Email"
+            name="Company Name"
+            placeholder="Company Name"
             className="onboarding-textoption3"
           />
         </label>
@@ -42,8 +40,8 @@ const Q11 = (props) => {
               props.onStateChange3(event.target.value);
             }}
             type="text"
-            name="Company Facebook"
-            placeholder="Company Facebook"
+            name="Company Email"
+            placeholder="Company Email"
             className="onboarding-textoption3"
           />
         </label>
@@ -54,8 +52,8 @@ const Q11 = (props) => {
               props.onStateChange4(event.target.value);
             }}
             type="text"
-            name="Company Linkedin"
-            placeholder="Company Linkedin"
+            name="Company Website URL (If Any)"
+            placeholder="Company Website URL"
             className="onboarding-textoption4"
           />
         </label>
@@ -71,8 +69,8 @@ const Q11 = (props) => {
               props.onStateChange5(event.target.value);
             }}
             type="text"
-            name="Company Youtube"
-            placeholder="Company Youtube"
+            name="Company Facebook"
+            placeholder="Company Facebook"
             className="onboarding-textoption3"
           />
         </label>

@@ -1869,6 +1869,18 @@ body {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.section2project1-section {
+  margin-bottom: 45px;
+}
+
+.section2project1-section h1 {
+  font-weight: 900;
+}
+
+.section2project1-section p {
+  font-size: 17px;
+}
+
 /* Reviews */
 .reviews-container {
   display: flex;
