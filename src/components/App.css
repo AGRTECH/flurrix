@@ -552,6 +552,7 @@ body {
   margin-bottom: 50px;
   border: 2px solid rgba(111, 0, 255, 1);
   width: 100%;
+  height: 250px;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   position: relative;
   top: 0;
@@ -1775,7 +1776,7 @@ body {
   /* border: 3px solid rgba(111, 0, 255, 1); */
   border-radius: 15px;
   width: 100%;
-  height: 270px;
+  height: 250px;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   position: relative;
   top: 0;
@@ -3584,6 +3585,124 @@ body {
     width: 170px !important;
     border: none;
   }
+
+  /* Mobile Section2Portfolio 1090 */
+
+  /* .section2portfolio-card {
+    background-color: #ffffff;
+    margin-right: 50px;
+    margin-bottom: 30px;
+  border: 3px solid rgba(111, 0, 255, 1);
+  border-radius: 15px;
+    width: 100%;
+    height: 250px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .section2portfolio-cardtextcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 40px;
+  } */
+
+  .section2portfolio-container {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 100x;
+    margin-left: -50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .section2portfolio-container {
+    margin-top: -10px;
+    padding-top: 0px; */
+  /* margin-left: 100x; */
+  /* margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .section2portfolio-title {
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 130px;
+  }
+
+  .section2portfolio-card {
+    background-color: #ffffff;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: 2px solid rgba(111, 0, 255, 1);
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .section2portfolio-cardtextcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: -110px;
+  }
+
+  .section2portfolio-img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s ease;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .section2portfolio-img:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+
+  .section2portfolio-btn {
+    display: none;
+  }
+
+  .section2portfolio-card:hover button {
+    display: block;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(100, 0, 230);
+    color: white;
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-left: 120px;
+  }
+
+  .section2portfolio-card:hover {
+    background-color: #ccc;
+  }
 }
 
 /* Tos */
@@ -4258,6 +4377,23 @@ body {
   }
 
   .section4-container {
+    margin-top: -10px;
+    padding-top: 0px;
+    /* margin-left: 100x; */
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* XR Section2 Portfolio */
+  .section2portfolio-cardtextcontainer {
+    width: 92%;
+    margin-left: 0px;
+  }
+
+  .section2portfolio-container {
     margin-top: -10px;
     padding-top: 0px;
     /* margin-left: 100x; */
