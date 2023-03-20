@@ -48,7 +48,7 @@ const Section7 = () => {
           <div>
             <p className="section7-title">Contact Us</p>
             <p className="section7-subtext">(586) 651-6917</p>
-            <p className="section7-subtext">email</p>
+            <p className="section7-subtext">flurrixweb@gmail.com</p>
           </div>
         </div>
       </div>

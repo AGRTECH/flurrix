@@ -29,7 +29,9 @@ const Section1Pricing = () => {
               <Link to={"/contact"}>
                 <button className="home-button">Let's Chat</button>
               </Link>
-              <button className="home-button">Get Summer Free</button>
+              <Link to={"/onboard"}>
+                <button className="home-button">Get Summer Free</button>
+              </Link>
             </div>
           </div>
           <img src={pricingbg} className="landing-bg" alt="" />

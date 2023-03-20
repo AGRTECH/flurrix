@@ -1,8 +1,8 @@
 import React from "react";
 import stars from "../img/5stars.png";
-import customer1 from "../img/customerpic1.jpg";
-import customer2 from "../img/customerpic2.jpg";
-import customer3 from "../img/customerpic3.jpeg";
+import customer1 from "../img/justinroof.jpg";
+import customer2 from "../img/windowcleaningworker.jpg";
+import customer3 from "../img/landscapeworker.jpg";
 
 const Reviews = () => {
   return (

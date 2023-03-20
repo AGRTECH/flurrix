@@ -26,7 +26,7 @@ const Section1Pricing = () => {
                 <button className="home-button">Get Started</button>
               </Link>
               <Link to={"/pricing"}>
-                <button className="home-button">Pricing</button>
+                <button className="home-button">See Pricing</button>
               </Link>
             </div>
           </div>

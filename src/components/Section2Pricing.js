@@ -79,7 +79,7 @@ const Section2Pricing = () => {
                 </li>
                 <li>
                   <p className="section2pricing-subtitle">
-                    Become a webscaper with more pages and lead generating tools
+                    Become a pro with more pages and lead generating tools
                   </p>
                 </li>
                 <li className="section2pricing-crossoutpricelist">
@@ -157,8 +157,8 @@ const Section2Pricing = () => {
                 </li>
                 <li>
                   <p className="section2pricing-subtitle">
-                    Get the best of the best with 24/7 support, 20 pages, and
-                    unlimited updates
+                    Get the best of the best with ultimate support, 20 pages,
+                    and lead incentives
                   </p>
                 </li>
                 <li className="section2pricing-crossoutpricelist">
