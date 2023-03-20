@@ -2,8 +2,8 @@ import React from "react";
 import Section1Project2 from "./Section1Project2";
 // import Section2Project2 from "./Section2Project2";
 import Section2Portfolio from "./Section2Portfolio";
-import Section2Pricing from "./Section2Pricing";
-import Section3Pricing from "./Section3Pricing";
+import Section2Project1 from "./Section2Pricing";
+import Section3Project1 from "./Section3Project1";
 import Section4Pricing from "./Section4Pricing";
 import Section3 from "./Section3";
 import FAQ3 from "./FAQ3";
@@ -19,7 +19,7 @@ const Project2 = () => {
       <Nav />
       <Section1Project2 />
       <Section2Project2 />
-      <Section3Pricing />
+      <Section3Project1 />
       <Section3 />
       <FAQ3 />
       <Section6 />

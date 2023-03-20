@@ -4,6 +4,7 @@ import palm from "../img/cartoonpalmm.png";
 import siteone from "../img/herculespowerwashing1.jpg";
 import shimmer from "../img/shimmerpreview.jpg";
 import horizons from "../img/horizonspreview.jpg";
+import { Link } from "react-router-dom";
 
 const Section4 = () => {
   return (
@@ -18,21 +19,27 @@ const Section4 = () => {
           <div className="section4-cardtextcontainer">
             <div className="section4-card">
               <img src={shimmer} className="section4-img" alt="" />
-              <button className="section4-btn">View Project</button>
+              <Link to={"/shimmerexteriorcleaning"}>
+                <button className="section4-btn">View Project</button>
+              </Link>
             </div>
             <p>Shimmer Exterior Cleaning</p>
           </div>
           <div className="section4-cardtextcontainer">
             <div className="section4-card">
               <img src={siteone} className="section4-img" alt="" />
-              <button className="section4-btn">View Project</button>
+              <Link to={"/herculespowerwashing"}>
+                <button className="section4-btn">View Project</button>
+              </Link>
             </div>
             <p>Hercules Power Washing</p>
           </div>
           <div className="section4-cardtextcontainer">
             <div className="section4-card">
               <img src={horizons} className="section4-img" alt="" />
-              <button className="section4-btn">View Project</button>
+              <Link to={"/horizonslandscaping"}>
+                <button className="section4-btn">View Project</button>
+              </Link>
             </div>
             <p>Horizons Landscaping</p>
           </div>

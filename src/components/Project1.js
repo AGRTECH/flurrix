@@ -3,7 +3,7 @@ import Section1Project1 from "./Section1Project1";
 import Section2Project1 from "./Section2Project1";
 import Section2Portfolio from "./Section2Portfolio";
 import Section2Pricing from "./Section2Pricing";
-import Section3Pricing from "./Section3Pricing";
+import Section3Project1 from "./Section3Project1";
 import Section4Pricing from "./Section4Pricing";
 import Section3 from "./Section3";
 import FAQ3 from "./FAQ3";
@@ -18,7 +18,7 @@ const Project1 = () => {
       <Nav />
       <Section1Project1 />
       <Section2Project1 />
-      <Section3Pricing />
+      <Section3Project1 />
       <Section3 />
       <FAQ3 />
       <Section6 />
