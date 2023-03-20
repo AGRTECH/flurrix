@@ -4471,7 +4471,7 @@ body {
 
   /* XR contact */
   .contact-title {
-    margin-top: 20px;
+    margin-top: 0px;
   }
 }
 
@@ -4520,7 +4520,7 @@ body {
 
   /* SE contact */
   .contact-title {
-    margin-top: 30px;
+    margin-top: 0px;
     overflow-y: hidden;
     font-size: 35px;
   }
