@@ -7,51 +7,103 @@ import launch from "../img/launch.jpg";
 import maintain from "../img/maintain.jpg";
 
 const Section5 = () => {
-  const [strategyFocus, setStrategyFocus] = useState(false);
-  const [designFocus, setDesignFocus] = useState(false);
-  const [developmentFocus, setDevelopmentFocus] = useState(false);
-  const [maintenanceFocus, setMaintenanceFocus] = useState(false);
-  const [launchFocus, setLaunchFocus] = useState(false);
-  const [maintainFocus, setMaintainFocus] = useState(false);
+  const [strategyFocus, setStrategyFocus] = useState(1);
+  const [designFocus, setDesignFocus] = useState(0);
+  const [developmentFocus, setDevelopmentFocus] = useState(0);
+  const [maintenanceFocus, setMaintenanceFocus] = useState(0);
+  const [launchFocus, setLaunchFocus] = useState(0);
+  const [maintainFocus, setMaintainFocus] = useState(0);
 
   const handleStrategyFocus = () => {
-    setStrategyFocus(true);
+    if (strategyFocus === 1) {
+      return;
+    } else {
+      setStrategyFocus(1);
+      setDesignFocus(0);
+      setDevelopmentFocus(0);
+      setMaintenanceFocus(0);
+      setLaunchFocus(0);
+      setMaintainFocus(0);
+    }
   };
 
-  const handleStrategyBlur = () => {
-    setStrategyFocus(false);
-  };
+  const handleStrategyBlur = () => {};
 
   const handledesignFocus = () => {
-    setDesignFocus(true);
+    if (designFocus === 1) {
+      return;
+    } else {
+      setDesignFocus(1);
+      setStrategyFocus(0);
+      setDevelopmentFocus(0);
+      setMaintenanceFocus(0);
+      setLaunchFocus(0);
+      setMaintainFocus(0);
+    }
   };
 
   const handledesignBlur = () => {
     setDesignFocus(false);
   };
   const handledevelopmentFocus = () => {
-    setDevelopmentFocus(true);
+    if (developmentFocus === 1) {
+      return;
+    } else {
+      setDevelopmentFocus(1);
+      setDesignFocus(0);
+      setStrategyFocus(0);
+      setMaintenanceFocus(0);
+      setLaunchFocus(0);
+      setMaintainFocus(0);
+    }
   };
 
   const handledevelopmentBlur = () => {
     setDevelopmentFocus(false);
   };
   const handlemaintenanceFocus = () => {
-    setMaintenanceFocus(true);
+    if (maintenanceFocus === 1) {
+      return;
+    } else {
+      setMaintenanceFocus(1);
+      setDesignFocus(0);
+      setStrategyFocus(0);
+      setDevelopmentFocus(0);
+      setLaunchFocus(0);
+      setMaintainFocus(0);
+    }
   };
 
   const handlemaintenanceBlur = () => {
     setMaintenanceFocus(false);
   };
   const handlelaunchFocus = () => {
-    setLaunchFocus(true);
+    if (launchFocus === 1) {
+      return;
+    } else {
+      setLaunchFocus(1);
+      setDesignFocus(0);
+      setStrategyFocus(0);
+      setDevelopmentFocus(0);
+      setMaintenanceFocus(0);
+      setMaintainFocus(0);
+    }
   };
 
   const handlelaunchBlur = () => {
     setLaunchFocus(false);
   };
   const handlemaintainFocus = () => {
-    setMaintainFocus(true);
+    if (maintainFocus === 1) {
+      return;
+    } else {
+      setMaintainFocus(1);
+      setDesignFocus(0);
+      setStrategyFocus(0);
+      setDevelopmentFocus(0);
+      setMaintenanceFocus(0);
+      setLaunchFocus(0);
+    }
   };
 
   const handlemaintainBlur = () => {
@@ -113,7 +165,7 @@ const Section5 = () => {
         <div>
           <div
             className={
-              strategyFocus
+              strategyFocus === 1
                 ? "section5-strategy-text"
                 : "section5-strategy-text-hidden"
             }
@@ -139,7 +191,7 @@ const Section5 = () => {
           </div>
           <div
             className={
-              designFocus
+              designFocus === 1
                 ? "section5-design-text"
                 : "section5-design-text-hidden"
             }
@@ -171,7 +223,7 @@ const Section5 = () => {
           </div>
           <div
             className={
-              developmentFocus
+              developmentFocus === 1
                 ? "section5-development-text"
                 : "section5-development-text-hidden"
             }
@@ -193,7 +245,7 @@ const Section5 = () => {
           </div>
           <div
             className={
-              maintenanceFocus
+              maintenanceFocus === 1
                 ? "section5-maintenance-text"
                 : "section5-maintenance-text-hidden"
             }
@@ -220,7 +272,7 @@ const Section5 = () => {
           </div>
           <div
             className={
-              launchFocus
+              launchFocus === 1
                 ? "section5-launch-text"
                 : "section5-launch-text-hidden"
             }
@@ -240,7 +292,7 @@ const Section5 = () => {
           </div>
           <div
             className={
-              maintainFocus
+              maintainFocus === 1
                 ? "section5-maintain-text"
                 : "section5-maintain-text-hidden"
             }
