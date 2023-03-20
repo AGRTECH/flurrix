@@ -36,9 +36,9 @@ const Section1 = () => {
           </div>
           <img src={landscapingbg} className="landing-bg" alt="" />
         </div>
-        <div className="home-rightcontainer">
-          <div className="home-placeholdervideo"></div>
-        </div>
+        {/* <div className="home-rightcontainer"> */}
+        {/* <div className="home-placeholdervideo"></div> */}
+        {/* </div> */}
       </div>
       {/* <img src={grass} className="home-grass1" alt="" /> */}
       <div className="faq-graphic"></div>

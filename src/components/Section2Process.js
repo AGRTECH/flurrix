@@ -39,10 +39,11 @@ const Section2Process = () => {
                   needs of your business.
                 </p>
                 <p>
-                  When you sign up for 3 months for any plan, you get 3
-                  additional months free. They all come with a variety of
-                  features and benefits to help you achieve your business goals
-                  such as email list popups, SEO and several different pages
+                  When you pre-pay for 3 months for any plan, you get 3
+                  additional months free. All plans come with a variety of
+                  features and benefits to help you drive more traffic and
+                  convert more visitors into customers such as SEO, email list
+                  popups, and many more benefits listed on the pricing page
                   depending on which plan you chose
                 </p>
                 <p></p>
@@ -56,17 +57,24 @@ const Section2Process = () => {
               <div className="section2process-contentcontainer2">
                 <p className="section5-contenttitle">Onboard</p>
                 <p>
-                  After choosing a plan, you will be asked a series of questions
-                  to get your site tuned the exact way that you like.
+                  The onboarding process is all done digitally right here on
+                  this website! When you click get started in the navigation
+                  section or other various links throughout the site, you will
+                  be brought to our onboarding questions.
                 </p>
                 <p>
-                  The questions will be along the lines of asking for some
-                  pictures you've taken of your work, brand logo, any content
-                  ideas you have for us and more.
+                  The questions will be everything that we need to get your
+                  website created asap for you. It will include questions such
+                  as: "what industry are you in?" "do you have photos that you
+                  would like on your site / a company logo?" and others. There
+                  are about 10 total questions so all together should take only
+                  5-10 minutes to complete.
                 </p>
                 <p>
-                  All together, the process will only take up to 10 minutes and
-                  is very simple and straightforward.
+                  Once you have agreed to our 6 month agreement terms and
+                  submitted payment, we will begin working on your website! You
+                  can contact us anytime via email or phone before onboarding or
+                  for any questions or concerns.
                 </p>
               </div>
             </div>
@@ -132,10 +140,7 @@ const Section2Process = () => {
               <img src={maintain} className="section2process-img2" alt="" />
               <div className="section2process-contentcontainer2">
                 <p className="section5-contenttitle">Maintenance</p>
-                <p>
-                  We offer bi-weekly maintenance for our Standard and Premium
-                  plans and unlimited maintenance for our Ultimate plan.
-                </p>
+                <p>We offer unlimited maintenance with all of our plans!</p>
                 <p>
                   Our team will ensure your website is running smoothly, and
                   make any necessary updates to keep your site current, secure

@@ -15,11 +15,11 @@ const Q16 = (props) => {
                 props.onStripeLinkChange(
                   "https://buy.stripe.com/aEUg0t8t33Hif5e3cg"
                 );
-              } else if (2 === "Premium") {
+              } else if (props.Q15answer === "Premium") {
                 props.onStripeLinkChange(
                   "https://buy.stripe.com/4gw6pT7oZdhS6yIdQV"
                 );
-              } else if (2 === "Ultimate") {
+              } else if (props.Q15answer === "Ultimate") {
                 props.onStripeLinkChange(
                   "https://buy.stripe.com/28o4hL24Fgu48GQbIO"
                 );

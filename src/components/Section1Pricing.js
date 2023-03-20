@@ -19,7 +19,7 @@ const Section1Pricing = () => {
                 {" "}
                 all of Summer for free
               </span>{" "}
-              with our buy 3 get 3 deal for all available plans (up to $1797 in
+              with our buy 3 get 3 deal for all available plans (up to $3597 in
               savings)
             </p>
             <p className="section1pricing-subsubtitle">

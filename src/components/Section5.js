@@ -68,42 +68,42 @@ const Section5 = () => {
         <div>
           <button
             autoFocus
-            onFocus={handleStrategyFocus}
+            onClick={handleStrategyFocus}
             onBlur={handleStrategyBlur}
             className="section5-strategybtn"
           >
             1. Plan
           </button>
           <button
-            onFocus={handledesignFocus}
+            onClick={handledesignFocus}
             onBlur={handledesignBlur}
             className="section5-designbtn"
           >
             2. Onboard
           </button>
           <button
-            onFocus={handledevelopmentFocus}
+            onClick={handledevelopmentFocus}
             onBlur={handledevelopmentBlur}
             className="section5-developmentbtn"
           >
             3. Development
           </button>
           <button
-            onFocus={handlemaintenanceFocus}
+            onClick={handlemaintenanceFocus}
             onBlur={handlemaintenanceBlur}
             className="section5-maintenancebtn"
           >
             4. Revise
           </button>
           <button
-            onFocus={handlelaunchFocus}
+            onClick={handlelaunchFocus}
             onBlur={handlelaunchBlur}
             className="section5-launchbtn"
           >
             5. Launch
           </button>
           <button
-            onFocus={handlemaintainFocus}
+            onClick={handlemaintainFocus}
             onBlur={handlemaintainBlur}
             className="section5-maintainbtn"
           >
@@ -127,11 +127,12 @@ const Section5 = () => {
                 needs of your business.
               </p>
               <p>
-                When you sign up for 3 months for any plan, you get 3 additional
-                months free. They all come with a variety of features and
-                benefits to help you achieve your business goals such as email
-                list popups, SEO and several different pages depending on which
-                plan you chose
+                When you pre-pay for 3 months for any plan, you get 3 additional
+                months free. All plans come with a variety of features and
+                benefits to help you drive more traffic and convert more
+                visitors into customers such as SEO, email list popups, and many
+                more benefits listed on the pricing page depending on which plan
+                you chose
               </p>
               <p></p>
             </div>
@@ -147,17 +148,24 @@ const Section5 = () => {
             <div className="section5-contentcontainer">
               <p className="section5-contenttitle">Onboard</p>
               <p>
-                After choosing a plan, you will be asked a series of questions
-                to get your site tuned the exact way that you like.
+                The onboarding process is all done digitally right here on this
+                website! When you click get started in the navigation section or
+                other various links throughout the site, you will be brought to
+                our onboarding questions.
               </p>
               <p>
-                The questions will be along the lines of asking for some
-                pictures you've taken of your work, brand logo, any content
-                ideas you have for us and more.
+                The questions will be everything that we need to get your
+                website created asap for you. It will include questions such as:
+                "what industry are you in?" "do you have photos that you would
+                like on your site / a company logo?" and others. There are about
+                10 total questions so all together should take only 5-10 minutes
+                to complete.
               </p>
               <p>
-                All together, the process will only take up to 10 minutes and is
-                very simple and straightforward.
+                Once you have agreed to our 6 month agreement terms and
+                submitted payment, we will begin working on your website! You
+                can contact us anytime via email or phone before onboarding or
+                for any questions or concerns.
               </p>
             </div>
           </div>
@@ -221,20 +229,12 @@ const Section5 = () => {
             <div className="section5-contentcontainer">
               <p className="section5-contenttitle">Launch</p>
               <p>
-                Unfortunately, website security is a significant issue. Our
-                maintenance & security service is the best way to protect your
-                online presence.
+                Once you approve the final design, we will launch your new
+                website and ensure everything is working correctly.
               </p>
               <p>
-                We also have a variety of trusted partners who can assist with
-                social media marketing, advertising, PPC, search engine
-                optimization (SEO), video production, & content marketing.
-              </p>
-              <p>
-                Our monthly service also include performance monitoring where we
-                can provide data reports to help with optimization. Our goal is
-                to be a long-term web partner to customers and provide top-notch
-                service to businesses.
+                This will be start your journey to dominate your local area with
+                an enchanged digital presence!
               </p>
             </div>
           </div>
@@ -248,21 +248,11 @@ const Section5 = () => {
             <img src={maintain} className="section5-img" alt="" />
             <div className="section5-contentcontainer">
               <p className="section5-contenttitle">Maintenance</p>
+              <p>We offer unlimited maintenance with all of our plans!</p>
               <p>
-                Unfortunately, website security is a significant issue. Our
-                maintenance & security service is the best way to protect your
-                online presence.
-              </p>
-              <p>
-                We also have a variety of trusted partners who can assist with
-                social media marketing, advertising, PPC, search engine
-                optimization (SEO), video production, & content marketing.
-              </p>
-              <p>
-                Our monthly service also include performance monitoring where we
-                can provide data reports to help with optimization. Our goal is
-                to be a long-term web partner to customers and provide top-notch
-                service to businesses.
+                Our team will ensure your website is running smoothly, and make
+                any necessary updates to keep your site current, secure and free
+                of vulnerabilites.
               </p>
             </div>
           </div>

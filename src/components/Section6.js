@@ -74,7 +74,7 @@ const Section6 = () => {
             required
           ></textarea> */}
           <button className="section6-btn" type="submit">
-            Submit
+            Let's Chat
           </button>
         </form>
       </div>

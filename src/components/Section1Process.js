@@ -14,22 +14,20 @@ const Section1Pricing = () => {
             <p className="section1pricing-firstline">A Quick Process</p>
             <p className="section1pricing-secondline">But Huge Result</p>
             <p className="section1pricing-subtitle">
-              Look like a pro for{" "}
-              <span className="section1pricing-bold">
-                {" "}
-                all of Summer for free
-              </span>{" "}
-              with our buy 3 get 3 deal for all available plans (up to $1797 in
-              savings)
+              Get your top tier website up and running in under a week with our
+              simple process
+              <span className="section1pricing-bold"> </span>{" "}
             </p>
-            <p className="section1pricing-subsubtitle">
+            {/* <p className="section1pricing-subsubtitle">
               -- Offer Expires 3/31/23 --
-            </p>
+            </p> */}
             <div>
-              <Link to={"/contact"}>
-                <button className="home-button">Video</button>
+              <Link to={"/onboard"}>
+                <button className="home-button">Get Started</button>
               </Link>
-              <button className="home-button">Pricing</button>
+              <Link to={"/pricing"}>
+                <button className="home-button">Pricing</button>
+              </Link>
             </div>
           </div>
           <img src={pricingbg} className="landing-bg" alt="" />
