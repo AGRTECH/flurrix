@@ -5,7 +5,7 @@ import Pricing from "./Pricing";
 import Process from "./Process";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
-import GetLeadsInfo from "./GetLeadsInfo";
+import LeadGuide from "./LeadGuide";
 import Project1 from "./Project1";
 import Project2 from "./Project2";
 import Project3 from "./Project3";
@@ -34,7 +34,7 @@ function App() {
           <Route path="/process" element={<Process />} />
           <Route path="/work" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/getleads" element={<GetLeadsInfo />} />
+          <Route path="/leadgenerationguide" element={<LeadGuide />} />
           <Route path="/herculespowerwashing" element={<Project1 />} />
           <Route path="/shimmerexteriorcleaning" element={<Project2 />} />
           <Route path="/horizonslandscaping" element={<Project3 />} />
