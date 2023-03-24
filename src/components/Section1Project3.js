@@ -14,7 +14,7 @@ const Section1Project3 = () => {
             <p className="section1pricing-firstline">Horizons</p>
             <p className="section1pricing-secondline">Landscaping</p>
             <p className="section1pricing-subtitle">
-              Optimized Exterior Cleaning Web Design
+              Optimized Landscaping Web Design
               <span className="section1pricing-bold"> </span>{" "}
             </p>
             <p className="section1pricing-subsubtitle"></p>
@@ -22,7 +22,9 @@ const Section1Project3 = () => {
               <Link to={"/contact"}>
                 <button className="home-button">Let's Chat</button>
               </Link>
-              <button className="home-button">Get Summer Free</button>
+              <Link to={"/onboard"}>
+                <button className="home-button">Get Summer Free</button>
+              </Link>
             </div>
           </div>
           <img src={pricingbg} className="landing-bg" alt="" />

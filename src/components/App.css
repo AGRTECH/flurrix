@@ -3934,6 +3934,10 @@ body {
     color: black;
   }
 
+  .section3-link a {
+    color: black;
+  }
+
   /* Mobile Section 5  500 */
   .section5-container {
     /* margin-left: 55px; */
