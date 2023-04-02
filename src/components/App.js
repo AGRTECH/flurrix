@@ -11,6 +11,7 @@ import Project2 from "./Project2";
 import Project3 from "./Project3";
 import TOS from "./TOS";
 import PP from "./PP";
+import BlogHome from "./Blog/BlogHome";
 import Onboarding from "./Onboarding/Onboarding";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
@@ -41,6 +42,7 @@ function App() {
           <Route path="/onboard" element={<Onboarding />} />
           <Route path="/termsofservice" element={<TOS />} />
           <Route path="/privatepolicy" element={<PP />} />
+          <Route path="/blog" element={<BlogHome />} />
         </Routes>
       </Wrapper>
     </BrowserRouter>

@@ -23,10 +23,14 @@ const TOSSection2 = () => {
       <p className="tos-section">
         <span className="tos-title"> Fees and Payment </span> Our web design and
         development services are provided for a fee. The fee for our services is
-        279 to 1199 per month, and we require a minimum 6-month contract. We
-        also require payment in advance for each month of service. If payment is
-        not received by the due date, we reserve the right to suspend our
-        services until payment is received.
+        279 for standard plan 339 for premium plan and 1199 for ultimate plan
+        per month, and we require a minimum 6-month contract. This is more of a
+        financing plan that we offer so that you don't have to pay upfront, but
+        if you have the funds to pay upfront, then you will get 50% off of any
+        plan! After the 6 month period is up or the website is paid for upfront,
+        you will own your site. At this point we offer a $59/mo maintainence fee
+        if you would like to continue working with us or you can maintain your
+        site with other means if you chose.
       </p>
       <br />
       <p className="tos-section">

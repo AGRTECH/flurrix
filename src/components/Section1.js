@@ -15,7 +15,7 @@ const Section1 = () => {
           <ul className="home-listul">
             <li className="home-listdiv">
               <img src={checkmark} className="home-checkmark" alt="" />{" "}
-              <p className="home-listdivp ">Get More Leads</p>
+              <p className="home-listdivp ">Get More Sales</p>
             </li>
             <li className="home-listdiv">
               <img src={checkmark} className="home-checkmark" alt="" />{" "}
