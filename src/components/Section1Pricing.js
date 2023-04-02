@@ -22,7 +22,7 @@ const Section1Pricing = () => {
               with our buy 3 get 3 deal for all available plans
             </p>
             <p className="section1pricing-subsubtitle">
-              -- Offer Expires 3/31/23 --
+              -- Offer Expires 4/31/23 --
             </p>
             <div>
               <Link to={"/contact"}>
