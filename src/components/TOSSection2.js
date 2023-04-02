@@ -23,7 +23,7 @@ const TOSSection2 = () => {
       <p className="tos-section">
         <span className="tos-title"> Fees and Payment </span> Our web design and
         development services are provided for a fee. The fee for our services is
-        279 for standard plan 339 for premium plan and 1199 for ultimate plan
+        $279 for standard plan $339 for premium plan and $1199 for ultimate plan
         per month, and we require a minimum 6-month contract. This is more of a
         financing plan that we offer so that you don't have to pay upfront, but
         if you have the funds to pay upfront, then you will get 50% off of any
