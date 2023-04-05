@@ -994,9 +994,11 @@ body {
 .section7-title {
   color: white;
   font-size: 18px;
+  font-weight: bold;
 }
 .section7-subtext {
   font-weight: lighter;
+  color: white;
 }
 
 /* Section 8 */
@@ -1013,6 +1015,7 @@ body {
 .section8-copyright {
   text-align: center;
   margin: 40px;
+  color: rgb(204, 204, 204);
 }
 
 .section8-policycontainer {
@@ -1028,11 +1031,11 @@ body {
 
 .section8-tos {
   margin-right: 20px;
-  color: rgb(34, 34, 34);
+  color: rgb(204, 204, 204);
 }
 
 .section8-pp {
-  color: rgb(35, 35, 35);
+  color: rgb(203, 203, 203);
 }
 
 /* Section 1 Pricing */
